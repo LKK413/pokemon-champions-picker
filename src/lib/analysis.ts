@@ -1,3 +1,4 @@
+import { CHAMPIONS_ITEMS, TYPE_POWER_ITEM } from "@/data/items";
 import { TYPE_KO, effectivenessVsTypes } from "@/data/typeChart";
 import { getEntry, getMegaOptions } from "@/lib/roster";
 import {
@@ -68,18 +69,61 @@ export function roleTags(entry: RosterEntry): RoleTag[] {
   return tags;
 }
 
+export interface ItemSuggestion {
+  name: string;
+  note: string;
+}
+
 export interface Loadout {
   roleTags: RoleTag[];
   suggestedAbility: { name: string; nameKo: string | null } | null;
-  suggestedItems: string[];
+  suggestedItems: ItemSuggestion[];
+}
+
+function typeItemSuggestion(type: PokeType): ItemSuggestion {
+  return { name: TYPE_POWER_ITEM[type], note: `${TYPE_KO[type]} 기술 위력 상승` };
+}
+
+/** Ordered, de-duplicated list of items worth considering for this Pokémon, most fitting first. */
+function itemCandidates(entry: RosterEntry, tags: RoleTag[]): ItemSuggestion[] {
+  const isAttacker =
+    tags.includes("physicalAttacker") || tags.includes("specialAttacker") || tags.includes("mixedAttacker");
+  const bulky = tags.includes("bulky");
+
+  const ordered: ItemSuggestion[] = [];
+  if (tags.includes("fast") && isAttacker) {
+    ordered.push({ name: CHAMPIONS_ITEMS.choiceScarf, note: "스피드 극대화 (첫 기술로 고정됨)" });
+  }
+  if (isAttacker) {
+    ordered.push(typeItemSuggestion(entry.types[0]));
+    if (entry.types[1]) ordered.push(typeItemSuggestion(entry.types[1]));
+  }
+  if (bulky) {
+    ordered.push({ name: CHAMPIONS_ITEMS.leftovers, note: "매턴 자동 회복" });
+    ordered.push({ name: CHAMPIONS_ITEMS.sitrusBerry, note: "체력이 낮아지면 자동 회복" });
+  }
+  if (isAttacker) {
+    ordered.push({ name: CHAMPIONS_ITEMS.lifeOrb, note: "모든 기술 위력 상승 (반동 있음)" });
+    ordered.push({ name: CHAMPIONS_ITEMS.expertBelt, note: "효과가 굉장한 기술 위력 상승" });
+    ordered.push({ name: CHAMPIONS_ITEMS.focusSash, note: "체력이 가득 찼을 때 1회 버티기" });
+  }
+  ordered.push({ name: CHAMPIONS_ITEMS.leftovers, note: "매턴 자동 회복" });
+  ordered.push({ name: CHAMPIONS_ITEMS.sitrusBerry, note: "체력이 낮아지면 자동 회복" });
+  for (const t of entry.types) ordered.push(typeItemSuggestion(t));
+  for (const t of Object.keys(TYPE_POWER_ITEM) as PokeType[]) ordered.push(typeItemSuggestion(t));
+
+  const seen = new Set<string>();
+  return ordered.filter((item) => (seen.has(item.name) ? false : (seen.add(item.name), true)));
 }
 
 /**
- * Heuristic "commonly useful" ability/item suggestion derived from base stats and available
- * abilities only — Pokémon Champions has no public usage-rate data yet, so this is a role-based
- * estimate, not a real usage statistic.
+ * Heuristic "commonly useful" ability/item suggestion derived from base stats, available
+ * abilities, and Pokémon Champions' actual (smaller) item pool — Champions has no public
+ * usage-rate data yet, so this is a role-based estimate, not a real usage statistic. Items
+ * already taken by an earlier pick in the same party (`avoidItems`) are skipped, since
+ * Champions doesn't allow two of your six Pokémon to hold the same item.
  */
-export function suggestLoadout(entry: RosterEntry): Loadout {
+export function suggestLoadout(entry: RosterEntry, avoidItems: Set<string> = new Set()): Loadout {
   const tags = roleTags(entry);
   const ability =
     entry.abilities.find((a) => NOTABLE_ABILITIES.has(a.name)) ??
@@ -87,27 +131,13 @@ export function suggestLoadout(entry: RosterEntry): Loadout {
     entry.abilities[0] ??
     null;
 
-  const items: string[] = [];
+  let items: ItemSuggestion[];
   if (entry.isMega) {
-    items.push("메가진화 전용 스톤 (필수 장착, 다른 도구 장착 불가)");
+    items = [{ name: CHAMPIONS_ITEMS.megaStone, note: "메가진화를 위해 반드시 장착해야 함" }];
   } else {
-    const isAttacker =
-      tags.includes("physicalAttacker") ||
-      tags.includes("specialAttacker") ||
-      tags.includes("mixedAttacker");
-    if (tags.includes("fast") && isAttacker) {
-      items.push("구애스카프 (선공 확보)");
-    } else if (tags.includes("physicalAttacker")) {
-      items.push("구애머리띠 (물리 화력 극대화)");
-    } else if (tags.includes("specialAttacker")) {
-      items.push("구애안경 (특수 화력 극대화)");
-    }
-    if (tags.includes("bulky")) {
-      items.push("먹다 남은 음식 (내구 유지)");
-    }
-    if (items.length === 0) {
-      items.push("생명의구슬 (화력 보조)");
-    }
+    const candidates = itemCandidates(entry, tags);
+    const available = candidates.filter((c) => !avoidItems.has(c.name));
+    items = (available.length > 0 ? available : candidates).slice(0, 2);
   }
 
   return { roleTags: tags, suggestedAbility: ability, suggestedItems: items };
@@ -209,8 +239,9 @@ function buildReasons(
   const abilityLabel = loadout.suggestedAbility
     ? loadout.suggestedAbility.nameKo ?? loadout.suggestedAbility.name
     : "정보 없음";
+  const itemLabel = loadout.suggestedItems.map((i) => `${i.name} (${i.note})`).join(", ");
   reasons.push(
-    `일반적으로 유용한 특성: ${abilityLabel} · 추천 도구: ${loadout.suggestedItems.join(", ")} (실제 사용률 데이터가 아닌 스탯 기반 일반 추천)`,
+    `일반적으로 유용한 특성: ${abilityLabel} · 추천 도구: ${itemLabel} (포켓몬 챔피언스 실제 도구 기준, 스탯 기반 일반 추천이며 사용률 데이터 아님)`,
   );
 
   return reasons;
@@ -223,7 +254,16 @@ export function recommendPicks(
 ): PickRecommendation[] {
   const opponents = resolveOpponents(oppParty);
 
-  const results: PickRecommendation[] = [];
+  interface Scored {
+    slot: PartySlot;
+    base: RosterEntry;
+    entry: RosterEntry;
+    usedMega: boolean;
+    matchups: PairResult[];
+    total: number;
+  }
+
+  const scored: Scored[] = [];
 
   for (const slot of myParty) {
     const base = getEntry(slot.slug);
@@ -234,13 +274,7 @@ export function recommendPicks(
       ...getMegaOptions(base).map((m) => ({ entry: m, usedMega: true })),
     ];
 
-    let best: {
-      entry: RosterEntry;
-      usedMega: boolean;
-      matchups: PairResult[];
-      total: number;
-    } | null = null;
-
+    let best: Omit<Scored, "slot" | "base"> | null = null;
     for (const candidate of candidates) {
       const abilitySlugs = candidate.entry.abilities.map((a) => a.name);
       const matchups = opponents.map((opp) => scorePair(candidate.entry, abilitySlugs, opp, format));
@@ -250,22 +284,30 @@ export function recommendPicks(
       }
     }
 
-    if (!best) continue;
-
-    const loadout = suggestLoadout(best.entry);
-    const reasons = buildReasons(best.entry, base, best.usedMega, best.matchups, loadout);
-
-    results.push({
-      slug: slot.slug,
-      usedSlug: best.entry.slug,
-      usedMega: best.usedMega,
-      totalScore: best.total,
-      favorableCount: best.matchups.filter((m) => m.advantage >= 1).length,
-      unfavorableCount: best.matchups.filter((m) => m.advantage <= -1).length,
-      matchups: best.matchups,
-      reasons,
-    });
+    if (best) scored.push({ slot, base, ...best });
   }
 
-  return results.sort((a, b) => b.totalScore - a.totalScore);
+  scored.sort((a, b) => b.total - a.total);
+
+  // Champions doesn't allow two of your six Pokémon to hold the same item, so item picks are
+  // assigned in rank order, each avoiding items already claimed by a higher-ranked pick.
+  const claimedItems = new Set<string>();
+  return scored.map((s) => {
+    const loadout = suggestLoadout(s.entry, claimedItems);
+    for (const item of loadout.suggestedItems) {
+      if (item.name !== CHAMPIONS_ITEMS.megaStone) claimedItems.add(item.name);
+    }
+    const reasons = buildReasons(s.entry, s.base, s.usedMega, s.matchups, loadout);
+
+    return {
+      slug: s.slot.slug,
+      usedSlug: s.entry.slug,
+      usedMega: s.usedMega,
+      totalScore: s.total,
+      favorableCount: s.matchups.filter((m) => m.advantage >= 1).length,
+      unfavorableCount: s.matchups.filter((m) => m.advantage <= -1).length,
+      matchups: s.matchups,
+      reasons,
+    };
+  });
 }

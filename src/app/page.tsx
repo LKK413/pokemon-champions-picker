@@ -25,7 +25,8 @@ export default function Home() {
         <h1 className="text-2xl font-bold">포켓몬 챔피언스 선출 도우미</h1>
         <p className="text-sm text-zinc-500">
           내 파티와 상대 파티를 입력하면 타입 상성·메가진화를 기준으로 유리한 3마리를 추천합니다.
-          도구/특성 추천은 실제 사용률 통계가 아닌 스탯 기반 일반 추천입니다.
+          도구는 포켓몬 챔피언스에 실제로 존재하는 도구만 추천하며(구애머리띠·구애안경 등 본가 전용 도구는
+          제외), 특성/도구 추천 자체는 실제 사용률 통계가 아닌 스탯 기반 일반 추천입니다.
         </p>
         <FormatToggle value={format} onChange={setFormat} />
       </header>
