@@ -1,0 +1,4451 @@
+[
+  {
+    "slug": "venusaur",
+    "apiSlug": "venusaur",
+    "isMega": false,
+    "speciesSlug": "venusaur",
+    "formType": null,
+    "dexNum": "0003",
+    "displayName": "Venusaur",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "charizard",
+    "apiSlug": "charizard",
+    "isMega": false,
+    "speciesSlug": "charizard",
+    "formType": null,
+    "dexNum": "0006",
+    "displayName": "Charizard",
+    "formLabel": null,
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "blastoise",
+    "apiSlug": "blastoise",
+    "isMega": false,
+    "speciesSlug": "blastoise",
+    "formType": null,
+    "dexNum": "0009",
+    "displayName": "Blastoise",
+    "formLabel": null,
+    "types": [
+      "Water"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "beedrill",
+    "apiSlug": "beedrill",
+    "isMega": false,
+    "speciesSlug": "beedrill",
+    "formType": null,
+    "dexNum": "0015",
+    "displayName": "Beedrill",
+    "formLabel": null,
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "pidgeot",
+    "apiSlug": "pidgeot",
+    "isMega": false,
+    "speciesSlug": "pidgeot",
+    "formType": null,
+    "dexNum": "0018",
+    "displayName": "Pidgeot",
+    "formLabel": null,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "arbok",
+    "apiSlug": "arbok",
+    "isMega": false,
+    "speciesSlug": "arbok",
+    "formType": null,
+    "dexNum": "0024",
+    "displayName": "Arbok",
+    "formLabel": null,
+    "types": [
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "pikachu",
+    "apiSlug": "pikachu",
+    "isMega": false,
+    "speciesSlug": "pikachu",
+    "formType": null,
+    "dexNum": "0025",
+    "displayName": "Pikachu",
+    "formLabel": null,
+    "types": [
+      "Electric"
+    ],
+    "availability": "Yes<br>(Regular form only)"
+  },
+  {
+    "slug": "raichu",
+    "apiSlug": "raichu",
+    "isMega": false,
+    "speciesSlug": "raichu",
+    "formType": null,
+    "dexNum": "0026",
+    "displayName": "Raichu",
+    "formLabel": null,
+    "types": [
+      "Electric"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "raichu-alola",
+    "apiSlug": "raichu-alola",
+    "isMega": false,
+    "speciesSlug": "raichu",
+    "formType": "alola",
+    "dexNum": "0026",
+    "displayName": "Raichu",
+    "formLabel": "Alolan Form",
+    "types": [
+      "Electric",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "clefable",
+    "apiSlug": "clefable",
+    "isMega": false,
+    "speciesSlug": "clefable",
+    "formType": null,
+    "dexNum": "0036",
+    "displayName": "Clefable",
+    "formLabel": null,
+    "types": [
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "ninetales",
+    "apiSlug": "ninetales",
+    "isMega": false,
+    "speciesSlug": "ninetales",
+    "formType": null,
+    "dexNum": "0038",
+    "displayName": "Ninetales",
+    "formLabel": null,
+    "types": [
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "ninetales-alola",
+    "apiSlug": "ninetales-alola",
+    "isMega": false,
+    "speciesSlug": "ninetales",
+    "formType": "alola",
+    "dexNum": "0038",
+    "displayName": "Ninetales",
+    "formLabel": "Alolan Form",
+    "types": [
+      "Ice",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "vileplume",
+    "apiSlug": "vileplume",
+    "isMega": false,
+    "speciesSlug": "vileplume",
+    "formType": null,
+    "dexNum": "0045",
+    "displayName": "Vileplume",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "arcanine",
+    "apiSlug": "arcanine",
+    "isMega": false,
+    "speciesSlug": "arcanine",
+    "formType": null,
+    "dexNum": "0059",
+    "displayName": "Arcanine",
+    "formLabel": null,
+    "types": [
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "arcanine-hisui",
+    "apiSlug": "arcanine-hisui",
+    "isMega": false,
+    "speciesSlug": "arcanine",
+    "formType": "hisui",
+    "dexNum": "0059",
+    "displayName": "Arcanine",
+    "formLabel": "Hisuian Form",
+    "types": [
+      "Fire",
+      "Rock"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "alakazam",
+    "apiSlug": "alakazam",
+    "isMega": false,
+    "speciesSlug": "alakazam",
+    "formType": null,
+    "dexNum": "0065",
+    "displayName": "Alakazam",
+    "formLabel": null,
+    "types": [
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "machamp",
+    "apiSlug": "machamp",
+    "isMega": false,
+    "speciesSlug": "machamp",
+    "formType": null,
+    "dexNum": "0068",
+    "displayName": "Machamp",
+    "formLabel": null,
+    "types": [
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "victreebel",
+    "apiSlug": "victreebel",
+    "isMega": false,
+    "speciesSlug": "victreebel",
+    "formType": null,
+    "dexNum": "0071",
+    "displayName": "Victreebel",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "slowbro",
+    "apiSlug": "slowbro",
+    "isMega": false,
+    "speciesSlug": "slowbro",
+    "formType": null,
+    "dexNum": "0080",
+    "displayName": "Slowbro",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "slowbro-galar",
+    "apiSlug": "slowbro-galar",
+    "isMega": false,
+    "speciesSlug": "slowbro",
+    "formType": "galar",
+    "dexNum": "0080",
+    "displayName": "Slowbro",
+    "formLabel": "Galarian Form",
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "gengar",
+    "apiSlug": "gengar",
+    "isMega": false,
+    "speciesSlug": "gengar",
+    "formType": null,
+    "dexNum": "0094",
+    "displayName": "Gengar",
+    "formLabel": null,
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "kangaskhan",
+    "apiSlug": "kangaskhan",
+    "isMega": false,
+    "speciesSlug": "kangaskhan",
+    "formType": null,
+    "dexNum": "0115",
+    "displayName": "Kangaskhan",
+    "formLabel": null,
+    "types": [
+      "Normal"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "starmie",
+    "apiSlug": "starmie",
+    "isMega": false,
+    "speciesSlug": "starmie",
+    "formType": null,
+    "dexNum": "0121",
+    "displayName": "Starmie",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "pinsir",
+    "apiSlug": "pinsir",
+    "isMega": false,
+    "speciesSlug": "pinsir",
+    "formType": null,
+    "dexNum": "0127",
+    "displayName": "Pinsir",
+    "formLabel": null,
+    "types": [
+      "Bug"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "tauros",
+    "apiSlug": "tauros",
+    "isMega": false,
+    "speciesSlug": "tauros",
+    "formType": null,
+    "dexNum": "0128",
+    "displayName": "Tauros",
+    "formLabel": null,
+    "types": [
+      "Normal"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "tauros-paldea-combat-breed",
+    "apiSlug": "tauros-paldea-combat-breed",
+    "isMega": false,
+    "speciesSlug": "tauros",
+    "formType": "paldea",
+    "dexNum": "0128",
+    "displayName": "Tauros",
+    "formLabel": "Paldean Form<br>(Combat Breed)",
+    "types": [
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "tauros-paldea-blaze-breed",
+    "apiSlug": "tauros-paldea-blaze-breed",
+    "isMega": false,
+    "speciesSlug": "tauros",
+    "formType": "paldea",
+    "dexNum": "0128",
+    "displayName": "Tauros",
+    "formLabel": "Paldean Form<br>(Blaze Breed)",
+    "types": [
+      "Fighting",
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "tauros-paldea-aqua-breed",
+    "apiSlug": "tauros-paldea-aqua-breed",
+    "isMega": false,
+    "speciesSlug": "tauros",
+    "formType": "paldea",
+    "dexNum": "0128",
+    "displayName": "Tauros",
+    "formLabel": "Paldean Form<br>(Aqua Breed)",
+    "types": [
+      "Fighting",
+      "Water"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "gyarados",
+    "apiSlug": "gyarados",
+    "isMega": false,
+    "speciesSlug": "gyarados",
+    "formType": null,
+    "dexNum": "0130",
+    "displayName": "Gyarados",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "ditto",
+    "apiSlug": "ditto",
+    "isMega": false,
+    "speciesSlug": "ditto",
+    "formType": null,
+    "dexNum": "0132",
+    "displayName": "Ditto",
+    "formLabel": null,
+    "types": [
+      "Normal"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "vaporeon",
+    "apiSlug": "vaporeon",
+    "isMega": false,
+    "speciesSlug": "vaporeon",
+    "formType": null,
+    "dexNum": "0134",
+    "displayName": "Vaporeon",
+    "formLabel": null,
+    "types": [
+      "Water"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "jolteon",
+    "apiSlug": "jolteon",
+    "isMega": false,
+    "speciesSlug": "jolteon",
+    "formType": null,
+    "dexNum": "0135",
+    "displayName": "Jolteon",
+    "formLabel": null,
+    "types": [
+      "Electric"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "flareon",
+    "apiSlug": "flareon",
+    "isMega": false,
+    "speciesSlug": "flareon",
+    "formType": null,
+    "dexNum": "0136",
+    "displayName": "Flareon",
+    "formLabel": null,
+    "types": [
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "aerodactyl",
+    "apiSlug": "aerodactyl",
+    "isMega": false,
+    "speciesSlug": "aerodactyl",
+    "formType": null,
+    "dexNum": "0142",
+    "displayName": "Aerodactyl",
+    "formLabel": null,
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "snorlax",
+    "apiSlug": "snorlax",
+    "isMega": false,
+    "speciesSlug": "snorlax",
+    "formType": null,
+    "dexNum": "0143",
+    "displayName": "Snorlax",
+    "formLabel": null,
+    "types": [
+      "Normal"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "dragonite",
+    "apiSlug": "dragonite",
+    "isMega": false,
+    "speciesSlug": "dragonite",
+    "formType": null,
+    "dexNum": "0149",
+    "displayName": "Dragonite",
+    "formLabel": null,
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "meganium",
+    "apiSlug": "meganium",
+    "isMega": false,
+    "speciesSlug": "meganium",
+    "formType": null,
+    "dexNum": "0154",
+    "displayName": "Meganium",
+    "formLabel": null,
+    "types": [
+      "Grass"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "typhlosion",
+    "apiSlug": "typhlosion",
+    "isMega": false,
+    "speciesSlug": "typhlosion",
+    "formType": null,
+    "dexNum": "0157",
+    "displayName": "Typhlosion",
+    "formLabel": null,
+    "types": [
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "typhlosion-hisui",
+    "apiSlug": "typhlosion-hisui",
+    "isMega": false,
+    "speciesSlug": "typhlosion",
+    "formType": "hisui",
+    "dexNum": "0157",
+    "displayName": "Typhlosion",
+    "formLabel": "Hisuian Form",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "feraligatr",
+    "apiSlug": "feraligatr",
+    "isMega": false,
+    "speciesSlug": "feraligatr",
+    "formType": null,
+    "dexNum": "0160",
+    "displayName": "Feraligatr",
+    "formLabel": null,
+    "types": [
+      "Water"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "ariados",
+    "apiSlug": "ariados",
+    "isMega": false,
+    "speciesSlug": "ariados",
+    "formType": null,
+    "dexNum": "0168",
+    "displayName": "Ariados",
+    "formLabel": null,
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "ampharos",
+    "apiSlug": "ampharos",
+    "isMega": false,
+    "speciesSlug": "ampharos",
+    "formType": null,
+    "dexNum": "0181",
+    "displayName": "Ampharos",
+    "formLabel": null,
+    "types": [
+      "Electric"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "azumarill",
+    "apiSlug": "azumarill",
+    "isMega": false,
+    "speciesSlug": "azumarill",
+    "formType": null,
+    "dexNum": "0184",
+    "displayName": "Azumarill",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "politoed",
+    "apiSlug": "politoed",
+    "isMega": false,
+    "speciesSlug": "politoed",
+    "formType": null,
+    "dexNum": "0186",
+    "displayName": "Politoed",
+    "formLabel": null,
+    "types": [
+      "Water"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "espeon",
+    "apiSlug": "espeon",
+    "isMega": false,
+    "speciesSlug": "espeon",
+    "formType": null,
+    "dexNum": "0196",
+    "displayName": "Espeon",
+    "formLabel": null,
+    "types": [
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "umbreon",
+    "apiSlug": "umbreon",
+    "isMega": false,
+    "speciesSlug": "umbreon",
+    "formType": null,
+    "dexNum": "0197",
+    "displayName": "Umbreon",
+    "formLabel": null,
+    "types": [
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "slowking",
+    "apiSlug": "slowking",
+    "isMega": false,
+    "speciesSlug": "slowking",
+    "formType": null,
+    "dexNum": "0199",
+    "displayName": "Slowking",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "slowking-galar",
+    "apiSlug": "slowking-galar",
+    "isMega": false,
+    "speciesSlug": "slowking",
+    "formType": "galar",
+    "dexNum": "0199",
+    "displayName": "Slowking",
+    "formLabel": "Galarian Form",
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "forretress",
+    "apiSlug": "forretress",
+    "isMega": false,
+    "speciesSlug": "forretress",
+    "formType": null,
+    "dexNum": "0205",
+    "displayName": "Forretress",
+    "formLabel": null,
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "steelix",
+    "apiSlug": "steelix",
+    "isMega": false,
+    "speciesSlug": "steelix",
+    "formType": null,
+    "dexNum": "0208",
+    "displayName": "Steelix",
+    "formLabel": null,
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "qwilfish",
+    "apiSlug": "qwilfish",
+    "isMega": false,
+    "speciesSlug": "qwilfish",
+    "formType": null,
+    "dexNum": "0211",
+    "displayName": "Qwilfish",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "scizor",
+    "apiSlug": "scizor",
+    "isMega": false,
+    "speciesSlug": "scizor",
+    "formType": null,
+    "dexNum": "0212",
+    "displayName": "Scizor",
+    "formLabel": null,
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "heracross",
+    "apiSlug": "heracross",
+    "isMega": false,
+    "speciesSlug": "heracross",
+    "formType": null,
+    "dexNum": "0214",
+    "displayName": "Heracross",
+    "formLabel": null,
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "skarmory",
+    "apiSlug": "skarmory",
+    "isMega": false,
+    "speciesSlug": "skarmory",
+    "formType": null,
+    "dexNum": "0227",
+    "displayName": "Skarmory",
+    "formLabel": null,
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "houndoom",
+    "apiSlug": "houndoom",
+    "isMega": false,
+    "speciesSlug": "houndoom",
+    "formType": null,
+    "dexNum": "0229",
+    "displayName": "Houndoom",
+    "formLabel": null,
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "tyranitar",
+    "apiSlug": "tyranitar",
+    "isMega": false,
+    "speciesSlug": "tyranitar",
+    "formType": null,
+    "dexNum": "0248",
+    "displayName": "Tyranitar",
+    "formLabel": null,
+    "types": [
+      "Rock",
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "sceptile",
+    "apiSlug": "sceptile",
+    "isMega": false,
+    "speciesSlug": "sceptile",
+    "formType": null,
+    "dexNum": "0254",
+    "displayName": "Sceptile",
+    "formLabel": null,
+    "types": [
+      "Grass"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "blaziken",
+    "apiSlug": "blaziken",
+    "isMega": false,
+    "speciesSlug": "blaziken",
+    "formType": null,
+    "dexNum": "0257",
+    "displayName": "Blaziken",
+    "formLabel": null,
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "swampert",
+    "apiSlug": "swampert",
+    "isMega": false,
+    "speciesSlug": "swampert",
+    "formType": null,
+    "dexNum": "0260",
+    "displayName": "Swampert",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "pelipper",
+    "apiSlug": "pelipper",
+    "isMega": false,
+    "speciesSlug": "pelipper",
+    "formType": null,
+    "dexNum": "0279",
+    "displayName": "Pelipper",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "gardevoir",
+    "apiSlug": "gardevoir",
+    "isMega": false,
+    "speciesSlug": "gardevoir",
+    "formType": null,
+    "dexNum": "0282",
+    "displayName": "Gardevoir",
+    "formLabel": null,
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "sableye",
+    "apiSlug": "sableye",
+    "isMega": false,
+    "speciesSlug": "sableye",
+    "formType": null,
+    "dexNum": "0302",
+    "displayName": "Sableye",
+    "formLabel": null,
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "mawile",
+    "apiSlug": "mawile",
+    "isMega": false,
+    "speciesSlug": "mawile",
+    "formType": null,
+    "dexNum": "0303",
+    "displayName": "Mawile",
+    "formLabel": null,
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "aggron",
+    "apiSlug": "aggron",
+    "isMega": false,
+    "speciesSlug": "aggron",
+    "formType": null,
+    "dexNum": "0306",
+    "displayName": "Aggron",
+    "formLabel": null,
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "medicham",
+    "apiSlug": "medicham",
+    "isMega": false,
+    "speciesSlug": "medicham",
+    "formType": null,
+    "dexNum": "0308",
+    "displayName": "Medicham",
+    "formLabel": null,
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "manectric",
+    "apiSlug": "manectric",
+    "isMega": false,
+    "speciesSlug": "manectric",
+    "formType": null,
+    "dexNum": "0310",
+    "displayName": "Manectric",
+    "formLabel": null,
+    "types": [
+      "Electric"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "sharpedo",
+    "apiSlug": "sharpedo",
+    "isMega": false,
+    "speciesSlug": "sharpedo",
+    "formType": null,
+    "dexNum": "0319",
+    "displayName": "Sharpedo",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "camerupt",
+    "apiSlug": "camerupt",
+    "isMega": false,
+    "speciesSlug": "camerupt",
+    "formType": null,
+    "dexNum": "0323",
+    "displayName": "Camerupt",
+    "formLabel": null,
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "torkoal",
+    "apiSlug": "torkoal",
+    "isMega": false,
+    "speciesSlug": "torkoal",
+    "formType": null,
+    "dexNum": "0324",
+    "displayName": "Torkoal",
+    "formLabel": null,
+    "types": [
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "altaria",
+    "apiSlug": "altaria",
+    "isMega": false,
+    "speciesSlug": "altaria",
+    "formType": null,
+    "dexNum": "0334",
+    "displayName": "Altaria",
+    "formLabel": null,
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "milotic",
+    "apiSlug": "milotic",
+    "isMega": false,
+    "speciesSlug": "milotic",
+    "formType": null,
+    "dexNum": "0350",
+    "displayName": "Milotic",
+    "formLabel": null,
+    "types": [
+      "Water"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "castform",
+    "apiSlug": "castform",
+    "isMega": false,
+    "speciesSlug": "castform",
+    "formType": null,
+    "dexNum": "0351",
+    "displayName": "Castform",
+    "formLabel": null,
+    "types": [
+      "Normal"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "banette",
+    "apiSlug": "banette",
+    "isMega": false,
+    "speciesSlug": "banette",
+    "formType": null,
+    "dexNum": "0354",
+    "displayName": "Banette",
+    "formLabel": null,
+    "types": [
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "chimecho",
+    "apiSlug": "chimecho",
+    "isMega": false,
+    "speciesSlug": "chimecho",
+    "formType": null,
+    "dexNum": "0358",
+    "displayName": "Chimecho",
+    "formLabel": null,
+    "types": [
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "absol",
+    "apiSlug": "absol",
+    "isMega": false,
+    "speciesSlug": "absol",
+    "formType": null,
+    "dexNum": "0359",
+    "displayName": "Absol",
+    "formLabel": null,
+    "types": [
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "glalie",
+    "apiSlug": "glalie",
+    "isMega": false,
+    "speciesSlug": "glalie",
+    "formType": null,
+    "dexNum": "0362",
+    "displayName": "Glalie",
+    "formLabel": null,
+    "types": [
+      "Ice"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "metagross",
+    "apiSlug": "metagross",
+    "isMega": false,
+    "speciesSlug": "metagross",
+    "formType": null,
+    "dexNum": "0376",
+    "displayName": "Metagross",
+    "formLabel": null,
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "torterra",
+    "apiSlug": "torterra",
+    "isMega": false,
+    "speciesSlug": "torterra",
+    "formType": null,
+    "dexNum": "0389",
+    "displayName": "Torterra",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "infernape",
+    "apiSlug": "infernape",
+    "isMega": false,
+    "speciesSlug": "infernape",
+    "formType": null,
+    "dexNum": "0392",
+    "displayName": "Infernape",
+    "formLabel": null,
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "empoleon",
+    "apiSlug": "empoleon",
+    "isMega": false,
+    "speciesSlug": "empoleon",
+    "formType": null,
+    "dexNum": "0395",
+    "displayName": "Empoleon",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "staraptor",
+    "apiSlug": "staraptor",
+    "isMega": false,
+    "speciesSlug": "staraptor",
+    "formType": null,
+    "dexNum": "0398",
+    "displayName": "Staraptor",
+    "formLabel": null,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "luxray",
+    "apiSlug": "luxray",
+    "isMega": false,
+    "speciesSlug": "luxray",
+    "formType": null,
+    "dexNum": "0405",
+    "displayName": "Luxray",
+    "formLabel": null,
+    "types": [
+      "Electric"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "roserade",
+    "apiSlug": "roserade",
+    "isMega": false,
+    "speciesSlug": "roserade",
+    "formType": null,
+    "dexNum": "0407",
+    "displayName": "Roserade",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "rampardos",
+    "apiSlug": "rampardos",
+    "isMega": false,
+    "speciesSlug": "rampardos",
+    "formType": null,
+    "dexNum": "0409",
+    "displayName": "Rampardos",
+    "formLabel": null,
+    "types": [
+      "Rock"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "bastiodon",
+    "apiSlug": "bastiodon",
+    "isMega": false,
+    "speciesSlug": "bastiodon",
+    "formType": null,
+    "dexNum": "0411",
+    "displayName": "Bastiodon",
+    "formLabel": null,
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "lopunny",
+    "apiSlug": "lopunny",
+    "isMega": false,
+    "speciesSlug": "lopunny",
+    "formType": null,
+    "dexNum": "0428",
+    "displayName": "Lopunny",
+    "formLabel": null,
+    "types": [
+      "Normal"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "spiritomb",
+    "apiSlug": "spiritomb",
+    "isMega": false,
+    "speciesSlug": "spiritomb",
+    "formType": null,
+    "dexNum": "0442",
+    "displayName": "Spiritomb",
+    "formLabel": null,
+    "types": [
+      "Ghost",
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "garchomp",
+    "apiSlug": "garchomp",
+    "isMega": false,
+    "speciesSlug": "garchomp",
+    "formType": null,
+    "dexNum": "0445",
+    "displayName": "Garchomp",
+    "formLabel": null,
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "lucario",
+    "apiSlug": "lucario",
+    "isMega": false,
+    "speciesSlug": "lucario",
+    "formType": null,
+    "dexNum": "0448",
+    "displayName": "Lucario",
+    "formLabel": null,
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "hippowdon",
+    "apiSlug": "hippowdon",
+    "isMega": false,
+    "speciesSlug": "hippowdon",
+    "formType": null,
+    "dexNum": "0450",
+    "displayName": "Hippowdon",
+    "formLabel": null,
+    "types": [
+      "Ground"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "toxicroak",
+    "apiSlug": "toxicroak",
+    "isMega": false,
+    "speciesSlug": "toxicroak",
+    "formType": null,
+    "dexNum": "0454",
+    "displayName": "Toxicroak",
+    "formLabel": null,
+    "types": [
+      "Poison",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "abomasnow",
+    "apiSlug": "abomasnow",
+    "isMega": false,
+    "speciesSlug": "abomasnow",
+    "formType": null,
+    "dexNum": "0460",
+    "displayName": "Abomasnow",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Ice"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "weavile",
+    "apiSlug": "weavile",
+    "isMega": false,
+    "speciesSlug": "weavile",
+    "formType": null,
+    "dexNum": "0461",
+    "displayName": "Weavile",
+    "formLabel": null,
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "rhyperior",
+    "apiSlug": "rhyperior",
+    "isMega": false,
+    "speciesSlug": "rhyperior",
+    "formType": null,
+    "dexNum": "0464",
+    "displayName": "Rhyperior",
+    "formLabel": null,
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "leafeon",
+    "apiSlug": "leafeon",
+    "isMega": false,
+    "speciesSlug": "leafeon",
+    "formType": null,
+    "dexNum": "0470",
+    "displayName": "Leafeon",
+    "formLabel": null,
+    "types": [
+      "Grass"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "glaceon",
+    "apiSlug": "glaceon",
+    "isMega": false,
+    "speciesSlug": "glaceon",
+    "formType": null,
+    "dexNum": "0471",
+    "displayName": "Glaceon",
+    "formLabel": null,
+    "types": [
+      "Ice"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "gliscor",
+    "apiSlug": "gliscor",
+    "isMega": false,
+    "speciesSlug": "gliscor",
+    "formType": null,
+    "dexNum": "0472",
+    "displayName": "Gliscor",
+    "formLabel": null,
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "mamoswine",
+    "apiSlug": "mamoswine",
+    "isMega": false,
+    "speciesSlug": "mamoswine",
+    "formType": null,
+    "dexNum": "0473",
+    "displayName": "Mamoswine",
+    "formLabel": null,
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "gallade",
+    "apiSlug": "gallade",
+    "isMega": false,
+    "speciesSlug": "gallade",
+    "formType": null,
+    "dexNum": "0475",
+    "displayName": "Gallade",
+    "formLabel": null,
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "froslass",
+    "apiSlug": "froslass",
+    "isMega": false,
+    "speciesSlug": "froslass",
+    "formType": null,
+    "dexNum": "0478",
+    "displayName": "Froslass",
+    "formLabel": null,
+    "types": [
+      "Ice",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "rotom",
+    "apiSlug": "rotom",
+    "isMega": false,
+    "speciesSlug": "rotom",
+    "formType": null,
+    "dexNum": "0479",
+    "displayName": "Rotom",
+    "formLabel": null,
+    "types": [
+      "Electric",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "serperior",
+    "apiSlug": "serperior",
+    "isMega": false,
+    "speciesSlug": "serperior",
+    "formType": null,
+    "dexNum": "0497",
+    "displayName": "Serperior",
+    "formLabel": null,
+    "types": [
+      "Grass"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "emboar",
+    "apiSlug": "emboar",
+    "isMega": false,
+    "speciesSlug": "emboar",
+    "formType": null,
+    "dexNum": "0500",
+    "displayName": "Emboar",
+    "formLabel": null,
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "samurott",
+    "apiSlug": "samurott",
+    "isMega": false,
+    "speciesSlug": "samurott",
+    "formType": null,
+    "dexNum": "0503",
+    "displayName": "Samurott",
+    "formLabel": null,
+    "types": [
+      "Water"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "samurott-hisui",
+    "apiSlug": "samurott-hisui",
+    "isMega": false,
+    "speciesSlug": "samurott",
+    "formType": "hisui",
+    "dexNum": "0503",
+    "displayName": "Samurott",
+    "formLabel": "Hisuian Form",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "watchog",
+    "apiSlug": "watchog",
+    "isMega": false,
+    "speciesSlug": "watchog",
+    "formType": null,
+    "dexNum": "0505",
+    "displayName": "Watchog",
+    "formLabel": null,
+    "types": [
+      "Normal"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "liepard",
+    "apiSlug": "liepard",
+    "isMega": false,
+    "speciesSlug": "liepard",
+    "formType": null,
+    "dexNum": "0510",
+    "displayName": "Liepard",
+    "formLabel": null,
+    "types": [
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "simisage",
+    "apiSlug": "simisage",
+    "isMega": false,
+    "speciesSlug": "simisage",
+    "formType": null,
+    "dexNum": "0512",
+    "displayName": "Simisage",
+    "formLabel": null,
+    "types": [
+      "Grass"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "simisear",
+    "apiSlug": "simisear",
+    "isMega": false,
+    "speciesSlug": "simisear",
+    "formType": null,
+    "dexNum": "0514",
+    "displayName": "Simisear",
+    "formLabel": null,
+    "types": [
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "simipour",
+    "apiSlug": "simipour",
+    "isMega": false,
+    "speciesSlug": "simipour",
+    "formType": null,
+    "dexNum": "0516",
+    "displayName": "Simipour",
+    "formLabel": null,
+    "types": [
+      "Water"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "musharna",
+    "apiSlug": "musharna",
+    "isMega": false,
+    "speciesSlug": "musharna",
+    "formType": null,
+    "dexNum": "0518",
+    "displayName": "Musharna",
+    "formLabel": null,
+    "types": [
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "excadrill",
+    "apiSlug": "excadrill",
+    "isMega": false,
+    "speciesSlug": "excadrill",
+    "formType": null,
+    "dexNum": "0530",
+    "displayName": "Excadrill",
+    "formLabel": null,
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "audino",
+    "apiSlug": "audino",
+    "isMega": false,
+    "speciesSlug": "audino",
+    "formType": null,
+    "dexNum": "0531",
+    "displayName": "Audino",
+    "formLabel": null,
+    "types": [
+      "Normal"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "conkeldurr",
+    "apiSlug": "conkeldurr",
+    "isMega": false,
+    "speciesSlug": "conkeldurr",
+    "formType": null,
+    "dexNum": "0534",
+    "displayName": "Conkeldurr",
+    "formLabel": null,
+    "types": [
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "scolipede",
+    "apiSlug": "scolipede",
+    "isMega": false,
+    "speciesSlug": "scolipede",
+    "formType": null,
+    "dexNum": "0545",
+    "displayName": "Scolipede",
+    "formLabel": null,
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "whimsicott",
+    "apiSlug": "whimsicott",
+    "isMega": false,
+    "speciesSlug": "whimsicott",
+    "formType": null,
+    "dexNum": "0547",
+    "displayName": "Whimsicott",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "krookodile",
+    "apiSlug": "krookodile",
+    "isMega": false,
+    "speciesSlug": "krookodile",
+    "formType": null,
+    "dexNum": "0553",
+    "displayName": "Krookodile",
+    "formLabel": null,
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "scrafty",
+    "apiSlug": "scrafty",
+    "isMega": false,
+    "speciesSlug": "scrafty",
+    "formType": null,
+    "dexNum": "0560",
+    "displayName": "Scrafty",
+    "formLabel": null,
+    "types": [
+      "Dark",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "cofagrigus",
+    "apiSlug": "cofagrigus",
+    "isMega": false,
+    "speciesSlug": "cofagrigus",
+    "formType": null,
+    "dexNum": "0563",
+    "displayName": "Cofagrigus",
+    "formLabel": null,
+    "types": [
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "garbodor",
+    "apiSlug": "garbodor",
+    "isMega": false,
+    "speciesSlug": "garbodor",
+    "formType": null,
+    "dexNum": "0569",
+    "displayName": "Garbodor",
+    "formLabel": null,
+    "types": [
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "zoroark",
+    "apiSlug": "zoroark",
+    "isMega": false,
+    "speciesSlug": "zoroark",
+    "formType": null,
+    "dexNum": "0571",
+    "displayName": "Zoroark",
+    "formLabel": null,
+    "types": [
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "zoroark-hisui",
+    "apiSlug": "zoroark-hisui",
+    "isMega": false,
+    "speciesSlug": "zoroark",
+    "formType": "hisui",
+    "dexNum": "0571",
+    "displayName": "Zoroark",
+    "formLabel": "Hisuian Form",
+    "types": [
+      "Normal",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "reuniclus",
+    "apiSlug": "reuniclus",
+    "isMega": false,
+    "speciesSlug": "reuniclus",
+    "formType": null,
+    "dexNum": "0579",
+    "displayName": "Reuniclus",
+    "formLabel": null,
+    "types": [
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "vanilluxe",
+    "apiSlug": "vanilluxe",
+    "isMega": false,
+    "speciesSlug": "vanilluxe",
+    "formType": null,
+    "dexNum": "0584",
+    "displayName": "Vanilluxe",
+    "formLabel": null,
+    "types": [
+      "Ice"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "emolga",
+    "apiSlug": "emolga",
+    "isMega": false,
+    "speciesSlug": "emolga",
+    "formType": null,
+    "dexNum": "0587",
+    "displayName": "Emolga",
+    "formLabel": null,
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "eelektross",
+    "apiSlug": "eelektross",
+    "isMega": false,
+    "speciesSlug": "eelektross",
+    "formType": null,
+    "dexNum": "0604",
+    "displayName": "Eelektross",
+    "formLabel": null,
+    "types": [
+      "Electric"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "chandelure",
+    "apiSlug": "chandelure",
+    "isMega": false,
+    "speciesSlug": "chandelure",
+    "formType": null,
+    "dexNum": "0609",
+    "displayName": "Chandelure",
+    "formLabel": null,
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "beartic",
+    "apiSlug": "beartic",
+    "isMega": false,
+    "speciesSlug": "beartic",
+    "formType": null,
+    "dexNum": "0614",
+    "displayName": "Beartic",
+    "formLabel": null,
+    "types": [
+      "Ice"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "stunfisk",
+    "apiSlug": "stunfisk",
+    "isMega": false,
+    "speciesSlug": "stunfisk",
+    "formType": null,
+    "dexNum": "0618",
+    "displayName": "Stunfisk",
+    "formLabel": null,
+    "types": [
+      "Ground",
+      "Electric"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "stunfisk-galar",
+    "apiSlug": "stunfisk-galar",
+    "isMega": false,
+    "speciesSlug": "stunfisk",
+    "formType": "galar",
+    "dexNum": "0618",
+    "displayName": "Stunfisk",
+    "formLabel": "Galarian Form",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "golurk",
+    "apiSlug": "golurk",
+    "isMega": false,
+    "speciesSlug": "golurk",
+    "formType": null,
+    "dexNum": "0623",
+    "displayName": "Golurk",
+    "formLabel": null,
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "hydreigon",
+    "apiSlug": "hydreigon",
+    "isMega": false,
+    "speciesSlug": "hydreigon",
+    "formType": null,
+    "dexNum": "0635",
+    "displayName": "Hydreigon",
+    "formLabel": null,
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "volcarona",
+    "apiSlug": "volcarona",
+    "isMega": false,
+    "speciesSlug": "volcarona",
+    "formType": null,
+    "dexNum": "0637",
+    "displayName": "Volcarona",
+    "formLabel": null,
+    "types": [
+      "Bug",
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "chesnaught",
+    "apiSlug": "chesnaught",
+    "isMega": false,
+    "speciesSlug": "chesnaught",
+    "formType": null,
+    "dexNum": "0652",
+    "displayName": "Chesnaught",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "delphox",
+    "apiSlug": "delphox",
+    "isMega": false,
+    "speciesSlug": "delphox",
+    "formType": null,
+    "dexNum": "0655",
+    "displayName": "Delphox",
+    "formLabel": null,
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "greninja",
+    "apiSlug": "greninja",
+    "isMega": false,
+    "speciesSlug": "greninja",
+    "formType": null,
+    "dexNum": "0658",
+    "displayName": "Greninja",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "availability": "Yes<br>(Regular form only)"
+  },
+  {
+    "slug": "diggersby",
+    "apiSlug": "diggersby",
+    "isMega": false,
+    "speciesSlug": "diggersby",
+    "formType": null,
+    "dexNum": "0660",
+    "displayName": "Diggersby",
+    "formLabel": null,
+    "types": [
+      "Normal",
+      "Ground"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "talonflame",
+    "apiSlug": "talonflame",
+    "isMega": false,
+    "speciesSlug": "talonflame",
+    "formType": null,
+    "dexNum": "0663",
+    "displayName": "Talonflame",
+    "formLabel": null,
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "vivillon",
+    "apiSlug": "vivillon",
+    "isMega": false,
+    "speciesSlug": "vivillon",
+    "formType": null,
+    "dexNum": "0666",
+    "displayName": "Vivillon",
+    "formLabel": null,
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "pyroar",
+    "apiSlug": "pyroar-male",
+    "isMega": false,
+    "speciesSlug": "pyroar",
+    "formType": null,
+    "dexNum": "0668",
+    "displayName": "Pyroar",
+    "formLabel": null,
+    "types": [
+      "Fire",
+      "Normal"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "floette-eternal",
+    "apiSlug": "floette-eternal",
+    "isMega": false,
+    "speciesSlug": "floette",
+    "formType": "eternal",
+    "dexNum": "0670",
+    "displayName": "Floette",
+    "formLabel": "Eternal Flower",
+    "types": [
+      "Fairy"
+    ],
+    "availability": "Transfer only"
+  },
+  {
+    "slug": "florges",
+    "apiSlug": "florges",
+    "isMega": false,
+    "speciesSlug": "florges",
+    "formType": null,
+    "dexNum": "0671",
+    "displayName": "Florges",
+    "formLabel": null,
+    "types": [
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "pangoro",
+    "apiSlug": "pangoro",
+    "isMega": false,
+    "speciesSlug": "pangoro",
+    "formType": null,
+    "dexNum": "0675",
+    "displayName": "Pangoro",
+    "formLabel": null,
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "furfrou",
+    "apiSlug": "furfrou",
+    "isMega": false,
+    "speciesSlug": "furfrou",
+    "formType": null,
+    "dexNum": "0676",
+    "displayName": "Furfrou",
+    "formLabel": null,
+    "types": [
+      "Normal"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "meowstic",
+    "apiSlug": "meowstic-male",
+    "isMega": false,
+    "speciesSlug": "meowstic",
+    "formType": null,
+    "dexNum": "0678",
+    "displayName": "Meowstic",
+    "formLabel": null,
+    "types": [
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "aegislash",
+    "apiSlug": "aegislash-shield",
+    "isMega": false,
+    "speciesSlug": "aegislash",
+    "formType": null,
+    "dexNum": "0681",
+    "displayName": "Aegislash",
+    "formLabel": null,
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "aromatisse",
+    "apiSlug": "aromatisse",
+    "isMega": false,
+    "speciesSlug": "aromatisse",
+    "formType": null,
+    "dexNum": "0683",
+    "displayName": "Aromatisse",
+    "formLabel": null,
+    "types": [
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "slurpuff",
+    "apiSlug": "slurpuff",
+    "isMega": false,
+    "speciesSlug": "slurpuff",
+    "formType": null,
+    "dexNum": "0685",
+    "displayName": "Slurpuff",
+    "formLabel": null,
+    "types": [
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "malamar",
+    "apiSlug": "malamar",
+    "isMega": false,
+    "speciesSlug": "malamar",
+    "formType": null,
+    "dexNum": "0687",
+    "displayName": "Malamar",
+    "formLabel": null,
+    "types": [
+      "Dark",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "barbaracle",
+    "apiSlug": "barbaracle",
+    "isMega": false,
+    "speciesSlug": "barbaracle",
+    "formType": null,
+    "dexNum": "0689",
+    "displayName": "Barbaracle",
+    "formLabel": null,
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "dragalge",
+    "apiSlug": "dragalge",
+    "isMega": false,
+    "speciesSlug": "dragalge",
+    "formType": null,
+    "dexNum": "0691",
+    "displayName": "Dragalge",
+    "formLabel": null,
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "clawitzer",
+    "apiSlug": "clawitzer",
+    "isMega": false,
+    "speciesSlug": "clawitzer",
+    "formType": null,
+    "dexNum": "0693",
+    "displayName": "Clawitzer",
+    "formLabel": null,
+    "types": [
+      "Water"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "heliolisk",
+    "apiSlug": "heliolisk",
+    "isMega": false,
+    "speciesSlug": "heliolisk",
+    "formType": null,
+    "dexNum": "0695",
+    "displayName": "Heliolisk",
+    "formLabel": null,
+    "types": [
+      "Electric",
+      "Normal"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "tyrantrum",
+    "apiSlug": "tyrantrum",
+    "isMega": false,
+    "speciesSlug": "tyrantrum",
+    "formType": null,
+    "dexNum": "0697",
+    "displayName": "Tyrantrum",
+    "formLabel": null,
+    "types": [
+      "Rock",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "aurorus",
+    "apiSlug": "aurorus",
+    "isMega": false,
+    "speciesSlug": "aurorus",
+    "formType": null,
+    "dexNum": "0699",
+    "displayName": "Aurorus",
+    "formLabel": null,
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "sylveon",
+    "apiSlug": "sylveon",
+    "isMega": false,
+    "speciesSlug": "sylveon",
+    "formType": null,
+    "dexNum": "0700",
+    "displayName": "Sylveon",
+    "formLabel": null,
+    "types": [
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "hawlucha",
+    "apiSlug": "hawlucha",
+    "isMega": false,
+    "speciesSlug": "hawlucha",
+    "formType": null,
+    "dexNum": "0701",
+    "displayName": "Hawlucha",
+    "formLabel": null,
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "dedenne",
+    "apiSlug": "dedenne",
+    "isMega": false,
+    "speciesSlug": "dedenne",
+    "formType": null,
+    "dexNum": "0702",
+    "displayName": "Dedenne",
+    "formLabel": null,
+    "types": [
+      "Electric",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "goodra",
+    "apiSlug": "goodra",
+    "isMega": false,
+    "speciesSlug": "goodra",
+    "formType": null,
+    "dexNum": "0706",
+    "displayName": "Goodra",
+    "formLabel": null,
+    "types": [
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "goodra-hisui",
+    "apiSlug": "goodra-hisui",
+    "isMega": false,
+    "speciesSlug": "goodra",
+    "formType": "hisui",
+    "dexNum": "0706",
+    "displayName": "Goodra",
+    "formLabel": "Hisuian Form",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "klefki",
+    "apiSlug": "klefki",
+    "isMega": false,
+    "speciesSlug": "klefki",
+    "formType": null,
+    "dexNum": "0707",
+    "displayName": "Klefki",
+    "formLabel": null,
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "trevenant",
+    "apiSlug": "trevenant",
+    "isMega": false,
+    "speciesSlug": "trevenant",
+    "formType": null,
+    "dexNum": "0709",
+    "displayName": "Trevenant",
+    "formLabel": null,
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "gourgeist",
+    "apiSlug": "gourgeist-average",
+    "isMega": false,
+    "speciesSlug": "gourgeist",
+    "formType": null,
+    "dexNum": "0711",
+    "displayName": "Gourgeist",
+    "formLabel": null,
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "avalugg",
+    "apiSlug": "avalugg",
+    "isMega": false,
+    "speciesSlug": "avalugg",
+    "formType": null,
+    "dexNum": "0713",
+    "displayName": "Avalugg",
+    "formLabel": null,
+    "types": [
+      "Ice"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "avalugg-hisui",
+    "apiSlug": "avalugg-hisui",
+    "isMega": false,
+    "speciesSlug": "avalugg",
+    "formType": "hisui",
+    "dexNum": "0713",
+    "displayName": "Avalugg",
+    "formLabel": "Hisuian Form",
+    "types": [
+      "Ice",
+      "Rock"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "noivern",
+    "apiSlug": "noivern",
+    "isMega": false,
+    "speciesSlug": "noivern",
+    "formType": null,
+    "dexNum": "0715",
+    "displayName": "Noivern",
+    "formLabel": null,
+    "types": [
+      "Flying",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "decidueye",
+    "apiSlug": "decidueye",
+    "isMega": false,
+    "speciesSlug": "decidueye",
+    "formType": null,
+    "dexNum": "0724",
+    "displayName": "Decidueye",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "decidueye-hisui",
+    "apiSlug": "decidueye-hisui",
+    "isMega": false,
+    "speciesSlug": "decidueye",
+    "formType": "hisui",
+    "dexNum": "0724",
+    "displayName": "Decidueye",
+    "formLabel": "Hisuian Form",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "incineroar",
+    "apiSlug": "incineroar",
+    "isMega": false,
+    "speciesSlug": "incineroar",
+    "formType": null,
+    "dexNum": "0727",
+    "displayName": "Incineroar",
+    "formLabel": null,
+    "types": [
+      "Fire",
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "primarina",
+    "apiSlug": "primarina",
+    "isMega": false,
+    "speciesSlug": "primarina",
+    "formType": null,
+    "dexNum": "0730",
+    "displayName": "Primarina",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "toucannon",
+    "apiSlug": "toucannon",
+    "isMega": false,
+    "speciesSlug": "toucannon",
+    "formType": null,
+    "dexNum": "0733",
+    "displayName": "Toucannon",
+    "formLabel": null,
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "crabominable",
+    "apiSlug": "crabominable",
+    "isMega": false,
+    "speciesSlug": "crabominable",
+    "formType": null,
+    "dexNum": "0740",
+    "displayName": "Crabominable",
+    "formLabel": null,
+    "types": [
+      "Fighting",
+      "Ice"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "lycanroc",
+    "apiSlug": "lycanroc-midday",
+    "isMega": false,
+    "speciesSlug": "lycanroc",
+    "formType": null,
+    "dexNum": "0745",
+    "displayName": "Lycanroc",
+    "formLabel": null,
+    "types": [
+      "Rock"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "toxapex",
+    "apiSlug": "toxapex",
+    "isMega": false,
+    "speciesSlug": "toxapex",
+    "formType": null,
+    "dexNum": "0748",
+    "displayName": "Toxapex",
+    "formLabel": null,
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "mudsdale",
+    "apiSlug": "mudsdale",
+    "isMega": false,
+    "speciesSlug": "mudsdale",
+    "formType": null,
+    "dexNum": "0750",
+    "displayName": "Mudsdale",
+    "formLabel": null,
+    "types": [
+      "Ground"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "araquanid",
+    "apiSlug": "araquanid",
+    "isMega": false,
+    "speciesSlug": "araquanid",
+    "formType": null,
+    "dexNum": "0752",
+    "displayName": "Araquanid",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Bug"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "salazzle",
+    "apiSlug": "salazzle",
+    "isMega": false,
+    "speciesSlug": "salazzle",
+    "formType": null,
+    "dexNum": "0758",
+    "displayName": "Salazzle",
+    "formLabel": null,
+    "types": [
+      "Poison",
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "tsareena",
+    "apiSlug": "tsareena",
+    "isMega": false,
+    "speciesSlug": "tsareena",
+    "formType": null,
+    "dexNum": "0763",
+    "displayName": "Tsareena",
+    "formLabel": null,
+    "types": [
+      "Grass"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "oranguru",
+    "apiSlug": "oranguru",
+    "isMega": false,
+    "speciesSlug": "oranguru",
+    "formType": null,
+    "dexNum": "0765",
+    "displayName": "Oranguru",
+    "formLabel": null,
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "passimian",
+    "apiSlug": "passimian",
+    "isMega": false,
+    "speciesSlug": "passimian",
+    "formType": null,
+    "dexNum": "0766",
+    "displayName": "Passimian",
+    "formLabel": null,
+    "types": [
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "mimikyu",
+    "apiSlug": "mimikyu-disguised",
+    "isMega": false,
+    "speciesSlug": "mimikyu",
+    "formType": null,
+    "dexNum": "0778",
+    "displayName": "Mimikyu",
+    "formLabel": null,
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "drampa",
+    "apiSlug": "drampa",
+    "isMega": false,
+    "speciesSlug": "drampa",
+    "formType": null,
+    "dexNum": "0780",
+    "displayName": "Drampa",
+    "formLabel": null,
+    "types": [
+      "Normal",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "kommo-o",
+    "apiSlug": "kommo-o",
+    "isMega": false,
+    "speciesSlug": "kommo-o",
+    "formType": null,
+    "dexNum": "0784",
+    "displayName": "Kommo-o",
+    "formLabel": null,
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "corviknight",
+    "apiSlug": "corviknight",
+    "isMega": false,
+    "speciesSlug": "corviknight",
+    "formType": null,
+    "dexNum": "0823",
+    "displayName": "Corviknight",
+    "formLabel": null,
+    "types": [
+      "Flying",
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "flapple",
+    "apiSlug": "flapple",
+    "isMega": false,
+    "speciesSlug": "flapple",
+    "formType": null,
+    "dexNum": "0841",
+    "displayName": "Flapple",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "appletun",
+    "apiSlug": "appletun",
+    "isMega": false,
+    "speciesSlug": "appletun",
+    "formType": null,
+    "dexNum": "0842",
+    "displayName": "Appletun",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "sandaconda",
+    "apiSlug": "sandaconda",
+    "isMega": false,
+    "speciesSlug": "sandaconda",
+    "formType": null,
+    "dexNum": "0844",
+    "displayName": "Sandaconda",
+    "formLabel": null,
+    "types": [
+      "Ground"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "polteageist",
+    "apiSlug": "polteageist",
+    "isMega": false,
+    "speciesSlug": "polteageist",
+    "formType": null,
+    "dexNum": "0855",
+    "displayName": "Polteageist",
+    "formLabel": null,
+    "types": [
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "hatterene",
+    "apiSlug": "hatterene",
+    "isMega": false,
+    "speciesSlug": "hatterene",
+    "formType": null,
+    "dexNum": "0858",
+    "displayName": "Hatterene",
+    "formLabel": null,
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "grimmsnarl",
+    "apiSlug": "grimmsnarl",
+    "isMega": false,
+    "speciesSlug": "grimmsnarl",
+    "formType": null,
+    "dexNum": "0861",
+    "displayName": "Grimmsnarl",
+    "formLabel": null,
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "mr-rime",
+    "apiSlug": "mr-rime",
+    "isMega": false,
+    "speciesSlug": "mr-rime",
+    "formType": null,
+    "dexNum": "0866",
+    "displayName": "Mr. Rime",
+    "formLabel": null,
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "runerigus",
+    "apiSlug": "runerigus",
+    "isMega": false,
+    "speciesSlug": "runerigus",
+    "formType": null,
+    "dexNum": "0867",
+    "displayName": "Runerigus",
+    "formLabel": null,
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "alcremie",
+    "apiSlug": "alcremie",
+    "isMega": false,
+    "speciesSlug": "alcremie",
+    "formType": null,
+    "dexNum": "0869",
+    "displayName": "Alcremie",
+    "formLabel": null,
+    "types": [
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "falinks",
+    "apiSlug": "falinks",
+    "isMega": false,
+    "speciesSlug": "falinks",
+    "formType": null,
+    "dexNum": "0870",
+    "displayName": "Falinks",
+    "formLabel": null,
+    "types": [
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "morpeko",
+    "apiSlug": "morpeko-full-belly",
+    "isMega": false,
+    "speciesSlug": "morpeko",
+    "formType": null,
+    "dexNum": "0877",
+    "displayName": "Morpeko",
+    "formLabel": null,
+    "types": [
+      "Electric",
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "dragapult",
+    "apiSlug": "dragapult",
+    "isMega": false,
+    "speciesSlug": "dragapult",
+    "formType": null,
+    "dexNum": "0887",
+    "displayName": "Dragapult",
+    "formLabel": null,
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "wyrdeer",
+    "apiSlug": "wyrdeer",
+    "isMega": false,
+    "speciesSlug": "wyrdeer",
+    "formType": null,
+    "dexNum": "0899",
+    "displayName": "Wyrdeer",
+    "formLabel": null,
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "kleavor",
+    "apiSlug": "kleavor",
+    "isMega": false,
+    "speciesSlug": "kleavor",
+    "formType": null,
+    "dexNum": "0900",
+    "displayName": "Kleavor",
+    "formLabel": null,
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "basculegion",
+    "apiSlug": "basculegion-male",
+    "isMega": false,
+    "speciesSlug": "basculegion",
+    "formType": null,
+    "dexNum": "0902",
+    "displayName": "Basculegion",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "sneasler",
+    "apiSlug": "sneasler",
+    "isMega": false,
+    "speciesSlug": "sneasler",
+    "formType": null,
+    "dexNum": "0903",
+    "displayName": "Sneasler",
+    "formLabel": null,
+    "types": [
+      "Fighting",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "overqwil",
+    "apiSlug": "overqwil",
+    "isMega": false,
+    "speciesSlug": "overqwil",
+    "formType": null,
+    "dexNum": "0904",
+    "displayName": "Overqwil",
+    "formLabel": null,
+    "types": [
+      "Dark",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "meowscarada",
+    "apiSlug": "meowscarada",
+    "isMega": false,
+    "speciesSlug": "meowscarada",
+    "formType": null,
+    "dexNum": "0908",
+    "displayName": "Meowscarada",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "skeledirge",
+    "apiSlug": "skeledirge",
+    "isMega": false,
+    "speciesSlug": "skeledirge",
+    "formType": null,
+    "dexNum": "0911",
+    "displayName": "Skeledirge",
+    "formLabel": null,
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "quaquaval",
+    "apiSlug": "quaquaval",
+    "isMega": false,
+    "speciesSlug": "quaquaval",
+    "formType": null,
+    "dexNum": "0914",
+    "displayName": "Quaquaval",
+    "formLabel": null,
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "maushold",
+    "apiSlug": "maushold-family-of-four",
+    "isMega": false,
+    "speciesSlug": "maushold",
+    "formType": null,
+    "dexNum": "0925",
+    "displayName": "Maushold",
+    "formLabel": null,
+    "types": [
+      "Normal"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "garganacl",
+    "apiSlug": "garganacl",
+    "isMega": false,
+    "speciesSlug": "garganacl",
+    "formType": null,
+    "dexNum": "0934",
+    "displayName": "Garganacl",
+    "formLabel": null,
+    "types": [
+      "Rock"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "armarouge",
+    "apiSlug": "armarouge",
+    "isMega": false,
+    "speciesSlug": "armarouge",
+    "formType": null,
+    "dexNum": "0936",
+    "displayName": "Armarouge",
+    "formLabel": null,
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "ceruledge",
+    "apiSlug": "ceruledge",
+    "isMega": false,
+    "speciesSlug": "ceruledge",
+    "formType": null,
+    "dexNum": "0937",
+    "displayName": "Ceruledge",
+    "formLabel": null,
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "bellibolt",
+    "apiSlug": "bellibolt",
+    "isMega": false,
+    "speciesSlug": "bellibolt",
+    "formType": null,
+    "dexNum": "0939",
+    "displayName": "Bellibolt",
+    "formLabel": null,
+    "types": [
+      "Electric"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "scovillain",
+    "apiSlug": "scovillain",
+    "isMega": false,
+    "speciesSlug": "scovillain",
+    "formType": null,
+    "dexNum": "0952",
+    "displayName": "Scovillain",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "espathra",
+    "apiSlug": "espathra",
+    "isMega": false,
+    "speciesSlug": "espathra",
+    "formType": null,
+    "dexNum": "0956",
+    "displayName": "Espathra",
+    "formLabel": null,
+    "types": [
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "tinkaton",
+    "apiSlug": "tinkaton",
+    "isMega": false,
+    "speciesSlug": "tinkaton",
+    "formType": null,
+    "dexNum": "0959",
+    "displayName": "Tinkaton",
+    "formLabel": null,
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "palafin",
+    "apiSlug": "palafin-zero",
+    "isMega": false,
+    "speciesSlug": "palafin",
+    "formType": null,
+    "dexNum": "0964",
+    "displayName": "Palafin",
+    "formLabel": null,
+    "types": [
+      "Water"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "orthworm",
+    "apiSlug": "orthworm",
+    "isMega": false,
+    "speciesSlug": "orthworm",
+    "formType": null,
+    "dexNum": "0968",
+    "displayName": "Orthworm",
+    "formLabel": null,
+    "types": [
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "glimmora",
+    "apiSlug": "glimmora",
+    "isMega": false,
+    "speciesSlug": "glimmora",
+    "formType": null,
+    "dexNum": "0970",
+    "displayName": "Glimmora",
+    "formLabel": null,
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "houndstone",
+    "apiSlug": "houndstone",
+    "isMega": false,
+    "speciesSlug": "houndstone",
+    "formType": null,
+    "dexNum": "0972",
+    "displayName": "Houndstone",
+    "formLabel": null,
+    "types": [
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "annihilape",
+    "apiSlug": "annihilape",
+    "isMega": false,
+    "speciesSlug": "annihilape",
+    "formType": null,
+    "dexNum": "0979",
+    "displayName": "Annihilape",
+    "formLabel": null,
+    "types": [
+      "Fighting",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "farigiraf",
+    "apiSlug": "farigiraf",
+    "isMega": false,
+    "speciesSlug": "farigiraf",
+    "formType": null,
+    "dexNum": "0981",
+    "displayName": "Farigiraf",
+    "formLabel": null,
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "kingambit",
+    "apiSlug": "kingambit",
+    "isMega": false,
+    "speciesSlug": "kingambit",
+    "formType": null,
+    "dexNum": "0983",
+    "displayName": "Kingambit",
+    "formLabel": null,
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "gholdengo",
+    "apiSlug": "gholdengo",
+    "isMega": false,
+    "speciesSlug": "gholdengo",
+    "formType": null,
+    "dexNum": "1000",
+    "displayName": "Gholdengo",
+    "formLabel": null,
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "sinistcha",
+    "apiSlug": "sinistcha",
+    "isMega": false,
+    "speciesSlug": "sinistcha",
+    "formType": null,
+    "dexNum": "1013",
+    "displayName": "Sinistcha",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "archaludon",
+    "apiSlug": "archaludon",
+    "isMega": false,
+    "speciesSlug": "archaludon",
+    "formType": null,
+    "dexNum": "1018",
+    "displayName": "Archaludon",
+    "formLabel": null,
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "hydrapple",
+    "apiSlug": "hydrapple",
+    "isMega": false,
+    "speciesSlug": "hydrapple",
+    "formType": null,
+    "dexNum": "1019",
+    "displayName": "Hydrapple",
+    "formLabel": null,
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "venusaur-mega",
+    "apiSlug": "venusaur-mega",
+    "isMega": true,
+    "speciesSlug": "venusaur",
+    "baseSlug": "venusaur",
+    "formType": "mega",
+    "dexNum": "0003",
+    "displayName": "Venusaur",
+    "formLabel": "Mega Venusaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "charizard-mega-x",
+    "apiSlug": "charizard-mega-x",
+    "isMega": true,
+    "speciesSlug": "charizard",
+    "baseSlug": "charizard",
+    "formType": "mega-x",
+    "dexNum": "0006",
+    "displayName": "Charizard",
+    "formLabel": "Mega Charizard X",
+    "types": [
+      "Fire",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "charizard-mega-y",
+    "apiSlug": "charizard-mega-y",
+    "isMega": true,
+    "speciesSlug": "charizard",
+    "baseSlug": "charizard",
+    "formType": "mega-y",
+    "dexNum": "0006",
+    "displayName": "Charizard",
+    "formLabel": "Mega Charizard Y",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "blastoise-mega",
+    "apiSlug": "blastoise-mega",
+    "isMega": true,
+    "speciesSlug": "blastoise",
+    "baseSlug": "blastoise",
+    "formType": "mega",
+    "dexNum": "0009",
+    "displayName": "Blastoise",
+    "formLabel": "Mega Blastoise",
+    "types": [
+      "Water"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "beedrill-mega",
+    "apiSlug": "beedrill-mega",
+    "isMega": true,
+    "speciesSlug": "beedrill",
+    "baseSlug": "beedrill",
+    "formType": "mega",
+    "dexNum": "0015",
+    "displayName": "Beedrill",
+    "formLabel": "Mega Beedrill",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "pidgeot-mega",
+    "apiSlug": "pidgeot-mega",
+    "isMega": true,
+    "speciesSlug": "pidgeot",
+    "baseSlug": "pidgeot",
+    "formType": "mega",
+    "dexNum": "0018",
+    "displayName": "Pidgeot",
+    "formLabel": "Mega Pidgeot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "raichu-mega-x",
+    "apiSlug": "raichu-mega-x",
+    "isMega": true,
+    "speciesSlug": "raichu",
+    "baseSlug": "raichu",
+    "formType": "mega-x",
+    "dexNum": "0026",
+    "displayName": "Raichu",
+    "formLabel": "Mega Raichu X",
+    "types": [
+      "Electric"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "raichu-mega-y",
+    "apiSlug": "raichu-mega-y",
+    "isMega": true,
+    "speciesSlug": "raichu",
+    "baseSlug": "raichu",
+    "formType": "mega-y",
+    "dexNum": "0026",
+    "displayName": "Raichu",
+    "formLabel": "Mega Raichu Y",
+    "types": [
+      "Electric"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "clefable-mega",
+    "apiSlug": "clefable-mega",
+    "isMega": true,
+    "speciesSlug": "clefable",
+    "baseSlug": "clefable",
+    "formType": "mega",
+    "dexNum": "0036",
+    "displayName": "Clefable",
+    "formLabel": "Mega Clefable",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "alakazam-mega",
+    "apiSlug": "alakazam-mega",
+    "isMega": true,
+    "speciesSlug": "alakazam",
+    "baseSlug": "alakazam",
+    "formType": "mega",
+    "dexNum": "0065",
+    "displayName": "Alakazam",
+    "formLabel": "Mega Alakazam",
+    "types": [
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "victreebel-mega",
+    "apiSlug": "victreebel-mega",
+    "isMega": true,
+    "speciesSlug": "victreebel",
+    "baseSlug": "victreebel",
+    "formType": "mega",
+    "dexNum": "0071",
+    "displayName": "Victreebel",
+    "formLabel": "Mega Victreebel",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "slowbro-mega",
+    "apiSlug": "slowbro-mega",
+    "isMega": true,
+    "speciesSlug": "slowbro",
+    "baseSlug": "slowbro",
+    "formType": "mega",
+    "dexNum": "0080",
+    "displayName": "Slowbro",
+    "formLabel": "Mega Slowbro",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "gengar-mega",
+    "apiSlug": "gengar-mega",
+    "isMega": true,
+    "speciesSlug": "gengar",
+    "baseSlug": "gengar",
+    "formType": "mega",
+    "dexNum": "0094",
+    "displayName": "Gengar",
+    "formLabel": "Mega Gengar",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "kangaskhan-mega",
+    "apiSlug": "kangaskhan-mega",
+    "isMega": true,
+    "speciesSlug": "kangaskhan",
+    "baseSlug": "kangaskhan",
+    "formType": "mega",
+    "dexNum": "0115",
+    "displayName": "Kangaskhan",
+    "formLabel": "Mega Kangaskhan",
+    "types": [
+      "Normal"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "starmie-mega",
+    "apiSlug": "starmie-mega",
+    "isMega": true,
+    "speciesSlug": "starmie",
+    "baseSlug": "starmie",
+    "formType": "mega",
+    "dexNum": "0121",
+    "displayName": "Starmie",
+    "formLabel": "Mega Starmie",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "pinsir-mega",
+    "apiSlug": "pinsir-mega",
+    "isMega": true,
+    "speciesSlug": "pinsir",
+    "baseSlug": "pinsir",
+    "formType": "mega",
+    "dexNum": "0127",
+    "displayName": "Pinsir",
+    "formLabel": "Mega Pinsir",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "gyarados-mega",
+    "apiSlug": "gyarados-mega",
+    "isMega": true,
+    "speciesSlug": "gyarados",
+    "baseSlug": "gyarados",
+    "formType": "mega",
+    "dexNum": "0130",
+    "displayName": "Gyarados",
+    "formLabel": "Mega Gyarados",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "aerodactyl-mega",
+    "apiSlug": "aerodactyl-mega",
+    "isMega": true,
+    "speciesSlug": "aerodactyl",
+    "baseSlug": "aerodactyl",
+    "formType": "mega",
+    "dexNum": "0142",
+    "displayName": "Aerodactyl",
+    "formLabel": "Mega Aerodactyl",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "dragonite-mega",
+    "apiSlug": "dragonite-mega",
+    "isMega": true,
+    "speciesSlug": "dragonite",
+    "baseSlug": "dragonite",
+    "formType": "mega",
+    "dexNum": "0149",
+    "displayName": "Dragonite",
+    "formLabel": "Mega Dragonite",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "meganium-mega",
+    "apiSlug": "meganium-mega",
+    "isMega": true,
+    "speciesSlug": "meganium",
+    "baseSlug": "meganium",
+    "formType": "mega",
+    "dexNum": "0154",
+    "displayName": "Meganium",
+    "formLabel": "Mega Meganium",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "feraligatr-mega",
+    "apiSlug": "feraligatr-mega",
+    "isMega": true,
+    "speciesSlug": "feraligatr",
+    "baseSlug": "feraligatr",
+    "formType": "mega",
+    "dexNum": "0160",
+    "displayName": "Feraligatr",
+    "formLabel": "Mega Feraligatr",
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "ampharos-mega",
+    "apiSlug": "ampharos-mega",
+    "isMega": true,
+    "speciesSlug": "ampharos",
+    "baseSlug": "ampharos",
+    "formType": "mega",
+    "dexNum": "0181",
+    "displayName": "Ampharos",
+    "formLabel": "Mega Ampharos",
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "steelix-mega",
+    "apiSlug": "steelix-mega",
+    "isMega": true,
+    "speciesSlug": "steelix",
+    "baseSlug": "steelix",
+    "formType": "mega",
+    "dexNum": "0208",
+    "displayName": "Steelix",
+    "formLabel": "Mega Steelix",
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "scizor-mega",
+    "apiSlug": "scizor-mega",
+    "isMega": true,
+    "speciesSlug": "scizor",
+    "baseSlug": "scizor",
+    "formType": "mega",
+    "dexNum": "0212",
+    "displayName": "Scizor",
+    "formLabel": "Mega Scizor",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "heracross-mega",
+    "apiSlug": "heracross-mega",
+    "isMega": true,
+    "speciesSlug": "heracross",
+    "baseSlug": "heracross",
+    "formType": "mega",
+    "dexNum": "0214",
+    "displayName": "Heracross",
+    "formLabel": "Mega Heracross",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "skarmory-mega",
+    "apiSlug": "skarmory-mega",
+    "isMega": true,
+    "speciesSlug": "skarmory",
+    "baseSlug": "skarmory",
+    "formType": "mega",
+    "dexNum": "0227",
+    "displayName": "Skarmory",
+    "formLabel": "Mega Skarmory",
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "houndoom-mega",
+    "apiSlug": "houndoom-mega",
+    "isMega": true,
+    "speciesSlug": "houndoom",
+    "baseSlug": "houndoom",
+    "formType": "mega",
+    "dexNum": "0229",
+    "displayName": "Houndoom",
+    "formLabel": "Mega Houndoom",
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "tyranitar-mega",
+    "apiSlug": "tyranitar-mega",
+    "isMega": true,
+    "speciesSlug": "tyranitar",
+    "baseSlug": "tyranitar",
+    "formType": "mega",
+    "dexNum": "0248",
+    "displayName": "Tyranitar",
+    "formLabel": "Mega Tyranitar",
+    "types": [
+      "Rock",
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "sceptile-mega",
+    "apiSlug": "sceptile-mega",
+    "isMega": true,
+    "speciesSlug": "sceptile",
+    "baseSlug": "sceptile",
+    "formType": "mega",
+    "dexNum": "0254",
+    "displayName": "Sceptile",
+    "formLabel": "Mega Sceptile",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "blaziken-mega",
+    "apiSlug": "blaziken-mega",
+    "isMega": true,
+    "speciesSlug": "blaziken",
+    "baseSlug": "blaziken",
+    "formType": "mega",
+    "dexNum": "0257",
+    "displayName": "Blaziken",
+    "formLabel": "Mega Blaziken",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "swampert-mega",
+    "apiSlug": "swampert-mega",
+    "isMega": true,
+    "speciesSlug": "swampert",
+    "baseSlug": "swampert",
+    "formType": "mega",
+    "dexNum": "0260",
+    "displayName": "Swampert",
+    "formLabel": "Mega Swampert",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "gardevoir-mega",
+    "apiSlug": "gardevoir-mega",
+    "isMega": true,
+    "speciesSlug": "gardevoir",
+    "baseSlug": "gardevoir",
+    "formType": "mega",
+    "dexNum": "0282",
+    "displayName": "Gardevoir",
+    "formLabel": "Mega Gardevoir",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "sableye-mega",
+    "apiSlug": "sableye-mega",
+    "isMega": true,
+    "speciesSlug": "sableye",
+    "baseSlug": "sableye",
+    "formType": "mega",
+    "dexNum": "0302",
+    "displayName": "Sableye",
+    "formLabel": "Mega Sableye",
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "mawile-mega",
+    "apiSlug": "mawile-mega",
+    "isMega": true,
+    "speciesSlug": "mawile",
+    "baseSlug": "mawile",
+    "formType": "mega",
+    "dexNum": "0303",
+    "displayName": "Mawile",
+    "formLabel": "Mega Mawile",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "aggron-mega",
+    "apiSlug": "aggron-mega",
+    "isMega": true,
+    "speciesSlug": "aggron",
+    "baseSlug": "aggron",
+    "formType": "mega",
+    "dexNum": "0306",
+    "displayName": "Aggron",
+    "formLabel": "Mega Aggron",
+    "types": [
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "medicham-mega",
+    "apiSlug": "medicham-mega",
+    "isMega": true,
+    "speciesSlug": "medicham",
+    "baseSlug": "medicham",
+    "formType": "mega",
+    "dexNum": "0308",
+    "displayName": "Medicham",
+    "formLabel": "Mega Medicham",
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "manectric-mega",
+    "apiSlug": "manectric-mega",
+    "isMega": true,
+    "speciesSlug": "manectric",
+    "baseSlug": "manectric",
+    "formType": "mega",
+    "dexNum": "0310",
+    "displayName": "Manectric",
+    "formLabel": "Mega Manectric",
+    "types": [
+      "Electric"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "sharpedo-mega",
+    "apiSlug": "sharpedo-mega",
+    "isMega": true,
+    "speciesSlug": "sharpedo",
+    "baseSlug": "sharpedo",
+    "formType": "mega",
+    "dexNum": "0319",
+    "displayName": "Sharpedo",
+    "formLabel": "Mega Sharpedo",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "camerupt-mega",
+    "apiSlug": "camerupt-mega",
+    "isMega": true,
+    "speciesSlug": "camerupt",
+    "baseSlug": "camerupt",
+    "formType": "mega",
+    "dexNum": "0323",
+    "displayName": "Camerupt",
+    "formLabel": "Mega Camerupt",
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "altaria-mega",
+    "apiSlug": "altaria-mega",
+    "isMega": true,
+    "speciesSlug": "altaria",
+    "baseSlug": "altaria",
+    "formType": "mega",
+    "dexNum": "0334",
+    "displayName": "Altaria",
+    "formLabel": "Mega Altaria",
+    "types": [
+      "Dragon",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "banette-mega",
+    "apiSlug": "banette-mega",
+    "isMega": true,
+    "speciesSlug": "banette",
+    "baseSlug": "banette",
+    "formType": "mega",
+    "dexNum": "0354",
+    "displayName": "Banette",
+    "formLabel": "Mega Banette",
+    "types": [
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "chimecho-mega",
+    "apiSlug": "chimecho-mega",
+    "isMega": true,
+    "speciesSlug": "chimecho",
+    "baseSlug": "chimecho",
+    "formType": "mega",
+    "dexNum": "0358",
+    "displayName": "Chimecho",
+    "formLabel": "Mega Chimecho",
+    "types": [
+      "Psychic",
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "absol-mega",
+    "apiSlug": "absol-mega",
+    "isMega": true,
+    "speciesSlug": "absol",
+    "baseSlug": "absol",
+    "formType": "mega",
+    "dexNum": "0359",
+    "displayName": "Absol",
+    "formLabel": "Mega Absol",
+    "types": [
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "glalie-mega",
+    "apiSlug": "glalie-mega",
+    "isMega": true,
+    "speciesSlug": "glalie",
+    "baseSlug": "glalie",
+    "formType": "mega",
+    "dexNum": "0362",
+    "displayName": "Glalie",
+    "formLabel": "Mega Glalie",
+    "types": [
+      "Ice"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "metagross-mega",
+    "apiSlug": "metagross-mega",
+    "isMega": true,
+    "speciesSlug": "metagross",
+    "baseSlug": "metagross",
+    "formType": "mega",
+    "dexNum": "0376",
+    "displayName": "Metagross",
+    "formLabel": "Mega Metagross",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "staraptor-mega",
+    "apiSlug": "staraptor-mega",
+    "isMega": true,
+    "speciesSlug": "staraptor",
+    "baseSlug": "staraptor",
+    "formType": "mega",
+    "dexNum": "0398",
+    "displayName": "Staraptor",
+    "formLabel": "Mega Staraptor",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "lopunny-mega",
+    "apiSlug": "lopunny-mega",
+    "isMega": true,
+    "speciesSlug": "lopunny",
+    "baseSlug": "lopunny",
+    "formType": "mega",
+    "dexNum": "0428",
+    "displayName": "Lopunny",
+    "formLabel": "Mega Lopunny",
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "garchomp-mega",
+    "apiSlug": "garchomp-mega",
+    "isMega": true,
+    "speciesSlug": "garchomp",
+    "baseSlug": "garchomp",
+    "formType": "mega",
+    "dexNum": "0445",
+    "displayName": "Garchomp",
+    "formLabel": "Mega Garchomp",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "lucario-mega",
+    "apiSlug": "lucario-mega",
+    "isMega": true,
+    "speciesSlug": "lucario",
+    "baseSlug": "lucario",
+    "formType": "mega",
+    "dexNum": "0448",
+    "displayName": "Lucario",
+    "formLabel": "Mega Lucario",
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "abomasnow-mega",
+    "apiSlug": "abomasnow-mega",
+    "isMega": true,
+    "speciesSlug": "abomasnow",
+    "baseSlug": "abomasnow",
+    "formType": "mega",
+    "dexNum": "0460",
+    "displayName": "Abomasnow",
+    "formLabel": "Mega Abomasnow",
+    "types": [
+      "Grass",
+      "Ice"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "gallade-mega",
+    "apiSlug": "gallade-mega",
+    "isMega": true,
+    "speciesSlug": "gallade",
+    "baseSlug": "gallade",
+    "formType": "mega",
+    "dexNum": "0475",
+    "displayName": "Gallade",
+    "formLabel": "Mega Gallade",
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "froslass-mega",
+    "apiSlug": "froslass-mega",
+    "isMega": true,
+    "speciesSlug": "froslass",
+    "baseSlug": "froslass",
+    "formType": "mega",
+    "dexNum": "0478",
+    "displayName": "Froslass",
+    "formLabel": "Mega Froslass",
+    "types": [
+      "Ice",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "emboar-mega",
+    "apiSlug": "emboar-mega",
+    "isMega": true,
+    "speciesSlug": "emboar",
+    "baseSlug": "emboar",
+    "formType": "mega",
+    "dexNum": "0500",
+    "displayName": "Emboar",
+    "formLabel": "Mega Emboar",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "excadrill-mega",
+    "apiSlug": "excadrill-mega",
+    "isMega": true,
+    "speciesSlug": "excadrill",
+    "baseSlug": "excadrill",
+    "formType": "mega",
+    "dexNum": "0530",
+    "displayName": "Excadrill",
+    "formLabel": "Mega Excadrill",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "audino-mega",
+    "apiSlug": "audino-mega",
+    "isMega": true,
+    "speciesSlug": "audino",
+    "baseSlug": "audino",
+    "formType": "mega",
+    "dexNum": "0531",
+    "displayName": "Audino",
+    "formLabel": "Mega Audino",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "scolipede-mega",
+    "apiSlug": "scolipede-mega",
+    "isMega": true,
+    "speciesSlug": "scolipede",
+    "baseSlug": "scolipede",
+    "formType": "mega",
+    "dexNum": "0545",
+    "displayName": "Scolipede",
+    "formLabel": "Mega Scolipede",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "scrafty-mega",
+    "apiSlug": "scrafty-mega",
+    "isMega": true,
+    "speciesSlug": "scrafty",
+    "baseSlug": "scrafty",
+    "formType": "mega",
+    "dexNum": "0560",
+    "displayName": "Scrafty",
+    "formLabel": "Mega Scrafty",
+    "types": [
+      "Dark",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "eelektross-mega",
+    "apiSlug": "eelektross-mega",
+    "isMega": true,
+    "speciesSlug": "eelektross",
+    "baseSlug": "eelektross",
+    "formType": "mega",
+    "dexNum": "0604",
+    "displayName": "Eelektross",
+    "formLabel": "Mega Eelektross",
+    "types": [
+      "Electric"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "chandelure-mega",
+    "apiSlug": "chandelure-mega",
+    "isMega": true,
+    "speciesSlug": "chandelure",
+    "baseSlug": "chandelure",
+    "formType": "mega",
+    "dexNum": "0609",
+    "displayName": "Chandelure",
+    "formLabel": "Mega Chandelure",
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "golurk-mega",
+    "apiSlug": "golurk-mega",
+    "isMega": true,
+    "speciesSlug": "golurk",
+    "baseSlug": "golurk",
+    "formType": "mega",
+    "dexNum": "0623",
+    "displayName": "Golurk",
+    "formLabel": "Mega Golurk",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "chesnaught-mega",
+    "apiSlug": "chesnaught-mega",
+    "isMega": true,
+    "speciesSlug": "chesnaught",
+    "baseSlug": "chesnaught",
+    "formType": "mega",
+    "dexNum": "0652",
+    "displayName": "Chesnaught",
+    "formLabel": "Mega Chesnaught",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "delphox-mega",
+    "apiSlug": "delphox-mega",
+    "isMega": true,
+    "speciesSlug": "delphox",
+    "baseSlug": "delphox",
+    "formType": "mega",
+    "dexNum": "0655",
+    "displayName": "Delphox",
+    "formLabel": "Mega Delphox",
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "greninja-mega",
+    "apiSlug": "greninja-mega",
+    "isMega": true,
+    "speciesSlug": "greninja",
+    "baseSlug": "greninja",
+    "formType": "mega",
+    "dexNum": "0658",
+    "displayName": "Greninja",
+    "formLabel": "Mega Greninja",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "pyroar-mega",
+    "apiSlug": "pyroar-mega",
+    "isMega": true,
+    "speciesSlug": "pyroar",
+    "baseSlug": "pyroar",
+    "formType": "mega",
+    "dexNum": "0668",
+    "displayName": "Pyroar",
+    "formLabel": "Mega Pyroar",
+    "types": [
+      "Fire",
+      "Normal"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "floette-mega",
+    "apiSlug": "floette-mega",
+    "isMega": true,
+    "speciesSlug": "floette",
+    "baseSlug": "floette",
+    "formType": "mega",
+    "dexNum": "0670",
+    "displayName": "Floette",
+    "formLabel": "Mega Floette",
+    "types": [
+      "Fairy"
+    ],
+    "availability": "Event only"
+  },
+  {
+    "slug": "meowstic-mega",
+    "apiSlug": "meowstic-male-mega",
+    "isMega": true,
+    "speciesSlug": "meowstic",
+    "baseSlug": "meowstic",
+    "formType": "mega",
+    "dexNum": "0678",
+    "displayName": "Meowstic",
+    "formLabel": "Mega Meowstic",
+    "types": [
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "malamar-mega",
+    "apiSlug": "malamar-mega",
+    "isMega": true,
+    "speciesSlug": "malamar",
+    "baseSlug": "malamar",
+    "formType": "mega",
+    "dexNum": "0687",
+    "displayName": "Malamar",
+    "formLabel": "Mega Malamar",
+    "types": [
+      "Dark",
+      "Psychic"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "barbaracle-mega",
+    "apiSlug": "barbaracle-mega",
+    "isMega": true,
+    "speciesSlug": "barbaracle",
+    "baseSlug": "barbaracle",
+    "formType": "mega",
+    "dexNum": "0689",
+    "displayName": "Barbaracle",
+    "formLabel": "Mega Barbaracle",
+    "types": [
+      "Rock",
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "dragalge-mega",
+    "apiSlug": "dragalge-mega",
+    "isMega": true,
+    "speciesSlug": "dragalge",
+    "baseSlug": "dragalge",
+    "formType": "mega",
+    "dexNum": "0691",
+    "displayName": "Dragalge",
+    "formLabel": "Mega Dragalge",
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "hawlucha-mega",
+    "apiSlug": "hawlucha-mega",
+    "isMega": true,
+    "speciesSlug": "hawlucha",
+    "baseSlug": "hawlucha",
+    "formType": "mega",
+    "dexNum": "0701",
+    "displayName": "Hawlucha",
+    "formLabel": "Mega Hawlucha",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "crabominable-mega",
+    "apiSlug": "crabominable-mega",
+    "isMega": true,
+    "speciesSlug": "crabominable",
+    "baseSlug": "crabominable",
+    "formType": "mega",
+    "dexNum": "0740",
+    "displayName": "Crabominable",
+    "formLabel": "Mega Crabominable",
+    "types": [
+      "Fighting",
+      "Ice"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "drampa-mega",
+    "apiSlug": "drampa-mega",
+    "isMega": true,
+    "speciesSlug": "drampa",
+    "baseSlug": "drampa",
+    "formType": "mega",
+    "dexNum": "0780",
+    "displayName": "Drampa",
+    "formLabel": "Mega Drampa",
+    "types": [
+      "Normal",
+      "Dragon"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "falinks-mega",
+    "apiSlug": "falinks-mega",
+    "isMega": true,
+    "speciesSlug": "falinks",
+    "baseSlug": "falinks",
+    "formType": "mega",
+    "dexNum": "0870",
+    "displayName": "Falinks",
+    "formLabel": "Mega Falinks",
+    "types": [
+      "Fighting"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "scovillain-mega",
+    "apiSlug": "scovillain-mega",
+    "isMega": true,
+    "speciesSlug": "scovillain",
+    "baseSlug": "scovillain",
+    "formType": "mega",
+    "dexNum": "0952",
+    "displayName": "Scovillain",
+    "formLabel": "Mega Scovillain",
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "availability": "Yes"
+  },
+  {
+    "slug": "glimmora-mega",
+    "apiSlug": "glimmora-mega",
+    "isMega": true,
+    "speciesSlug": "glimmora",
+    "baseSlug": "glimmora",
+    "formType": "mega",
+    "dexNum": "0970",
+    "displayName": "Glimmora",
+    "formLabel": "Mega Glimmora",
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "availability": "Yes"
+  }
+]

@@ -1,0 +1,9259 @@
+[
+  {
+    "slug": "venusaur",
+    "nameKo": "이상해꽃",
+    "nameEn": "Venusaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 82,
+      "def": 83,
+      "spa": 100,
+      "spd": 100,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "overgrow",
+        "nameKo": "심록",
+        "isHidden": false
+      },
+      {
+        "name": "chlorophyll",
+        "nameKo": "엽록소",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "venusaur-mega"
+    ]
+  },
+  {
+    "slug": "venusaur-mega",
+    "nameKo": "이상해꽃(메가진화)",
+    "nameEn": "Venusaur (Mega Venusaur)",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 123,
+      "spa": 122,
+      "spd": 120,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "nameKo": "두꺼운지방",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "venusaur"
+  },
+  {
+    "slug": "charizard",
+    "nameKo": "리자몽",
+    "nameEn": "Charizard",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 84,
+      "def": 78,
+      "spa": 109,
+      "spd": 85,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "blaze",
+        "nameKo": "맹화",
+        "isHidden": false
+      },
+      {
+        "name": "solar-power",
+        "nameKo": "선파워",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "charizard-mega-x",
+      "charizard-mega-y"
+    ]
+  },
+  {
+    "slug": "charizard-mega-x",
+    "nameKo": "리자몽(메가진화X)",
+    "nameEn": "Charizard (Mega Charizard X)",
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 130,
+      "def": 111,
+      "spa": 130,
+      "spd": 85,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "tough-claws",
+        "nameKo": "단단한발톱",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "charizard"
+  },
+  {
+    "slug": "charizard-mega-y",
+    "nameKo": "리자몽(메가진화Y)",
+    "nameEn": "Charizard (Mega Charizard Y)",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 104,
+      "def": 78,
+      "spa": 159,
+      "spd": 115,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "drought",
+        "nameKo": "가뭄",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "charizard"
+  },
+  {
+    "slug": "blastoise",
+    "nameKo": "거북왕",
+    "nameEn": "Blastoise",
+    "types": [
+      "water"
+    ],
+    "baseStats": {
+      "hp": 79,
+      "atk": 83,
+      "def": 100,
+      "spa": 85,
+      "spd": 105,
+      "spe": 78
+    },
+    "abilities": [
+      {
+        "name": "torrent",
+        "nameKo": "급류",
+        "isHidden": false
+      },
+      {
+        "name": "rain-dish",
+        "nameKo": "젖은접시",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "blastoise-mega"
+    ]
+  },
+  {
+    "slug": "blastoise-mega",
+    "nameKo": "거북왕(메가진화)",
+    "nameEn": "Blastoise (Mega Blastoise)",
+    "types": [
+      "water"
+    ],
+    "baseStats": {
+      "hp": 79,
+      "atk": 103,
+      "def": 120,
+      "spa": 135,
+      "spd": 115,
+      "spe": 78
+    },
+    "abilities": [
+      {
+        "name": "mega-launcher",
+        "nameKo": "메가런처",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "blastoise"
+  },
+  {
+    "slug": "beedrill",
+    "nameKo": "독침붕",
+    "nameEn": "Beedrill",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 90,
+      "def": 40,
+      "spa": 45,
+      "spd": 80,
+      "spe": 75
+    },
+    "abilities": [
+      {
+        "name": "swarm",
+        "nameKo": "벌레의알림",
+        "isHidden": false
+      },
+      {
+        "name": "sniper",
+        "nameKo": "스나이퍼",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "beedrill-mega"
+    ]
+  },
+  {
+    "slug": "beedrill-mega",
+    "nameKo": "독침붕(메가진화)",
+    "nameEn": "Beedrill (Mega Beedrill)",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 150,
+      "def": 40,
+      "spa": 15,
+      "spd": 80,
+      "spe": 145
+    },
+    "abilities": [
+      {
+        "name": "adaptability",
+        "nameKo": "적응력",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "beedrill"
+  },
+  {
+    "slug": "pidgeot",
+    "nameKo": "피죤투",
+    "nameEn": "Pidgeot",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 83,
+      "atk": 80,
+      "def": 75,
+      "spa": 70,
+      "spd": 70,
+      "spe": 101
+    },
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "nameKo": "날카로운눈",
+        "isHidden": false
+      },
+      {
+        "name": "tangled-feet",
+        "nameKo": "갈지자걸음",
+        "isHidden": false
+      },
+      {
+        "name": "big-pecks",
+        "nameKo": "부풀린가슴",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "pidgeot-mega"
+    ]
+  },
+  {
+    "slug": "pidgeot-mega",
+    "nameKo": "피죤투(메가진화)",
+    "nameEn": "Pidgeot (Mega Pidgeot)",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 83,
+      "atk": 80,
+      "def": 80,
+      "spa": 135,
+      "spd": 80,
+      "spe": 121
+    },
+    "abilities": [
+      {
+        "name": "no-guard",
+        "nameKo": "노가드",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "pidgeot"
+  },
+  {
+    "slug": "arbok",
+    "nameKo": "아보크",
+    "nameEn": "Arbok",
+    "types": [
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 95,
+      "def": 69,
+      "spa": 65,
+      "spd": 79,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      },
+      {
+        "name": "shed-skin",
+        "nameKo": "탈피",
+        "isHidden": false
+      },
+      {
+        "name": "unnerve",
+        "nameKo": "긴장감",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "pikachu",
+    "nameKo": "피카츄",
+    "nameEn": "Pikachu",
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "hp": 35,
+      "atk": 55,
+      "def": 40,
+      "spa": 50,
+      "spd": 50,
+      "spe": 90
+    },
+    "abilities": [
+      {
+        "name": "static",
+        "nameKo": "정전기",
+        "isHidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "nameKo": "피뢰침",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "raichu",
+    "nameKo": "라이츄",
+    "nameEn": "Raichu",
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 90,
+      "def": 55,
+      "spa": 90,
+      "spd": 80,
+      "spe": 110
+    },
+    "abilities": [
+      {
+        "name": "static",
+        "nameKo": "정전기",
+        "isHidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "nameKo": "피뢰침",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "raichu-mega-x",
+      "raichu-mega-y"
+    ]
+  },
+  {
+    "slug": "raichu-alola",
+    "nameKo": "라이츄(알로라)",
+    "nameEn": "Raichu (Alolan Form)",
+    "types": [
+      "electric",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 85,
+      "def": 50,
+      "spa": 95,
+      "spd": 85,
+      "spe": 110
+    },
+    "abilities": [
+      {
+        "name": "surge-surfer",
+        "nameKo": "서핑테일",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "raichu-mega-x",
+    "nameKo": "라이츄(메가진화X)",
+    "nameEn": "Raichu (Mega Raichu X)",
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 135,
+      "def": 95,
+      "spa": 90,
+      "spd": 95,
+      "spe": 110
+    },
+    "abilities": [
+      {
+        "name": "electric-surge",
+        "nameKo": "일렉트릭메이커",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "raichu"
+  },
+  {
+    "slug": "raichu-mega-y",
+    "nameKo": "라이츄(메가진화Y)",
+    "nameEn": "Raichu (Mega Raichu Y)",
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 55,
+      "spa": 160,
+      "spd": 80,
+      "spe": 130
+    },
+    "abilities": [
+      {
+        "name": "no-guard",
+        "nameKo": "노가드",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "raichu"
+  },
+  {
+    "slug": "clefable",
+    "nameKo": "픽시",
+    "nameEn": "Clefable",
+    "types": [
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 70,
+      "def": 73,
+      "spa": 95,
+      "spd": 90,
+      "spe": 60
+    },
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "nameKo": "헤롱헤롱바디",
+        "isHidden": false
+      },
+      {
+        "name": "magic-guard",
+        "nameKo": "매직가드",
+        "isHidden": false
+      },
+      {
+        "name": "unaware",
+        "nameKo": "천진",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "clefable-mega"
+    ]
+  },
+  {
+    "slug": "clefable-mega",
+    "nameKo": "픽시(메가진화)",
+    "nameEn": "Clefable (Mega Clefable)",
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 80,
+      "def": 93,
+      "spa": 135,
+      "spd": 110,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "magic-bounce",
+        "nameKo": "매직미러",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "clefable"
+  },
+  {
+    "slug": "ninetales",
+    "nameKo": "나인테일",
+    "nameEn": "Ninetales",
+    "types": [
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 73,
+      "atk": 76,
+      "def": 75,
+      "spa": 81,
+      "spd": 100,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "nameKo": "타오르는불꽃",
+        "isHidden": false
+      },
+      {
+        "name": "drought",
+        "nameKo": "가뭄",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "ninetales-alola",
+    "nameKo": "나인테일(알로라)",
+    "nameEn": "Ninetales (Alolan Form)",
+    "types": [
+      "ice",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 73,
+      "atk": 67,
+      "def": 75,
+      "spa": 81,
+      "spd": 100,
+      "spe": 109
+    },
+    "abilities": [
+      {
+        "name": "snow-cloak",
+        "nameKo": "눈숨기",
+        "isHidden": false
+      },
+      {
+        "name": "snow-warning",
+        "nameKo": "눈퍼뜨리기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "vileplume",
+    "nameKo": "라플레시아",
+    "nameEn": "Vileplume",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 80,
+      "def": 85,
+      "spa": 110,
+      "spd": 90,
+      "spe": 50
+    },
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "nameKo": "엽록소",
+        "isHidden": false
+      },
+      {
+        "name": "effect-spore",
+        "nameKo": "포자",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "arcanine",
+    "nameKo": "윈디",
+    "nameEn": "Arcanine",
+    "types": [
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 110,
+      "def": 80,
+      "spa": 100,
+      "spd": 80,
+      "spe": 95
+    },
+    "abilities": [
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      },
+      {
+        "name": "flash-fire",
+        "nameKo": "타오르는불꽃",
+        "isHidden": false
+      },
+      {
+        "name": "justified",
+        "nameKo": "정의의마음",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "arcanine-hisui",
+    "nameKo": "윈디(히스이)",
+    "nameEn": "Arcanine (Hisuian Form)",
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 115,
+      "def": 80,
+      "spa": 95,
+      "spd": 80,
+      "spe": 90
+    },
+    "abilities": [
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      },
+      {
+        "name": "flash-fire",
+        "nameKo": "타오르는불꽃",
+        "isHidden": false
+      },
+      {
+        "name": "rock-head",
+        "nameKo": "돌머리",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "alakazam",
+    "nameKo": "후딘",
+    "nameEn": "Alakazam",
+    "types": [
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "atk": 50,
+      "def": 45,
+      "spa": 135,
+      "spd": 95,
+      "spe": 120
+    },
+    "abilities": [
+      {
+        "name": "synchronize",
+        "nameKo": "싱크로",
+        "isHidden": false
+      },
+      {
+        "name": "inner-focus",
+        "nameKo": "정신력",
+        "isHidden": false
+      },
+      {
+        "name": "magic-guard",
+        "nameKo": "매직가드",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "alakazam-mega"
+    ]
+  },
+  {
+    "slug": "alakazam-mega",
+    "nameKo": "후딘(메가진화)",
+    "nameEn": "Alakazam (Mega Alakazam)",
+    "types": [
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "atk": 50,
+      "def": 65,
+      "spa": 175,
+      "spd": 105,
+      "spe": 150
+    },
+    "abilities": [
+      {
+        "name": "trace",
+        "nameKo": "트레이스",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "alakazam"
+  },
+  {
+    "slug": "machamp",
+    "nameKo": "괴력몬",
+    "nameEn": "Machamp",
+    "types": [
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 130,
+      "def": 80,
+      "spa": 65,
+      "spd": 85,
+      "spe": 55
+    },
+    "abilities": [
+      {
+        "name": "guts",
+        "nameKo": "근성",
+        "isHidden": false
+      },
+      {
+        "name": "no-guard",
+        "nameKo": "노가드",
+        "isHidden": false
+      },
+      {
+        "name": "steadfast",
+        "nameKo": "불굴의마음",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "victreebel",
+    "nameKo": "우츠보트",
+    "nameEn": "Victreebel",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 105,
+      "def": 65,
+      "spa": 100,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "nameKo": "엽록소",
+        "isHidden": false
+      },
+      {
+        "name": "gluttony",
+        "nameKo": "먹보",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "victreebel-mega"
+    ]
+  },
+  {
+    "slug": "victreebel-mega",
+    "nameKo": "우츠보트(메가진화)",
+    "nameEn": "Victreebel (Mega Victreebel)",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 125,
+      "def": 85,
+      "spa": 135,
+      "spd": 95,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "innards-out",
+        "nameKo": "내용물분출",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "victreebel"
+  },
+  {
+    "slug": "slowbro",
+    "nameKo": "야도란",
+    "nameEn": "Slowbro",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 75,
+      "def": 110,
+      "spa": 100,
+      "spd": 80,
+      "spe": 30
+    },
+    "abilities": [
+      {
+        "name": "oblivious",
+        "nameKo": "둔감",
+        "isHidden": false
+      },
+      {
+        "name": "own-tempo",
+        "nameKo": "마이페이스",
+        "isHidden": false
+      },
+      {
+        "name": "regenerator",
+        "nameKo": "재생력",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "slowbro-mega"
+    ]
+  },
+  {
+    "slug": "slowbro-galar",
+    "nameKo": "야도란(가라르)",
+    "nameEn": "Slowbro (Galarian Form)",
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 100,
+      "def": 95,
+      "spa": 100,
+      "spd": 70,
+      "spe": 30
+    },
+    "abilities": [
+      {
+        "name": "quick-draw",
+        "nameKo": "퀵드로",
+        "isHidden": false
+      },
+      {
+        "name": "own-tempo",
+        "nameKo": "마이페이스",
+        "isHidden": false
+      },
+      {
+        "name": "regenerator",
+        "nameKo": "재생력",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "slowbro-mega",
+    "nameKo": "야도란(메가진화)",
+    "nameEn": "Slowbro (Mega Slowbro)",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 75,
+      "def": 180,
+      "spa": 130,
+      "spd": 80,
+      "spe": 30
+    },
+    "abilities": [
+      {
+        "name": "shell-armor",
+        "nameKo": "조가비갑옷",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "slowbro"
+  },
+  {
+    "slug": "gengar",
+    "nameKo": "팬텀",
+    "nameEn": "Gengar",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 65,
+      "def": 60,
+      "spa": 130,
+      "spd": 75,
+      "spe": 110
+    },
+    "abilities": [
+      {
+        "name": "cursed-body",
+        "nameKo": "저주받은바디",
+        "isHidden": false
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "gengar-mega"
+    ]
+  },
+  {
+    "slug": "gengar-mega",
+    "nameKo": "팬텀(메가진화)",
+    "nameEn": "Gengar (Mega Gengar)",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 65,
+      "def": 80,
+      "spa": 170,
+      "spd": 95,
+      "spe": 130
+    },
+    "abilities": [
+      {
+        "name": "shadow-tag",
+        "nameKo": "그림자밟기",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "gengar"
+  },
+  {
+    "slug": "kangaskhan",
+    "nameKo": "캥카",
+    "nameEn": "Kangaskhan",
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 105,
+      "atk": 95,
+      "def": 80,
+      "spa": 40,
+      "spd": 80,
+      "spe": 90
+    },
+    "abilities": [
+      {
+        "name": "early-bird",
+        "nameKo": "일찍기상",
+        "isHidden": false
+      },
+      {
+        "name": "scrappy",
+        "nameKo": "배짱",
+        "isHidden": false
+      },
+      {
+        "name": "inner-focus",
+        "nameKo": "정신력",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "kangaskhan-mega"
+    ]
+  },
+  {
+    "slug": "kangaskhan-mega",
+    "nameKo": "캥카(메가진화)",
+    "nameEn": "Kangaskhan (Mega Kangaskhan)",
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 105,
+      "atk": 125,
+      "def": 100,
+      "spa": 60,
+      "spd": 100,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "parental-bond",
+        "nameKo": "부자유친",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "kangaskhan"
+  },
+  {
+    "slug": "starmie",
+    "nameKo": "아쿠스타",
+    "nameEn": "Starmie",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 75,
+      "def": 85,
+      "spa": 100,
+      "spd": 85,
+      "spe": 115
+    },
+    "abilities": [
+      {
+        "name": "illuminate",
+        "nameKo": "발광",
+        "isHidden": false
+      },
+      {
+        "name": "natural-cure",
+        "nameKo": "자연회복",
+        "isHidden": false
+      },
+      {
+        "name": "analytic",
+        "nameKo": "애널라이즈",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "starmie-mega"
+    ]
+  },
+  {
+    "slug": "starmie-mega",
+    "nameKo": "아쿠스타(메가진화)",
+    "nameEn": "Starmie (Mega Starmie)",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 105,
+      "spa": 130,
+      "spd": 105,
+      "spe": 120
+    },
+    "abilities": [
+      {
+        "name": "huge-power",
+        "nameKo": "천하장사",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "starmie"
+  },
+  {
+    "slug": "pinsir",
+    "nameKo": "쁘사이저",
+    "nameEn": "Pinsir",
+    "types": [
+      "bug"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 125,
+      "def": 100,
+      "spa": 55,
+      "spd": 70,
+      "spe": 85
+    },
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "nameKo": "괴력집게",
+        "isHidden": false
+      },
+      {
+        "name": "mold-breaker",
+        "nameKo": "틀깨기",
+        "isHidden": false
+      },
+      {
+        "name": "moxie",
+        "nameKo": "자기과신",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "pinsir-mega"
+    ]
+  },
+  {
+    "slug": "pinsir-mega",
+    "nameKo": "쁘사이저(메가진화)",
+    "nameEn": "Pinsir (Mega Pinsir)",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 155,
+      "def": 120,
+      "spa": 65,
+      "spd": 90,
+      "spe": 105
+    },
+    "abilities": [
+      {
+        "name": "aerilate",
+        "nameKo": "스카이스킨",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "pinsir"
+  },
+  {
+    "slug": "tauros",
+    "nameKo": "켄타로스",
+    "nameEn": "Tauros",
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 100,
+      "def": 95,
+      "spa": 40,
+      "spd": 70,
+      "spe": 110
+    },
+    "abilities": [
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      },
+      {
+        "name": "anger-point",
+        "nameKo": "분노의경혈",
+        "isHidden": false
+      },
+      {
+        "name": "sheer-force",
+        "nameKo": "우격다짐",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "tauros-paldea-aqua-breed",
+    "nameKo": "켄타로스(팔데아-물)",
+    "nameEn": "Tauros (Paldean Form (Aqua Breed))",
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 110,
+      "def": 105,
+      "spa": 30,
+      "spd": 70,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      },
+      {
+        "name": "anger-point",
+        "nameKo": "분노의경혈",
+        "isHidden": false
+      },
+      {
+        "name": "cud-chew",
+        "nameKo": "되새김질",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "tauros-paldea-blaze-breed",
+    "nameKo": "켄타로스(팔데아-불꽃)",
+    "nameEn": "Tauros (Paldean Form (Blaze Breed))",
+    "types": [
+      "fighting",
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 110,
+      "def": 105,
+      "spa": 30,
+      "spd": 70,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      },
+      {
+        "name": "anger-point",
+        "nameKo": "분노의경혈",
+        "isHidden": false
+      },
+      {
+        "name": "cud-chew",
+        "nameKo": "되새김질",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "tauros-paldea-combat-breed",
+    "nameKo": "켄타로스(팔데아-전투)",
+    "nameEn": "Tauros (Paldean Form (Combat Breed))",
+    "types": [
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 110,
+      "def": 105,
+      "spa": 30,
+      "spd": 70,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      },
+      {
+        "name": "anger-point",
+        "nameKo": "분노의경혈",
+        "isHidden": false
+      },
+      {
+        "name": "cud-chew",
+        "nameKo": "되새김질",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "gyarados",
+    "nameKo": "갸라도스",
+    "nameEn": "Gyarados",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 125,
+      "def": 79,
+      "spa": 60,
+      "spd": 100,
+      "spe": 81
+    },
+    "abilities": [
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      },
+      {
+        "name": "moxie",
+        "nameKo": "자기과신",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "gyarados-mega"
+    ]
+  },
+  {
+    "slug": "gyarados-mega",
+    "nameKo": "갸라도스(메가진화)",
+    "nameEn": "Gyarados (Mega Gyarados)",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 155,
+      "def": 109,
+      "spa": 70,
+      "spd": 130,
+      "spe": 81
+    },
+    "abilities": [
+      {
+        "name": "mold-breaker",
+        "nameKo": "틀깨기",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "gyarados"
+  },
+  {
+    "slug": "ditto",
+    "nameKo": "메타몽",
+    "nameEn": "Ditto",
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 48,
+      "atk": 48,
+      "def": 48,
+      "spa": 48,
+      "spd": 48,
+      "spe": 48
+    },
+    "abilities": [
+      {
+        "name": "limber",
+        "nameKo": "유연",
+        "isHidden": false
+      },
+      {
+        "name": "imposter",
+        "nameKo": "괴짜",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "vaporeon",
+    "nameKo": "샤미드",
+    "nameEn": "Vaporeon",
+    "types": [
+      "water"
+    ],
+    "baseStats": {
+      "hp": 130,
+      "atk": 65,
+      "def": 60,
+      "spa": 110,
+      "spd": 95,
+      "spe": 65
+    },
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "nameKo": "저수",
+        "isHidden": false
+      },
+      {
+        "name": "hydration",
+        "nameKo": "촉촉바디",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "jolteon",
+    "nameKo": "쥬피썬더",
+    "nameEn": "Jolteon",
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 65,
+      "def": 60,
+      "spa": 110,
+      "spd": 95,
+      "spe": 130
+    },
+    "abilities": [
+      {
+        "name": "volt-absorb",
+        "nameKo": "축전",
+        "isHidden": false
+      },
+      {
+        "name": "quick-feet",
+        "nameKo": "속보",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "flareon",
+    "nameKo": "부스터",
+    "nameEn": "Flareon",
+    "types": [
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 130,
+      "def": 60,
+      "spa": 95,
+      "spd": 110,
+      "spe": 65
+    },
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "nameKo": "타오르는불꽃",
+        "isHidden": false
+      },
+      {
+        "name": "guts",
+        "nameKo": "근성",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "aerodactyl",
+    "nameKo": "프테라",
+    "nameEn": "Aerodactyl",
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 105,
+      "def": 65,
+      "spa": 60,
+      "spd": 75,
+      "spe": 130
+    },
+    "abilities": [
+      {
+        "name": "rock-head",
+        "nameKo": "돌머리",
+        "isHidden": false
+      },
+      {
+        "name": "pressure",
+        "nameKo": "프레셔",
+        "isHidden": false
+      },
+      {
+        "name": "unnerve",
+        "nameKo": "긴장감",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "aerodactyl-mega"
+    ]
+  },
+  {
+    "slug": "aerodactyl-mega",
+    "nameKo": "프테라(메가진화)",
+    "nameEn": "Aerodactyl (Mega Aerodactyl)",
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 135,
+      "def": 85,
+      "spa": 70,
+      "spd": 95,
+      "spe": 150
+    },
+    "abilities": [
+      {
+        "name": "tough-claws",
+        "nameKo": "단단한발톱",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "aerodactyl"
+  },
+  {
+    "slug": "snorlax",
+    "nameKo": "잠만보",
+    "nameEn": "Snorlax",
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 160,
+      "atk": 110,
+      "def": 65,
+      "spa": 65,
+      "spd": 110,
+      "spe": 30
+    },
+    "abilities": [
+      {
+        "name": "immunity",
+        "nameKo": "면역",
+        "isHidden": false
+      },
+      {
+        "name": "thick-fat",
+        "nameKo": "두꺼운지방",
+        "isHidden": false
+      },
+      {
+        "name": "gluttony",
+        "nameKo": "먹보",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "dragonite",
+    "nameKo": "망나뇽",
+    "nameEn": "Dragonite",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 91,
+      "atk": 134,
+      "def": 95,
+      "spa": 100,
+      "spd": 100,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "nameKo": "정신력",
+        "isHidden": false
+      },
+      {
+        "name": "multiscale",
+        "nameKo": "멀티스케일",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "dragonite-mega"
+    ]
+  },
+  {
+    "slug": "dragonite-mega",
+    "nameKo": "망나뇽(메가진화)",
+    "nameEn": "Dragonite (Mega Dragonite)",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 91,
+      "atk": 124,
+      "def": 115,
+      "spa": 145,
+      "spd": 125,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "multiscale",
+        "nameKo": "멀티스케일",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "dragonite"
+  },
+  {
+    "slug": "meganium",
+    "nameKo": "메가니움",
+    "nameEn": "Meganium",
+    "types": [
+      "grass"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 82,
+      "def": 100,
+      "spa": 83,
+      "spd": 100,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "overgrow",
+        "nameKo": "심록",
+        "isHidden": false
+      },
+      {
+        "name": "leaf-guard",
+        "nameKo": "리프가드",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "meganium-mega"
+    ]
+  },
+  {
+    "slug": "meganium-mega",
+    "nameKo": "메가니움(메가진화)",
+    "nameEn": "Meganium (Mega Meganium)",
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 92,
+      "def": 115,
+      "spa": 143,
+      "spd": 115,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "mega-sol",
+        "nameKo": "메가솔라",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "meganium"
+  },
+  {
+    "slug": "typhlosion",
+    "nameKo": "블레이범",
+    "nameEn": "Typhlosion",
+    "types": [
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 84,
+      "def": 78,
+      "spa": 109,
+      "spd": 85,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "blaze",
+        "nameKo": "맹화",
+        "isHidden": false
+      },
+      {
+        "name": "flash-fire",
+        "nameKo": "타오르는불꽃",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "typhlosion-hisui",
+    "nameKo": "블레이범(히스이)",
+    "nameEn": "Typhlosion (Hisuian Form)",
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 73,
+      "atk": 84,
+      "def": 78,
+      "spa": 119,
+      "spd": 85,
+      "spe": 95
+    },
+    "abilities": [
+      {
+        "name": "blaze",
+        "nameKo": "맹화",
+        "isHidden": false
+      },
+      {
+        "name": "frisk",
+        "nameKo": "통찰",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "feraligatr",
+    "nameKo": "장크로다일",
+    "nameEn": "Feraligatr",
+    "types": [
+      "water"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 105,
+      "def": 100,
+      "spa": 79,
+      "spd": 83,
+      "spe": 78
+    },
+    "abilities": [
+      {
+        "name": "torrent",
+        "nameKo": "급류",
+        "isHidden": false
+      },
+      {
+        "name": "sheer-force",
+        "nameKo": "우격다짐",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "feraligatr-mega"
+    ]
+  },
+  {
+    "slug": "feraligatr-mega",
+    "nameKo": "장크로다일(메가진화)",
+    "nameEn": "Feraligatr (Mega Feraligatr)",
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 160,
+      "def": 125,
+      "spa": 89,
+      "spd": 93,
+      "spe": 78
+    },
+    "abilities": [
+      {
+        "name": "dragonize",
+        "nameKo": "드래곤스킨",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "feraligatr"
+  },
+  {
+    "slug": "ariados",
+    "nameKo": "아리아도스",
+    "nameEn": "Ariados",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 90,
+      "def": 70,
+      "spa": 60,
+      "spd": 70,
+      "spe": 40
+    },
+    "abilities": [
+      {
+        "name": "swarm",
+        "nameKo": "벌레의알림",
+        "isHidden": false
+      },
+      {
+        "name": "insomnia",
+        "nameKo": "불면",
+        "isHidden": false
+      },
+      {
+        "name": "sniper",
+        "nameKo": "스나이퍼",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "ampharos",
+    "nameKo": "전룡",
+    "nameEn": "Ampharos",
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 75,
+      "def": 85,
+      "spa": 115,
+      "spd": 90,
+      "spe": 55
+    },
+    "abilities": [
+      {
+        "name": "static",
+        "nameKo": "정전기",
+        "isHidden": false
+      },
+      {
+        "name": "plus",
+        "nameKo": "플러스",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "ampharos-mega"
+    ]
+  },
+  {
+    "slug": "ampharos-mega",
+    "nameKo": "전룡(메가진화)",
+    "nameEn": "Ampharos (Mega Ampharos)",
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 95,
+      "def": 105,
+      "spa": 165,
+      "spd": 110,
+      "spe": 45
+    },
+    "abilities": [
+      {
+        "name": "mold-breaker",
+        "nameKo": "틀깨기",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "ampharos"
+  },
+  {
+    "slug": "azumarill",
+    "nameKo": "마릴리",
+    "nameEn": "Azumarill",
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 50,
+      "def": 80,
+      "spa": 60,
+      "spd": 80,
+      "spe": 50
+    },
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "nameKo": "두꺼운지방",
+        "isHidden": false
+      },
+      {
+        "name": "huge-power",
+        "nameKo": "천하장사",
+        "isHidden": false
+      },
+      {
+        "name": "sap-sipper",
+        "nameKo": "초식",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "politoed",
+    "nameKo": "왕구리",
+    "nameEn": "Politoed",
+    "types": [
+      "water"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 75,
+      "def": 75,
+      "spa": 90,
+      "spd": 100,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "nameKo": "저수",
+        "isHidden": false
+      },
+      {
+        "name": "damp",
+        "nameKo": "습기",
+        "isHidden": false
+      },
+      {
+        "name": "drizzle",
+        "nameKo": "잔비",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "espeon",
+    "nameKo": "에브이",
+    "nameEn": "Espeon",
+    "types": [
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 65,
+      "def": 60,
+      "spa": 130,
+      "spd": 95,
+      "spe": 110
+    },
+    "abilities": [
+      {
+        "name": "synchronize",
+        "nameKo": "싱크로",
+        "isHidden": false
+      },
+      {
+        "name": "magic-bounce",
+        "nameKo": "매직미러",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "umbreon",
+    "nameKo": "블래키",
+    "nameEn": "Umbreon",
+    "types": [
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 65,
+      "def": 110,
+      "spa": 60,
+      "spd": 130,
+      "spe": 65
+    },
+    "abilities": [
+      {
+        "name": "synchronize",
+        "nameKo": "싱크로",
+        "isHidden": false
+      },
+      {
+        "name": "inner-focus",
+        "nameKo": "정신력",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "slowking",
+    "nameKo": "야도킹",
+    "nameEn": "Slowking",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 75,
+      "def": 80,
+      "spa": 100,
+      "spd": 110,
+      "spe": 30
+    },
+    "abilities": [
+      {
+        "name": "oblivious",
+        "nameKo": "둔감",
+        "isHidden": false
+      },
+      {
+        "name": "own-tempo",
+        "nameKo": "마이페이스",
+        "isHidden": false
+      },
+      {
+        "name": "regenerator",
+        "nameKo": "재생력",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "slowking-galar",
+    "nameKo": "야도킹(가라르)",
+    "nameEn": "Slowking (Galarian Form)",
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 65,
+      "def": 80,
+      "spa": 110,
+      "spd": 110,
+      "spe": 30
+    },
+    "abilities": [
+      {
+        "name": "curious-medicine",
+        "nameKo": "기묘한약",
+        "isHidden": false
+      },
+      {
+        "name": "own-tempo",
+        "nameKo": "마이페이스",
+        "isHidden": false
+      },
+      {
+        "name": "regenerator",
+        "nameKo": "재생력",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "forretress",
+    "nameKo": "쏘콘",
+    "nameEn": "Forretress",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 90,
+      "def": 140,
+      "spa": 60,
+      "spd": 60,
+      "spe": 40
+    },
+    "abilities": [
+      {
+        "name": "sturdy",
+        "nameKo": "옹골참",
+        "isHidden": false
+      },
+      {
+        "name": "overcoat",
+        "nameKo": "방진",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "steelix",
+    "nameKo": "강철톤",
+    "nameEn": "Steelix",
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 85,
+      "def": 200,
+      "spa": 55,
+      "spd": 65,
+      "spe": 30
+    },
+    "abilities": [
+      {
+        "name": "rock-head",
+        "nameKo": "돌머리",
+        "isHidden": false
+      },
+      {
+        "name": "sturdy",
+        "nameKo": "옹골참",
+        "isHidden": false
+      },
+      {
+        "name": "sheer-force",
+        "nameKo": "우격다짐",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "steelix-mega"
+    ]
+  },
+  {
+    "slug": "steelix-mega",
+    "nameKo": "강철톤(메가진화)",
+    "nameEn": "Steelix (Mega Steelix)",
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 125,
+      "def": 230,
+      "spa": 55,
+      "spd": 95,
+      "spe": 30
+    },
+    "abilities": [
+      {
+        "name": "sand-force",
+        "nameKo": "모래의힘",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "steelix"
+  },
+  {
+    "slug": "qwilfish",
+    "nameKo": "침바루",
+    "nameEn": "Qwilfish",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 95,
+      "def": 85,
+      "spa": 55,
+      "spd": 55,
+      "spe": 85
+    },
+    "abilities": [
+      {
+        "name": "poison-point",
+        "nameKo": "독가시",
+        "isHidden": false
+      },
+      {
+        "name": "swift-swim",
+        "nameKo": "쓱쓱",
+        "isHidden": false
+      },
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "scizor",
+    "nameKo": "핫삼",
+    "nameEn": "Scizor",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 130,
+      "def": 100,
+      "spa": 55,
+      "spd": 80,
+      "spe": 65
+    },
+    "abilities": [
+      {
+        "name": "swarm",
+        "nameKo": "벌레의알림",
+        "isHidden": false
+      },
+      {
+        "name": "technician",
+        "nameKo": "테크니션",
+        "isHidden": false
+      },
+      {
+        "name": "light-metal",
+        "nameKo": "라이트메탈",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "scizor-mega"
+    ]
+  },
+  {
+    "slug": "scizor-mega",
+    "nameKo": "핫삼(메가진화)",
+    "nameEn": "Scizor (Mega Scizor)",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 150,
+      "def": 140,
+      "spa": 65,
+      "spd": 100,
+      "spe": 75
+    },
+    "abilities": [
+      {
+        "name": "technician",
+        "nameKo": "테크니션",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "scizor"
+  },
+  {
+    "slug": "heracross",
+    "nameKo": "헤라크로스",
+    "nameEn": "Heracross",
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 125,
+      "def": 75,
+      "spa": 40,
+      "spd": 95,
+      "spe": 85
+    },
+    "abilities": [
+      {
+        "name": "swarm",
+        "nameKo": "벌레의알림",
+        "isHidden": false
+      },
+      {
+        "name": "guts",
+        "nameKo": "근성",
+        "isHidden": false
+      },
+      {
+        "name": "moxie",
+        "nameKo": "자기과신",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "heracross-mega"
+    ]
+  },
+  {
+    "slug": "heracross-mega",
+    "nameKo": "헤라크로스(메가진화)",
+    "nameEn": "Heracross (Mega Heracross)",
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 185,
+      "def": 115,
+      "spa": 40,
+      "spd": 105,
+      "spe": 75
+    },
+    "abilities": [
+      {
+        "name": "skill-link",
+        "nameKo": "스킬링크",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "heracross"
+  },
+  {
+    "slug": "skarmory",
+    "nameKo": "무장조",
+    "nameEn": "Skarmory",
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 80,
+      "def": 140,
+      "spa": 40,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "nameKo": "날카로운눈",
+        "isHidden": false
+      },
+      {
+        "name": "sturdy",
+        "nameKo": "옹골참",
+        "isHidden": false
+      },
+      {
+        "name": "weak-armor",
+        "nameKo": "깨어진갑옷",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "skarmory-mega"
+    ]
+  },
+  {
+    "slug": "skarmory-mega",
+    "nameKo": "무장조(메가진화)",
+    "nameEn": "Skarmory (Mega Skarmory)",
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 140,
+      "def": 110,
+      "spa": 40,
+      "spd": 100,
+      "spe": 110
+    },
+    "abilities": [
+      {
+        "name": "stalwart",
+        "nameKo": "굳건한신념",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "skarmory"
+  },
+  {
+    "slug": "houndoom",
+    "nameKo": "헬가",
+    "nameEn": "Houndoom",
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 90,
+      "def": 50,
+      "spa": 110,
+      "spd": 80,
+      "spe": 95
+    },
+    "abilities": [
+      {
+        "name": "early-bird",
+        "nameKo": "일찍기상",
+        "isHidden": false
+      },
+      {
+        "name": "flash-fire",
+        "nameKo": "타오르는불꽃",
+        "isHidden": false
+      },
+      {
+        "name": "unnerve",
+        "nameKo": "긴장감",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "houndoom-mega"
+    ]
+  },
+  {
+    "slug": "houndoom-mega",
+    "nameKo": "헬가(메가진화)",
+    "nameEn": "Houndoom (Mega Houndoom)",
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 90,
+      "def": 90,
+      "spa": 140,
+      "spd": 90,
+      "spe": 115
+    },
+    "abilities": [
+      {
+        "name": "solar-power",
+        "nameKo": "선파워",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "houndoom"
+  },
+  {
+    "slug": "tyranitar",
+    "nameKo": "마기라스",
+    "nameEn": "Tyranitar",
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 134,
+      "def": 110,
+      "spa": 95,
+      "spd": 100,
+      "spe": 61
+    },
+    "abilities": [
+      {
+        "name": "sand-stream",
+        "nameKo": "모래날림",
+        "isHidden": false
+      },
+      {
+        "name": "unnerve",
+        "nameKo": "긴장감",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "tyranitar-mega"
+    ]
+  },
+  {
+    "slug": "tyranitar-mega",
+    "nameKo": "마기라스(메가진화)",
+    "nameEn": "Tyranitar (Mega Tyranitar)",
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 164,
+      "def": 150,
+      "spa": 95,
+      "spd": 120,
+      "spe": 71
+    },
+    "abilities": [
+      {
+        "name": "sand-stream",
+        "nameKo": "모래날림",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "tyranitar"
+  },
+  {
+    "slug": "sceptile",
+    "nameKo": "나무킹",
+    "nameEn": "Sceptile",
+    "types": [
+      "grass"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 65,
+      "spa": 105,
+      "spd": 85,
+      "spe": 120
+    },
+    "abilities": [
+      {
+        "name": "overgrow",
+        "nameKo": "심록",
+        "isHidden": false
+      },
+      {
+        "name": "unburden",
+        "nameKo": "곡예",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "sceptile-mega"
+    ]
+  },
+  {
+    "slug": "sceptile-mega",
+    "nameKo": "나무킹(메가진화)",
+    "nameEn": "Sceptile (Mega Sceptile)",
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 110,
+      "def": 75,
+      "spa": 145,
+      "spd": 85,
+      "spe": 145
+    },
+    "abilities": [
+      {
+        "name": "lightning-rod",
+        "nameKo": "피뢰침",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "sceptile"
+  },
+  {
+    "slug": "blaziken",
+    "nameKo": "번치코",
+    "nameEn": "Blaziken",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 70,
+      "spa": 110,
+      "spd": 70,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "blaze",
+        "nameKo": "맹화",
+        "isHidden": false
+      },
+      {
+        "name": "speed-boost",
+        "nameKo": "가속",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "blaziken-mega"
+    ]
+  },
+  {
+    "slug": "blaziken-mega",
+    "nameKo": "번치코(메가진화)",
+    "nameEn": "Blaziken (Mega Blaziken)",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 160,
+      "def": 80,
+      "spa": 130,
+      "spd": 80,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "speed-boost",
+        "nameKo": "가속",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "blaziken"
+  },
+  {
+    "slug": "swampert",
+    "nameKo": "대짱이",
+    "nameEn": "Swampert",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 110,
+      "def": 90,
+      "spa": 85,
+      "spd": 90,
+      "spe": 60
+    },
+    "abilities": [
+      {
+        "name": "torrent",
+        "nameKo": "급류",
+        "isHidden": false
+      },
+      {
+        "name": "damp",
+        "nameKo": "습기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "swampert-mega"
+    ]
+  },
+  {
+    "slug": "swampert-mega",
+    "nameKo": "대짱이(메가진화)",
+    "nameEn": "Swampert (Mega Swampert)",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 150,
+      "def": 110,
+      "spa": 95,
+      "spd": 110,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "nameKo": "쓱쓱",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "swampert"
+  },
+  {
+    "slug": "pelipper",
+    "nameKo": "패리퍼",
+    "nameEn": "Pelipper",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 100,
+      "spa": 95,
+      "spd": 70,
+      "spe": 65
+    },
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "nameKo": "날카로운눈",
+        "isHidden": false
+      },
+      {
+        "name": "drizzle",
+        "nameKo": "잔비",
+        "isHidden": false
+      },
+      {
+        "name": "rain-dish",
+        "nameKo": "젖은접시",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "gardevoir",
+    "nameKo": "가디안",
+    "nameEn": "Gardevoir",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 65,
+      "def": 65,
+      "spa": 125,
+      "spd": 115,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "synchronize",
+        "nameKo": "싱크로",
+        "isHidden": false
+      },
+      {
+        "name": "trace",
+        "nameKo": "트레이스",
+        "isHidden": false
+      },
+      {
+        "name": "telepathy",
+        "nameKo": "텔레파시",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "gardevoir-mega"
+    ]
+  },
+  {
+    "slug": "gardevoir-mega",
+    "nameKo": "가디안(메가진화)",
+    "nameEn": "Gardevoir (Mega Gardevoir)",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 85,
+      "def": 65,
+      "spa": 165,
+      "spd": 135,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "pixilate",
+        "nameKo": "페어리스킨",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "gardevoir"
+  },
+  {
+    "slug": "sableye",
+    "nameKo": "깜까미",
+    "nameEn": "Sableye",
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 75,
+      "def": 75,
+      "spa": 65,
+      "spd": 65,
+      "spe": 50
+    },
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "nameKo": "날카로운눈",
+        "isHidden": false
+      },
+      {
+        "name": "stall",
+        "nameKo": "시간벌기",
+        "isHidden": false
+      },
+      {
+        "name": "prankster",
+        "nameKo": "짓궂은마음",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "sableye-mega"
+    ]
+  },
+  {
+    "slug": "sableye-mega",
+    "nameKo": "깜까미(메가진화)",
+    "nameEn": "Sableye (Mega Sableye)",
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 85,
+      "def": 125,
+      "spa": 85,
+      "spd": 115,
+      "spe": 20
+    },
+    "abilities": [
+      {
+        "name": "magic-bounce",
+        "nameKo": "매직미러",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "sableye"
+  },
+  {
+    "slug": "mawile",
+    "nameKo": "입치트",
+    "nameEn": "Mawile",
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 85,
+      "def": 85,
+      "spa": 55,
+      "spd": 55,
+      "spe": 50
+    },
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "nameKo": "괴력집게",
+        "isHidden": false
+      },
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      },
+      {
+        "name": "sheer-force",
+        "nameKo": "우격다짐",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "mawile-mega"
+    ]
+  },
+  {
+    "slug": "mawile-mega",
+    "nameKo": "입치트(메가진화)",
+    "nameEn": "Mawile (Mega Mawile)",
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 105,
+      "def": 125,
+      "spa": 55,
+      "spd": 95,
+      "spe": 50
+    },
+    "abilities": [
+      {
+        "name": "huge-power",
+        "nameKo": "천하장사",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "mawile"
+  },
+  {
+    "slug": "aggron",
+    "nameKo": "보스로라",
+    "nameEn": "Aggron",
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 110,
+      "def": 180,
+      "spa": 60,
+      "spd": 60,
+      "spe": 50
+    },
+    "abilities": [
+      {
+        "name": "sturdy",
+        "nameKo": "옹골참",
+        "isHidden": false
+      },
+      {
+        "name": "rock-head",
+        "nameKo": "돌머리",
+        "isHidden": false
+      },
+      {
+        "name": "heavy-metal",
+        "nameKo": "헤비메탈",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "aggron-mega"
+    ]
+  },
+  {
+    "slug": "aggron-mega",
+    "nameKo": "보스로라(메가진화)",
+    "nameEn": "Aggron (Mega Aggron)",
+    "types": [
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 140,
+      "def": 230,
+      "spa": 60,
+      "spd": 80,
+      "spe": 50
+    },
+    "abilities": [
+      {
+        "name": "filter",
+        "nameKo": "필터",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "aggron"
+  },
+  {
+    "slug": "medicham",
+    "nameKo": "요가램",
+    "nameEn": "Medicham",
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 60,
+      "def": 75,
+      "spa": 60,
+      "spd": 75,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "pure-power",
+        "nameKo": "순수한힘",
+        "isHidden": false
+      },
+      {
+        "name": "telepathy",
+        "nameKo": "텔레파시",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "medicham-mega"
+    ]
+  },
+  {
+    "slug": "medicham-mega",
+    "nameKo": "요가램(메가진화)",
+    "nameEn": "Medicham (Mega Medicham)",
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 85,
+      "spa": 80,
+      "spd": 85,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "pure-power",
+        "nameKo": "순수한힘",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "medicham"
+  },
+  {
+    "slug": "manectric",
+    "nameKo": "썬더볼트",
+    "nameEn": "Manectric",
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 75,
+      "def": 60,
+      "spa": 105,
+      "spd": 60,
+      "spe": 105
+    },
+    "abilities": [
+      {
+        "name": "static",
+        "nameKo": "정전기",
+        "isHidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "nameKo": "피뢰침",
+        "isHidden": false
+      },
+      {
+        "name": "minus",
+        "nameKo": "마이너스",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "manectric-mega"
+    ]
+  },
+  {
+    "slug": "manectric-mega",
+    "nameKo": "썬더볼트(메가진화)",
+    "nameEn": "Manectric (Mega Manectric)",
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 75,
+      "def": 80,
+      "spa": 135,
+      "spd": 80,
+      "spe": 135
+    },
+    "abilities": [
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "manectric"
+  },
+  {
+    "slug": "sharpedo",
+    "nameKo": "샤크니아",
+    "nameEn": "Sharpedo",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 120,
+      "def": 40,
+      "spa": 95,
+      "spd": 40,
+      "spe": 95
+    },
+    "abilities": [
+      {
+        "name": "rough-skin",
+        "nameKo": "까칠한피부",
+        "isHidden": false
+      },
+      {
+        "name": "speed-boost",
+        "nameKo": "가속",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "sharpedo-mega"
+    ]
+  },
+  {
+    "slug": "sharpedo-mega",
+    "nameKo": "샤크니아(메가진화)",
+    "nameEn": "Sharpedo (Mega Sharpedo)",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 140,
+      "def": 70,
+      "spa": 110,
+      "spd": 65,
+      "spe": 105
+    },
+    "abilities": [
+      {
+        "name": "strong-jaw",
+        "nameKo": "옹골찬턱",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "sharpedo"
+  },
+  {
+    "slug": "camerupt",
+    "nameKo": "폭타",
+    "nameEn": "Camerupt",
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 100,
+      "def": 70,
+      "spa": 105,
+      "spd": 75,
+      "spe": 40
+    },
+    "abilities": [
+      {
+        "name": "magma-armor",
+        "nameKo": "마그마의무장",
+        "isHidden": false
+      },
+      {
+        "name": "solid-rock",
+        "nameKo": "하드록",
+        "isHidden": false
+      },
+      {
+        "name": "anger-point",
+        "nameKo": "분노의경혈",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "camerupt-mega"
+    ]
+  },
+  {
+    "slug": "camerupt-mega",
+    "nameKo": "폭타(메가진화)",
+    "nameEn": "Camerupt (Mega Camerupt)",
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 120,
+      "def": 100,
+      "spa": 145,
+      "spd": 105,
+      "spe": 20
+    },
+    "abilities": [
+      {
+        "name": "sheer-force",
+        "nameKo": "우격다짐",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "camerupt"
+  },
+  {
+    "slug": "torkoal",
+    "nameKo": "코터스",
+    "nameEn": "Torkoal",
+    "types": [
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 140,
+      "spa": 85,
+      "spd": 70,
+      "spe": 20
+    },
+    "abilities": [
+      {
+        "name": "white-smoke",
+        "nameKo": "하얀연기",
+        "isHidden": false
+      },
+      {
+        "name": "drought",
+        "nameKo": "가뭄",
+        "isHidden": false
+      },
+      {
+        "name": "shell-armor",
+        "nameKo": "조가비갑옷",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "altaria",
+    "nameKo": "파비코리",
+    "nameEn": "Altaria",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 70,
+      "def": 90,
+      "spa": 70,
+      "spd": 105,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "nameKo": "자연회복",
+        "isHidden": false
+      },
+      {
+        "name": "cloud-nine",
+        "nameKo": "날씨부정",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "altaria-mega"
+    ]
+  },
+  {
+    "slug": "altaria-mega",
+    "nameKo": "파비코리(메가진화)",
+    "nameEn": "Altaria (Mega Altaria)",
+    "types": [
+      "dragon",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 110,
+      "def": 110,
+      "spa": 110,
+      "spd": 105,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "pixilate",
+        "nameKo": "페어리스킨",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "altaria"
+  },
+  {
+    "slug": "milotic",
+    "nameKo": "밀로틱",
+    "nameEn": "Milotic",
+    "types": [
+      "water"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 60,
+      "def": 79,
+      "spa": 100,
+      "spd": 125,
+      "spe": 81
+    },
+    "abilities": [
+      {
+        "name": "marvel-scale",
+        "nameKo": "이상한비늘",
+        "isHidden": false
+      },
+      {
+        "name": "competitive",
+        "nameKo": "승기",
+        "isHidden": false
+      },
+      {
+        "name": "cute-charm",
+        "nameKo": "헤롱헤롱바디",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "castform",
+    "nameKo": "캐스퐁",
+    "nameEn": "Castform",
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 70,
+      "def": 70,
+      "spa": 70,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "forecast",
+        "nameKo": "기분파",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "banette",
+    "nameKo": "다크펫",
+    "nameEn": "Banette",
+    "types": [
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 64,
+      "atk": 115,
+      "def": 65,
+      "spa": 83,
+      "spd": 63,
+      "spe": 65
+    },
+    "abilities": [
+      {
+        "name": "insomnia",
+        "nameKo": "불면",
+        "isHidden": false
+      },
+      {
+        "name": "frisk",
+        "nameKo": "통찰",
+        "isHidden": false
+      },
+      {
+        "name": "cursed-body",
+        "nameKo": "저주받은바디",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "banette-mega"
+    ]
+  },
+  {
+    "slug": "banette-mega",
+    "nameKo": "다크펫(메가진화)",
+    "nameEn": "Banette (Mega Banette)",
+    "types": [
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 64,
+      "atk": 165,
+      "def": 75,
+      "spa": 93,
+      "spd": 83,
+      "spe": 75
+    },
+    "abilities": [
+      {
+        "name": "prankster",
+        "nameKo": "짓궂은마음",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "banette"
+  },
+  {
+    "slug": "chimecho",
+    "nameKo": "치렁",
+    "nameEn": "Chimecho",
+    "types": [
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 50,
+      "def": 80,
+      "spa": 95,
+      "spd": 90,
+      "spe": 65
+    },
+    "abilities": [
+      {
+        "name": "levitate",
+        "nameKo": "부유",
+        "isHidden": false
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "chimecho-mega"
+    ]
+  },
+  {
+    "slug": "chimecho-mega",
+    "nameKo": "치렁(메가진화)",
+    "nameEn": "Chimecho (Mega Chimecho)",
+    "types": [
+      "psychic",
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 50,
+      "def": 110,
+      "spa": 135,
+      "spd": 120,
+      "spe": 65
+    },
+    "abilities": [
+      {
+        "name": "levitate",
+        "nameKo": "부유",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "chimecho"
+  },
+  {
+    "slug": "absol",
+    "nameKo": "앱솔",
+    "nameEn": "Absol",
+    "types": [
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 130,
+      "def": 60,
+      "spa": 75,
+      "spd": 60,
+      "spe": 75
+    },
+    "abilities": [
+      {
+        "name": "pressure",
+        "nameKo": "프레셔",
+        "isHidden": false
+      },
+      {
+        "name": "super-luck",
+        "nameKo": "대운",
+        "isHidden": false
+      },
+      {
+        "name": "justified",
+        "nameKo": "정의의마음",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "absol-mega"
+    ]
+  },
+  {
+    "slug": "absol-mega",
+    "nameKo": "앱솔(메가진화)",
+    "nameEn": "Absol (Mega Absol)",
+    "types": [
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 150,
+      "def": 60,
+      "spa": 115,
+      "spd": 60,
+      "spe": 115
+    },
+    "abilities": [
+      {
+        "name": "magic-bounce",
+        "nameKo": "매직미러",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "absol"
+  },
+  {
+    "slug": "glalie",
+    "nameKo": "얼음귀신",
+    "nameEn": "Glalie",
+    "types": [
+      "ice"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 80,
+      "def": 80,
+      "spa": 80,
+      "spd": 80,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "nameKo": "정신력",
+        "isHidden": false
+      },
+      {
+        "name": "ice-body",
+        "nameKo": "아이스바디",
+        "isHidden": false
+      },
+      {
+        "name": "moody",
+        "nameKo": "변덕쟁이",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "glalie-mega"
+    ]
+  },
+  {
+    "slug": "glalie-mega",
+    "nameKo": "얼음귀신(메가진화)",
+    "nameEn": "Glalie (Mega Glalie)",
+    "types": [
+      "ice"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 80,
+      "spa": 120,
+      "spd": 80,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "refrigerate",
+        "nameKo": "프리즈스킨",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "glalie"
+  },
+  {
+    "slug": "metagross",
+    "nameKo": "메타그로스",
+    "nameEn": "Metagross",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 135,
+      "def": 130,
+      "spa": 95,
+      "spd": 90,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "clear-body",
+        "nameKo": "클리어바디",
+        "isHidden": false
+      },
+      {
+        "name": "light-metal",
+        "nameKo": "라이트메탈",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "metagross-mega"
+    ]
+  },
+  {
+    "slug": "metagross-mega",
+    "nameKo": "메타그로스(메가진화)",
+    "nameEn": "Metagross (Mega Metagross)",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 145,
+      "def": 150,
+      "spa": 105,
+      "spd": 110,
+      "spe": 110
+    },
+    "abilities": [
+      {
+        "name": "tough-claws",
+        "nameKo": "단단한발톱",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "metagross"
+  },
+  {
+    "slug": "torterra",
+    "nameKo": "토대부기",
+    "nameEn": "Torterra",
+    "types": [
+      "grass",
+      "ground"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 109,
+      "def": 105,
+      "spa": 75,
+      "spd": 85,
+      "spe": 56
+    },
+    "abilities": [
+      {
+        "name": "overgrow",
+        "nameKo": "심록",
+        "isHidden": false
+      },
+      {
+        "name": "shell-armor",
+        "nameKo": "조가비갑옷",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "infernape",
+    "nameKo": "초염몽",
+    "nameEn": "Infernape",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 76,
+      "atk": 104,
+      "def": 71,
+      "spa": 104,
+      "spd": 71,
+      "spe": 108
+    },
+    "abilities": [
+      {
+        "name": "blaze",
+        "nameKo": "맹화",
+        "isHidden": false
+      },
+      {
+        "name": "iron-fist",
+        "nameKo": "철주먹",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "empoleon",
+    "nameKo": "엠페르트",
+    "nameEn": "Empoleon",
+    "types": [
+      "water",
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 84,
+      "atk": 86,
+      "def": 88,
+      "spa": 111,
+      "spd": 101,
+      "spe": 60
+    },
+    "abilities": [
+      {
+        "name": "torrent",
+        "nameKo": "급류",
+        "isHidden": false
+      },
+      {
+        "name": "competitive",
+        "nameKo": "승기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "staraptor",
+    "nameKo": "찌르호크",
+    "nameEn": "Staraptor",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 120,
+      "def": 70,
+      "spa": 50,
+      "spd": 60,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      },
+      {
+        "name": "reckless",
+        "nameKo": "이판사판",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "staraptor-mega"
+    ]
+  },
+  {
+    "slug": "staraptor-mega",
+    "nameKo": "찌르호크(메가진화)",
+    "nameEn": "Staraptor (Mega Staraptor)",
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 140,
+      "def": 100,
+      "spa": 60,
+      "spd": 90,
+      "spe": 110
+    },
+    "abilities": [
+      {
+        "name": "contrary",
+        "nameKo": "심술꾸러기",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "staraptor"
+  },
+  {
+    "slug": "luxray",
+    "nameKo": "렌트라",
+    "nameEn": "Luxray",
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 79,
+      "spa": 95,
+      "spd": 79,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "rivalry",
+        "nameKo": "투쟁심",
+        "isHidden": false
+      },
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      },
+      {
+        "name": "guts",
+        "nameKo": "근성",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "roserade",
+    "nameKo": "로즈레이드",
+    "nameEn": "Roserade",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 70,
+      "def": 65,
+      "spa": 125,
+      "spd": 105,
+      "spe": 90
+    },
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "nameKo": "자연회복",
+        "isHidden": false
+      },
+      {
+        "name": "poison-point",
+        "nameKo": "독가시",
+        "isHidden": false
+      },
+      {
+        "name": "technician",
+        "nameKo": "테크니션",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "rampardos",
+    "nameKo": "램펄드",
+    "nameEn": "Rampardos",
+    "types": [
+      "rock"
+    ],
+    "baseStats": {
+      "hp": 97,
+      "atk": 165,
+      "def": 60,
+      "spa": 65,
+      "spd": 50,
+      "spe": 58
+    },
+    "abilities": [
+      {
+        "name": "mold-breaker",
+        "nameKo": "틀깨기",
+        "isHidden": false
+      },
+      {
+        "name": "sheer-force",
+        "nameKo": "우격다짐",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "bastiodon",
+    "nameKo": "바리톱스",
+    "nameEn": "Bastiodon",
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 52,
+      "def": 168,
+      "spa": 47,
+      "spd": 138,
+      "spe": 30
+    },
+    "abilities": [
+      {
+        "name": "sturdy",
+        "nameKo": "옹골참",
+        "isHidden": false
+      },
+      {
+        "name": "soundproof",
+        "nameKo": "방음",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "lopunny",
+    "nameKo": "이어롭",
+    "nameEn": "Lopunny",
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 76,
+      "def": 84,
+      "spa": 54,
+      "spd": 96,
+      "spe": 105
+    },
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "nameKo": "헤롱헤롱바디",
+        "isHidden": false
+      },
+      {
+        "name": "klutz",
+        "nameKo": "서투름",
+        "isHidden": false
+      },
+      {
+        "name": "limber",
+        "nameKo": "유연",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "lopunny-mega"
+    ]
+  },
+  {
+    "slug": "lopunny-mega",
+    "nameKo": "이어롭(메가진화)",
+    "nameEn": "Lopunny (Mega Lopunny)",
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 136,
+      "def": 94,
+      "spa": 54,
+      "spd": 96,
+      "spe": 135
+    },
+    "abilities": [
+      {
+        "name": "scrappy",
+        "nameKo": "배짱",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "lopunny"
+  },
+  {
+    "slug": "spiritomb",
+    "nameKo": "화강돌",
+    "nameEn": "Spiritomb",
+    "types": [
+      "ghost",
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 92,
+      "def": 108,
+      "spa": 92,
+      "spd": 108,
+      "spe": 35
+    },
+    "abilities": [
+      {
+        "name": "pressure",
+        "nameKo": "프레셔",
+        "isHidden": false
+      },
+      {
+        "name": "infiltrator",
+        "nameKo": "틈새포착",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "garchomp",
+    "nameKo": "한카리아스",
+    "nameEn": "Garchomp",
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "baseStats": {
+      "hp": 108,
+      "atk": 130,
+      "def": 95,
+      "spa": 80,
+      "spd": 85,
+      "spe": 102
+    },
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "nameKo": "모래숨기",
+        "isHidden": false
+      },
+      {
+        "name": "rough-skin",
+        "nameKo": "까칠한피부",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "garchomp-mega"
+    ]
+  },
+  {
+    "slug": "garchomp-mega",
+    "nameKo": "한카리아스(메가진화)",
+    "nameEn": "Garchomp (Mega Garchomp)",
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "baseStats": {
+      "hp": 108,
+      "atk": 170,
+      "def": 115,
+      "spa": 120,
+      "spd": 95,
+      "spe": 92
+    },
+    "abilities": [
+      {
+        "name": "sand-force",
+        "nameKo": "모래의힘",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "garchomp"
+  },
+  {
+    "slug": "lucario",
+    "nameKo": "루카리오",
+    "nameEn": "Lucario",
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 110,
+      "def": 70,
+      "spa": 115,
+      "spd": 70,
+      "spe": 90
+    },
+    "abilities": [
+      {
+        "name": "steadfast",
+        "nameKo": "불굴의마음",
+        "isHidden": false
+      },
+      {
+        "name": "inner-focus",
+        "nameKo": "정신력",
+        "isHidden": false
+      },
+      {
+        "name": "justified",
+        "nameKo": "정의의마음",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "lucario-mega"
+    ]
+  },
+  {
+    "slug": "lucario-mega",
+    "nameKo": "루카리오(메가진화)",
+    "nameEn": "Lucario (Mega Lucario)",
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 145,
+      "def": 88,
+      "spa": 140,
+      "spd": 70,
+      "spe": 112
+    },
+    "abilities": [
+      {
+        "name": "adaptability",
+        "nameKo": "적응력",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "lucario"
+  },
+  {
+    "slug": "hippowdon",
+    "nameKo": "하마돈",
+    "nameEn": "Hippowdon",
+    "types": [
+      "ground"
+    ],
+    "baseStats": {
+      "hp": 108,
+      "atk": 112,
+      "def": 118,
+      "spa": 68,
+      "spd": 72,
+      "spe": 47
+    },
+    "abilities": [
+      {
+        "name": "sand-stream",
+        "nameKo": "모래날림",
+        "isHidden": false
+      },
+      {
+        "name": "sand-force",
+        "nameKo": "모래의힘",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "toxicroak",
+    "nameKo": "독개굴",
+    "nameEn": "Toxicroak",
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 83,
+      "atk": 106,
+      "def": 65,
+      "spa": 86,
+      "spd": 65,
+      "spe": 85
+    },
+    "abilities": [
+      {
+        "name": "anticipation",
+        "nameKo": "위험예지",
+        "isHidden": false
+      },
+      {
+        "name": "dry-skin",
+        "nameKo": "건조피부",
+        "isHidden": false
+      },
+      {
+        "name": "poison-touch",
+        "nameKo": "독수",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "abomasnow",
+    "nameKo": "눈설왕",
+    "nameEn": "Abomasnow",
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 92,
+      "def": 75,
+      "spa": 92,
+      "spd": 85,
+      "spe": 60
+    },
+    "abilities": [
+      {
+        "name": "snow-warning",
+        "nameKo": "눈퍼뜨리기",
+        "isHidden": false
+      },
+      {
+        "name": "soundproof",
+        "nameKo": "방음",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "abomasnow-mega"
+    ]
+  },
+  {
+    "slug": "abomasnow-mega",
+    "nameKo": "눈설왕(메가진화)",
+    "nameEn": "Abomasnow (Mega Abomasnow)",
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 132,
+      "def": 105,
+      "spa": 132,
+      "spd": 105,
+      "spe": 30
+    },
+    "abilities": [
+      {
+        "name": "snow-warning",
+        "nameKo": "눈퍼뜨리기",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "abomasnow"
+  },
+  {
+    "slug": "weavile",
+    "nameKo": "포푸니라",
+    "nameEn": "Weavile",
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 120,
+      "def": 65,
+      "spa": 45,
+      "spd": 85,
+      "spe": 125
+    },
+    "abilities": [
+      {
+        "name": "pressure",
+        "nameKo": "프레셔",
+        "isHidden": false
+      },
+      {
+        "name": "pickpocket",
+        "nameKo": "나쁜손버릇",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "rhyperior",
+    "nameKo": "거대코뿌리",
+    "nameEn": "Rhyperior",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "baseStats": {
+      "hp": 115,
+      "atk": 140,
+      "def": 130,
+      "spa": 55,
+      "spd": 55,
+      "spe": 40
+    },
+    "abilities": [
+      {
+        "name": "lightning-rod",
+        "nameKo": "피뢰침",
+        "isHidden": false
+      },
+      {
+        "name": "solid-rock",
+        "nameKo": "하드록",
+        "isHidden": false
+      },
+      {
+        "name": "reckless",
+        "nameKo": "이판사판",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "leafeon",
+    "nameKo": "리피아",
+    "nameEn": "Leafeon",
+    "types": [
+      "grass"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 110,
+      "def": 130,
+      "spa": 60,
+      "spd": 65,
+      "spe": 95
+    },
+    "abilities": [
+      {
+        "name": "leaf-guard",
+        "nameKo": "리프가드",
+        "isHidden": false
+      },
+      {
+        "name": "chlorophyll",
+        "nameKo": "엽록소",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "glaceon",
+    "nameKo": "글레이시아",
+    "nameEn": "Glaceon",
+    "types": [
+      "ice"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 60,
+      "def": 110,
+      "spa": 130,
+      "spd": 95,
+      "spe": 65
+    },
+    "abilities": [
+      {
+        "name": "snow-cloak",
+        "nameKo": "눈숨기",
+        "isHidden": false
+      },
+      {
+        "name": "ice-body",
+        "nameKo": "아이스바디",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "gliscor",
+    "nameKo": "글라이온",
+    "nameEn": "Gliscor",
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 95,
+      "def": 125,
+      "spa": 45,
+      "spd": 75,
+      "spe": 95
+    },
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "nameKo": "괴력집게",
+        "isHidden": false
+      },
+      {
+        "name": "sand-veil",
+        "nameKo": "모래숨기",
+        "isHidden": false
+      },
+      {
+        "name": "poison-heal",
+        "nameKo": "포이즌힐",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "mamoswine",
+    "nameKo": "맘모꾸리",
+    "nameEn": "Mamoswine",
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 130,
+      "def": 80,
+      "spa": 70,
+      "spd": 60,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "oblivious",
+        "nameKo": "둔감",
+        "isHidden": false
+      },
+      {
+        "name": "snow-cloak",
+        "nameKo": "눈숨기",
+        "isHidden": false
+      },
+      {
+        "name": "thick-fat",
+        "nameKo": "두꺼운지방",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "gallade",
+    "nameKo": "엘레이드",
+    "nameEn": "Gallade",
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 125,
+      "def": 65,
+      "spa": 65,
+      "spd": 115,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "steadfast",
+        "nameKo": "불굴의마음",
+        "isHidden": false
+      },
+      {
+        "name": "sharpness",
+        "nameKo": "예리함",
+        "isHidden": false
+      },
+      {
+        "name": "justified",
+        "nameKo": "정의의마음",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "gallade-mega"
+    ]
+  },
+  {
+    "slug": "gallade-mega",
+    "nameKo": "엘레이드(메가진화)",
+    "nameEn": "Gallade (Mega Gallade)",
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 165,
+      "def": 95,
+      "spa": 65,
+      "spd": 115,
+      "spe": 110
+    },
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "nameKo": "정신력",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "gallade"
+  },
+  {
+    "slug": "froslass",
+    "nameKo": "눈여아",
+    "nameEn": "Froslass",
+    "types": [
+      "ice",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 80,
+      "def": 70,
+      "spa": 80,
+      "spd": 70,
+      "spe": 110
+    },
+    "abilities": [
+      {
+        "name": "snow-cloak",
+        "nameKo": "눈숨기",
+        "isHidden": false
+      },
+      {
+        "name": "cursed-body",
+        "nameKo": "저주받은바디",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "froslass-mega"
+    ]
+  },
+  {
+    "slug": "froslass-mega",
+    "nameKo": "눈여아(메가진화)",
+    "nameEn": "Froslass (Mega Froslass)",
+    "types": [
+      "ice",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 80,
+      "def": 70,
+      "spa": 140,
+      "spd": 100,
+      "spe": 120
+    },
+    "abilities": [
+      {
+        "name": "snow-warning",
+        "nameKo": "눈퍼뜨리기",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "froslass"
+  },
+  {
+    "slug": "rotom",
+    "nameKo": "로토무",
+    "nameEn": "Rotom",
+    "types": [
+      "electric",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 50,
+      "def": 77,
+      "spa": 95,
+      "spd": 77,
+      "spe": 91
+    },
+    "abilities": [
+      {
+        "name": "levitate",
+        "nameKo": "부유",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "serperior",
+    "nameKo": "샤로다",
+    "nameEn": "Serperior",
+    "types": [
+      "grass"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 75,
+      "def": 95,
+      "spa": 75,
+      "spd": 95,
+      "spe": 113
+    },
+    "abilities": [
+      {
+        "name": "overgrow",
+        "nameKo": "심록",
+        "isHidden": false
+      },
+      {
+        "name": "contrary",
+        "nameKo": "심술꾸러기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "emboar",
+    "nameKo": "염무왕",
+    "nameEn": "Emboar",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 123,
+      "def": 65,
+      "spa": 100,
+      "spd": 65,
+      "spe": 65
+    },
+    "abilities": [
+      {
+        "name": "blaze",
+        "nameKo": "맹화",
+        "isHidden": false
+      },
+      {
+        "name": "reckless",
+        "nameKo": "이판사판",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "emboar-mega"
+    ]
+  },
+  {
+    "slug": "emboar-mega",
+    "nameKo": "염무왕(메가진화)",
+    "nameEn": "Emboar (Mega Emboar)",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 148,
+      "def": 75,
+      "spa": 110,
+      "spd": 110,
+      "spe": 75
+    },
+    "abilities": [
+      {
+        "name": "mold-breaker",
+        "nameKo": "틀깨기",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "emboar"
+  },
+  {
+    "slug": "samurott",
+    "nameKo": "대검귀",
+    "nameEn": "Samurott",
+    "types": [
+      "water"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 100,
+      "def": 85,
+      "spa": 108,
+      "spd": 70,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "torrent",
+        "nameKo": "급류",
+        "isHidden": false
+      },
+      {
+        "name": "shell-armor",
+        "nameKo": "조가비갑옷",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "samurott-hisui",
+    "nameKo": "대검귀(히스이)",
+    "nameEn": "Samurott (Hisuian Form)",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 108,
+      "def": 80,
+      "spa": 100,
+      "spd": 65,
+      "spe": 85
+    },
+    "abilities": [
+      {
+        "name": "torrent",
+        "nameKo": "급류",
+        "isHidden": false
+      },
+      {
+        "name": "sharpness",
+        "nameKo": "예리함",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "watchog",
+    "nameKo": "보르그",
+    "nameEn": "Watchog",
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 85,
+      "def": 69,
+      "spa": 60,
+      "spd": 69,
+      "spe": 77
+    },
+    "abilities": [
+      {
+        "name": "illuminate",
+        "nameKo": "발광",
+        "isHidden": false
+      },
+      {
+        "name": "keen-eye",
+        "nameKo": "날카로운눈",
+        "isHidden": false
+      },
+      {
+        "name": "analytic",
+        "nameKo": "애널라이즈",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "liepard",
+    "nameKo": "레파르다스",
+    "nameEn": "Liepard",
+    "types": [
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 64,
+      "atk": 88,
+      "def": 50,
+      "spa": 88,
+      "spd": 50,
+      "spe": 106
+    },
+    "abilities": [
+      {
+        "name": "limber",
+        "nameKo": "유연",
+        "isHidden": false
+      },
+      {
+        "name": "unburden",
+        "nameKo": "곡예",
+        "isHidden": false
+      },
+      {
+        "name": "prankster",
+        "nameKo": "짓궂은마음",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "simisage",
+    "nameKo": "야나키",
+    "nameEn": "Simisage",
+    "types": [
+      "grass"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 98,
+      "def": 63,
+      "spa": 98,
+      "spd": 63,
+      "spe": 101
+    },
+    "abilities": [
+      {
+        "name": "gluttony",
+        "nameKo": "먹보",
+        "isHidden": false
+      },
+      {
+        "name": "overgrow",
+        "nameKo": "심록",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "simisear",
+    "nameKo": "바오키",
+    "nameEn": "Simisear",
+    "types": [
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 98,
+      "def": 63,
+      "spa": 98,
+      "spd": 63,
+      "spe": 101
+    },
+    "abilities": [
+      {
+        "name": "gluttony",
+        "nameKo": "먹보",
+        "isHidden": false
+      },
+      {
+        "name": "blaze",
+        "nameKo": "맹화",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "simipour",
+    "nameKo": "앗차키",
+    "nameEn": "Simipour",
+    "types": [
+      "water"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 98,
+      "def": 63,
+      "spa": 98,
+      "spd": 63,
+      "spe": 101
+    },
+    "abilities": [
+      {
+        "name": "gluttony",
+        "nameKo": "먹보",
+        "isHidden": false
+      },
+      {
+        "name": "torrent",
+        "nameKo": "급류",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "musharna",
+    "nameKo": "몽얌나",
+    "nameEn": "Musharna",
+    "types": [
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 116,
+      "atk": 55,
+      "def": 85,
+      "spa": 107,
+      "spd": 95,
+      "spe": 29
+    },
+    "abilities": [
+      {
+        "name": "forewarn",
+        "nameKo": "예지몽",
+        "isHidden": false
+      },
+      {
+        "name": "synchronize",
+        "nameKo": "싱크로",
+        "isHidden": false
+      },
+      {
+        "name": "telepathy",
+        "nameKo": "텔레파시",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "excadrill",
+    "nameKo": "몰드류",
+    "nameEn": "Excadrill",
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 135,
+      "def": 60,
+      "spa": 50,
+      "spd": 65,
+      "spe": 88
+    },
+    "abilities": [
+      {
+        "name": "sand-rush",
+        "nameKo": "모래헤치기",
+        "isHidden": false
+      },
+      {
+        "name": "sand-force",
+        "nameKo": "모래의힘",
+        "isHidden": false
+      },
+      {
+        "name": "mold-breaker",
+        "nameKo": "틀깨기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "excadrill-mega"
+    ]
+  },
+  {
+    "slug": "excadrill-mega",
+    "nameKo": "몰드류(메가진화)",
+    "nameEn": "Excadrill (Mega Excadrill)",
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 165,
+      "def": 100,
+      "spa": 65,
+      "spd": 65,
+      "spe": 103
+    },
+    "abilities": [
+      {
+        "name": "piercing-drill",
+        "nameKo": "관통드릴",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "excadrill"
+  },
+  {
+    "slug": "audino",
+    "nameKo": "다부니",
+    "nameEn": "Audino",
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 103,
+      "atk": 60,
+      "def": 86,
+      "spa": 60,
+      "spd": 86,
+      "spe": 50
+    },
+    "abilities": [
+      {
+        "name": "healer",
+        "nameKo": "치유의마음",
+        "isHidden": false
+      },
+      {
+        "name": "regenerator",
+        "nameKo": "재생력",
+        "isHidden": false
+      },
+      {
+        "name": "klutz",
+        "nameKo": "서투름",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "audino-mega"
+    ]
+  },
+  {
+    "slug": "audino-mega",
+    "nameKo": "다부니(메가진화)",
+    "nameEn": "Audino (Mega Audino)",
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 103,
+      "atk": 60,
+      "def": 126,
+      "spa": 80,
+      "spd": 126,
+      "spe": 50
+    },
+    "abilities": [
+      {
+        "name": "healer",
+        "nameKo": "치유의마음",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "audino"
+  },
+  {
+    "slug": "conkeldurr",
+    "nameKo": "노보청",
+    "nameEn": "Conkeldurr",
+    "types": [
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 105,
+      "atk": 140,
+      "def": 95,
+      "spa": 55,
+      "spd": 65,
+      "spe": 45
+    },
+    "abilities": [
+      {
+        "name": "guts",
+        "nameKo": "근성",
+        "isHidden": false
+      },
+      {
+        "name": "sheer-force",
+        "nameKo": "우격다짐",
+        "isHidden": false
+      },
+      {
+        "name": "iron-fist",
+        "nameKo": "철주먹",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "scolipede",
+    "nameKo": "펜드라",
+    "nameEn": "Scolipede",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 89,
+      "spa": 55,
+      "spd": 69,
+      "spe": 112
+    },
+    "abilities": [
+      {
+        "name": "poison-point",
+        "nameKo": "독가시",
+        "isHidden": false
+      },
+      {
+        "name": "swarm",
+        "nameKo": "벌레의알림",
+        "isHidden": false
+      },
+      {
+        "name": "speed-boost",
+        "nameKo": "가속",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "scolipede-mega"
+    ]
+  },
+  {
+    "slug": "scolipede-mega",
+    "nameKo": "펜드라(메가진화)",
+    "nameEn": "Scolipede (Mega Scolipede)",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 140,
+      "def": 149,
+      "spa": 75,
+      "spd": 99,
+      "spe": 62
+    },
+    "abilities": [
+      {
+        "name": "shell-armor",
+        "nameKo": "조가비갑옷",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "scolipede"
+  },
+  {
+    "slug": "whimsicott",
+    "nameKo": "엘풍",
+    "nameEn": "Whimsicott",
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 67,
+      "def": 85,
+      "spa": 77,
+      "spd": 75,
+      "spe": 116
+    },
+    "abilities": [
+      {
+        "name": "prankster",
+        "nameKo": "짓궂은마음",
+        "isHidden": false
+      },
+      {
+        "name": "infiltrator",
+        "nameKo": "틈새포착",
+        "isHidden": false
+      },
+      {
+        "name": "chlorophyll",
+        "nameKo": "엽록소",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "krookodile",
+    "nameKo": "악비아르",
+    "nameEn": "Krookodile",
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 117,
+      "def": 80,
+      "spa": 65,
+      "spd": 70,
+      "spe": 92
+    },
+    "abilities": [
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      },
+      {
+        "name": "moxie",
+        "nameKo": "자기과신",
+        "isHidden": false
+      },
+      {
+        "name": "anger-point",
+        "nameKo": "분노의경혈",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "scrafty",
+    "nameKo": "곤율거니",
+    "nameEn": "Scrafty",
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 90,
+      "def": 115,
+      "spa": 45,
+      "spd": 115,
+      "spe": 58
+    },
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "nameKo": "탈피",
+        "isHidden": false
+      },
+      {
+        "name": "moxie",
+        "nameKo": "자기과신",
+        "isHidden": false
+      },
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "scrafty-mega"
+    ]
+  },
+  {
+    "slug": "scrafty-mega",
+    "nameKo": "곤율거니(메가진화)",
+    "nameEn": "Scrafty (Mega Scrafty)",
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 130,
+      "def": 135,
+      "spa": 55,
+      "spd": 135,
+      "spe": 68
+    },
+    "abilities": [
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "scrafty"
+  },
+  {
+    "slug": "cofagrigus",
+    "nameKo": "데스니칸",
+    "nameEn": "Cofagrigus",
+    "types": [
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 58,
+      "atk": 50,
+      "def": 145,
+      "spa": 95,
+      "spd": 105,
+      "spe": 30
+    },
+    "abilities": [
+      {
+        "name": "mummy",
+        "nameKo": "미라",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "garbodor",
+    "nameKo": "더스트나",
+    "nameEn": "Garbodor",
+    "types": [
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 95,
+      "def": 82,
+      "spa": 60,
+      "spd": 82,
+      "spe": 75
+    },
+    "abilities": [
+      {
+        "name": "stench",
+        "nameKo": "악취",
+        "isHidden": false
+      },
+      {
+        "name": "weak-armor",
+        "nameKo": "깨어진갑옷",
+        "isHidden": false
+      },
+      {
+        "name": "aftermath",
+        "nameKo": "유폭",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "zoroark",
+    "nameKo": "조로아크",
+    "nameEn": "Zoroark",
+    "types": [
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 105,
+      "def": 60,
+      "spa": 120,
+      "spd": 60,
+      "spe": 105
+    },
+    "abilities": [
+      {
+        "name": "illusion",
+        "nameKo": "일루전",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "zoroark-hisui",
+    "nameKo": "조로아크(히스이)",
+    "nameEn": "Zoroark (Hisuian Form)",
+    "types": [
+      "normal",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "atk": 100,
+      "def": 60,
+      "spa": 125,
+      "spd": 60,
+      "spe": 110
+    },
+    "abilities": [
+      {
+        "name": "illusion",
+        "nameKo": "일루전",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "reuniclus",
+    "nameKo": "란쿨루스",
+    "nameEn": "Reuniclus",
+    "types": [
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 65,
+      "def": 75,
+      "spa": 125,
+      "spd": 85,
+      "spe": 30
+    },
+    "abilities": [
+      {
+        "name": "overcoat",
+        "nameKo": "방진",
+        "isHidden": false
+      },
+      {
+        "name": "magic-guard",
+        "nameKo": "매직가드",
+        "isHidden": false
+      },
+      {
+        "name": "regenerator",
+        "nameKo": "재생력",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "vanilluxe",
+    "nameKo": "배바닐라",
+    "nameEn": "Vanilluxe",
+    "types": [
+      "ice"
+    ],
+    "baseStats": {
+      "hp": 71,
+      "atk": 95,
+      "def": 85,
+      "spa": 110,
+      "spd": 95,
+      "spe": 79
+    },
+    "abilities": [
+      {
+        "name": "ice-body",
+        "nameKo": "아이스바디",
+        "isHidden": false
+      },
+      {
+        "name": "snow-warning",
+        "nameKo": "눈퍼뜨리기",
+        "isHidden": false
+      },
+      {
+        "name": "weak-armor",
+        "nameKo": "깨어진갑옷",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "emolga",
+    "nameKo": "에몽가",
+    "nameEn": "Emolga",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "atk": 75,
+      "def": 60,
+      "spa": 75,
+      "spd": 60,
+      "spe": 103
+    },
+    "abilities": [
+      {
+        "name": "static",
+        "nameKo": "정전기",
+        "isHidden": false
+      },
+      {
+        "name": "motor-drive",
+        "nameKo": "전기엔진",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "eelektross",
+    "nameKo": "저리더프",
+    "nameEn": "Eelektross",
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 115,
+      "def": 80,
+      "spa": 105,
+      "spd": 80,
+      "spe": 50
+    },
+    "abilities": [
+      {
+        "name": "levitate",
+        "nameKo": "부유",
+        "isHidden": false
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "eelektross-mega"
+    ]
+  },
+  {
+    "slug": "eelektross-mega",
+    "nameKo": "저리더프(메가진화)",
+    "nameEn": "Eelektross (Mega Eelektross)",
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 145,
+      "def": 80,
+      "spa": 135,
+      "spd": 90,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "eelevate",
+        "nameKo": null,
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "eelektross"
+  },
+  {
+    "slug": "chandelure",
+    "nameKo": "샹델라",
+    "nameEn": "Chandelure",
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 55,
+      "def": 90,
+      "spa": 145,
+      "spd": 90,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "nameKo": "타오르는불꽃",
+        "isHidden": false
+      },
+      {
+        "name": "flame-body",
+        "nameKo": "불꽃몸",
+        "isHidden": false
+      },
+      {
+        "name": "infiltrator",
+        "nameKo": "틈새포착",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "chandelure-mega"
+    ]
+  },
+  {
+    "slug": "chandelure-mega",
+    "nameKo": "샹델라(메가진화)",
+    "nameEn": "Chandelure (Mega Chandelure)",
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 75,
+      "def": 110,
+      "spa": 175,
+      "spd": 110,
+      "spe": 90
+    },
+    "abilities": [
+      {
+        "name": "infiltrator",
+        "nameKo": "틈새포착",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "chandelure"
+  },
+  {
+    "slug": "beartic",
+    "nameKo": "툰베어",
+    "nameEn": "Beartic",
+    "types": [
+      "ice"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 130,
+      "def": 80,
+      "spa": 70,
+      "spd": 80,
+      "spe": 50
+    },
+    "abilities": [
+      {
+        "name": "snow-cloak",
+        "nameKo": "눈숨기",
+        "isHidden": false
+      },
+      {
+        "name": "slush-rush",
+        "nameKo": "눈치우기",
+        "isHidden": false
+      },
+      {
+        "name": "swift-swim",
+        "nameKo": "쓱쓱",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "stunfisk",
+    "nameKo": "메더",
+    "nameEn": "Stunfisk",
+    "types": [
+      "ground",
+      "electric"
+    ],
+    "baseStats": {
+      "hp": 109,
+      "atk": 66,
+      "def": 84,
+      "spa": 81,
+      "spd": 99,
+      "spe": 32
+    },
+    "abilities": [
+      {
+        "name": "static",
+        "nameKo": "정전기",
+        "isHidden": false
+      },
+      {
+        "name": "limber",
+        "nameKo": "유연",
+        "isHidden": false
+      },
+      {
+        "name": "sand-veil",
+        "nameKo": "모래숨기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "stunfisk-galar",
+    "nameKo": "메더(가라르)",
+    "nameEn": "Stunfisk (Galarian Form)",
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 109,
+      "atk": 81,
+      "def": 99,
+      "spa": 66,
+      "spd": 84,
+      "spe": 32
+    },
+    "abilities": [
+      {
+        "name": "mimicry",
+        "nameKo": "의태",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "golurk",
+    "nameKo": "골루그",
+    "nameEn": "Golurk",
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 89,
+      "atk": 124,
+      "def": 80,
+      "spa": 55,
+      "spd": 80,
+      "spe": 55
+    },
+    "abilities": [
+      {
+        "name": "iron-fist",
+        "nameKo": "철주먹",
+        "isHidden": false
+      },
+      {
+        "name": "klutz",
+        "nameKo": "서투름",
+        "isHidden": false
+      },
+      {
+        "name": "no-guard",
+        "nameKo": "노가드",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "golurk-mega"
+    ]
+  },
+  {
+    "slug": "golurk-mega",
+    "nameKo": "골루그(메가진화)",
+    "nameEn": "Golurk (Mega Golurk)",
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 89,
+      "atk": 159,
+      "def": 105,
+      "spa": 70,
+      "spd": 105,
+      "spe": 55
+    },
+    "abilities": [
+      {
+        "name": "unseen-fist",
+        "nameKo": "보이지않는주먹",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "golurk"
+  },
+  {
+    "slug": "hydreigon",
+    "nameKo": "삼삼드래",
+    "nameEn": "Hydreigon",
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 92,
+      "atk": 105,
+      "def": 90,
+      "spa": 125,
+      "spd": 90,
+      "spe": 98
+    },
+    "abilities": [
+      {
+        "name": "levitate",
+        "nameKo": "부유",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "volcarona",
+    "nameKo": "불카모스",
+    "nameEn": "Volcarona",
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 60,
+      "def": 65,
+      "spa": 135,
+      "spd": 105,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "flame-body",
+        "nameKo": "불꽃몸",
+        "isHidden": false
+      },
+      {
+        "name": "swarm",
+        "nameKo": "벌레의알림",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "chesnaught",
+    "nameKo": "브리가론",
+    "nameEn": "Chesnaught",
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 88,
+      "atk": 107,
+      "def": 122,
+      "spa": 74,
+      "spd": 75,
+      "spe": 64
+    },
+    "abilities": [
+      {
+        "name": "overgrow",
+        "nameKo": "심록",
+        "isHidden": false
+      },
+      {
+        "name": "bulletproof",
+        "nameKo": "방탄",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "chesnaught-mega"
+    ]
+  },
+  {
+    "slug": "chesnaught-mega",
+    "nameKo": "브리가론(메가진화)",
+    "nameEn": "Chesnaught (Mega Chesnaught)",
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 88,
+      "atk": 137,
+      "def": 172,
+      "spa": 74,
+      "spd": 115,
+      "spe": 44
+    },
+    "abilities": [
+      {
+        "name": "bulletproof",
+        "nameKo": "방탄",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "chesnaught"
+  },
+  {
+    "slug": "delphox",
+    "nameKo": "마폭시",
+    "nameEn": "Delphox",
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 69,
+      "def": 72,
+      "spa": 114,
+      "spd": 100,
+      "spe": 104
+    },
+    "abilities": [
+      {
+        "name": "blaze",
+        "nameKo": "맹화",
+        "isHidden": false
+      },
+      {
+        "name": "magician",
+        "nameKo": "매지션",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "delphox-mega"
+    ]
+  },
+  {
+    "slug": "delphox-mega",
+    "nameKo": "마폭시(메가진화)",
+    "nameEn": "Delphox (Mega Delphox)",
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 69,
+      "def": 72,
+      "spa": 159,
+      "spd": 125,
+      "spe": 134
+    },
+    "abilities": [
+      {
+        "name": "levitate",
+        "nameKo": "부유",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "delphox"
+  },
+  {
+    "slug": "greninja",
+    "nameKo": "개굴닌자",
+    "nameEn": "Greninja",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 72,
+      "atk": 95,
+      "def": 67,
+      "spa": 103,
+      "spd": 71,
+      "spe": 122
+    },
+    "abilities": [
+      {
+        "name": "torrent",
+        "nameKo": "급류",
+        "isHidden": false
+      },
+      {
+        "name": "protean",
+        "nameKo": "변환자재",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "greninja-mega"
+    ]
+  },
+  {
+    "slug": "greninja-mega",
+    "nameKo": "개굴닌자(메가진화)",
+    "nameEn": "Greninja (Mega Greninja)",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 72,
+      "atk": 125,
+      "def": 77,
+      "spa": 133,
+      "spd": 81,
+      "spe": 142
+    },
+    "abilities": [
+      {
+        "name": "protean",
+        "nameKo": "변환자재",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "greninja"
+  },
+  {
+    "slug": "diggersby",
+    "nameKo": "파르토",
+    "nameEn": "Diggersby",
+    "types": [
+      "normal",
+      "ground"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 56,
+      "def": 77,
+      "spa": 50,
+      "spd": 77,
+      "spe": 78
+    },
+    "abilities": [
+      {
+        "name": "pickup",
+        "nameKo": "픽업",
+        "isHidden": false
+      },
+      {
+        "name": "cheek-pouch",
+        "nameKo": "볼주머니",
+        "isHidden": false
+      },
+      {
+        "name": "huge-power",
+        "nameKo": "천하장사",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "talonflame",
+    "nameKo": "파이어로",
+    "nameEn": "Talonflame",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 81,
+      "def": 71,
+      "spa": 74,
+      "spd": 69,
+      "spe": 126
+    },
+    "abilities": [
+      {
+        "name": "flame-body",
+        "nameKo": "불꽃몸",
+        "isHidden": false
+      },
+      {
+        "name": "gale-wings",
+        "nameKo": "질풍날개",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "vivillon",
+    "nameKo": "비비용",
+    "nameEn": "Vivillon",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 52,
+      "def": 50,
+      "spa": 90,
+      "spd": 50,
+      "spe": 89
+    },
+    "abilities": [
+      {
+        "name": "shield-dust",
+        "nameKo": "인분",
+        "isHidden": false
+      },
+      {
+        "name": "compound-eyes",
+        "nameKo": "복안",
+        "isHidden": false
+      },
+      {
+        "name": "friend-guard",
+        "nameKo": "프렌드가드",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "pyroar",
+    "nameKo": "화염레오",
+    "nameEn": "Pyroar",
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 86,
+      "atk": 68,
+      "def": 72,
+      "spa": 109,
+      "spd": 66,
+      "spe": 106
+    },
+    "abilities": [
+      {
+        "name": "rivalry",
+        "nameKo": "투쟁심",
+        "isHidden": false
+      },
+      {
+        "name": "unnerve",
+        "nameKo": "긴장감",
+        "isHidden": false
+      },
+      {
+        "name": "moxie",
+        "nameKo": "자기과신",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "pyroar-mega"
+    ]
+  },
+  {
+    "slug": "pyroar-mega",
+    "nameKo": "화염레오(메가진화)",
+    "nameEn": "Pyroar (Mega Pyroar)",
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 86,
+      "atk": 88,
+      "def": 92,
+      "spa": 129,
+      "spd": 86,
+      "spe": 126
+    },
+    "abilities": [
+      {
+        "name": "fire-mane",
+        "nameKo": null,
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "pyroar"
+  },
+  {
+    "slug": "floette-eternal",
+    "nameKo": "플라엣테(이터널플라워)",
+    "nameEn": "Floette (Eternal Flower)",
+    "types": [
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 65,
+      "def": 67,
+      "spa": 125,
+      "spd": 128,
+      "spe": 92
+    },
+    "abilities": [
+      {
+        "name": "flower-veil",
+        "nameKo": "플라워베일",
+        "isHidden": false
+      },
+      {
+        "name": "symbiosis",
+        "nameKo": "공생",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "floette-mega",
+    "nameKo": "플라엣테(메가진화)",
+    "nameEn": "Floette (Mega Floette)",
+    "types": [
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 85,
+      "def": 87,
+      "spa": 155,
+      "spd": 148,
+      "spe": 102
+    },
+    "abilities": [
+      {
+        "name": "fairy-aura",
+        "nameKo": "페어리오라",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "floette"
+  },
+  {
+    "slug": "florges",
+    "nameKo": "플라제스",
+    "nameEn": "Florges",
+    "types": [
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 65,
+      "def": 68,
+      "spa": 112,
+      "spd": 154,
+      "spe": 75
+    },
+    "abilities": [
+      {
+        "name": "flower-veil",
+        "nameKo": "플라워베일",
+        "isHidden": false
+      },
+      {
+        "name": "symbiosis",
+        "nameKo": "공생",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "pangoro",
+    "nameKo": "부란다",
+    "nameEn": "Pangoro",
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 124,
+      "def": 78,
+      "spa": 69,
+      "spd": 71,
+      "spe": 58
+    },
+    "abilities": [
+      {
+        "name": "iron-fist",
+        "nameKo": "철주먹",
+        "isHidden": false
+      },
+      {
+        "name": "mold-breaker",
+        "nameKo": "틀깨기",
+        "isHidden": false
+      },
+      {
+        "name": "scrappy",
+        "nameKo": "배짱",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "furfrou",
+    "nameKo": "트리미앙",
+    "nameEn": "Furfrou",
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 80,
+      "def": 60,
+      "spa": 65,
+      "spd": 90,
+      "spe": 102
+    },
+    "abilities": [
+      {
+        "name": "fur-coat",
+        "nameKo": "퍼코트",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "meowstic",
+    "nameKo": "냐오닉스",
+    "nameEn": "Meowstic",
+    "types": [
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 48,
+      "def": 76,
+      "spa": 83,
+      "spd": 81,
+      "spe": 104
+    },
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "nameKo": "날카로운눈",
+        "isHidden": false
+      },
+      {
+        "name": "infiltrator",
+        "nameKo": "틈새포착",
+        "isHidden": false
+      },
+      {
+        "name": "prankster",
+        "nameKo": "짓궂은마음",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "meowstic-mega"
+    ]
+  },
+  {
+    "slug": "meowstic-mega",
+    "nameKo": "냐오닉스(메가진화)",
+    "nameEn": "Meowstic (Mega Meowstic)",
+    "types": [
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 48,
+      "def": 76,
+      "spa": 143,
+      "spd": 101,
+      "spe": 124
+    },
+    "abilities": [
+      {
+        "name": "trace",
+        "nameKo": "트레이스",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "meowstic"
+  },
+  {
+    "slug": "aegislash",
+    "nameKo": "킬가르도",
+    "nameEn": "Aegislash",
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 140,
+      "spa": 50,
+      "spd": 140,
+      "spe": 60
+    },
+    "abilities": [
+      {
+        "name": "stance-change",
+        "nameKo": "배틀스위치",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "aromatisse",
+    "nameKo": "프레프티르",
+    "nameEn": "Aromatisse",
+    "types": [
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 101,
+      "atk": 72,
+      "def": 72,
+      "spa": 99,
+      "spd": 89,
+      "spe": 29
+    },
+    "abilities": [
+      {
+        "name": "healer",
+        "nameKo": "치유의마음",
+        "isHidden": false
+      },
+      {
+        "name": "aroma-veil",
+        "nameKo": "아로마베일",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "slurpuff",
+    "nameKo": "나루림",
+    "nameEn": "Slurpuff",
+    "types": [
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 82,
+      "atk": 80,
+      "def": 86,
+      "spa": 85,
+      "spd": 75,
+      "spe": 72
+    },
+    "abilities": [
+      {
+        "name": "sweet-veil",
+        "nameKo": "스위트베일",
+        "isHidden": false
+      },
+      {
+        "name": "unburden",
+        "nameKo": "곡예",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "malamar",
+    "nameKo": "칼라마네로",
+    "nameEn": "Malamar",
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 86,
+      "atk": 92,
+      "def": 88,
+      "spa": 68,
+      "spd": 75,
+      "spe": 73
+    },
+    "abilities": [
+      {
+        "name": "contrary",
+        "nameKo": "심술꾸러기",
+        "isHidden": false
+      },
+      {
+        "name": "suction-cups",
+        "nameKo": "흡반",
+        "isHidden": false
+      },
+      {
+        "name": "infiltrator",
+        "nameKo": "틈새포착",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "malamar-mega"
+    ]
+  },
+  {
+    "slug": "malamar-mega",
+    "nameKo": "칼라마네로(메가진화)",
+    "nameEn": "Malamar (Mega Malamar)",
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 86,
+      "atk": 102,
+      "def": 88,
+      "spa": 98,
+      "spd": 120,
+      "spe": 88
+    },
+    "abilities": [
+      {
+        "name": "contrary",
+        "nameKo": "심술꾸러기",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "malamar"
+  },
+  {
+    "slug": "barbaracle",
+    "nameKo": "거북손데스",
+    "nameEn": "Barbaracle",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "baseStats": {
+      "hp": 72,
+      "atk": 105,
+      "def": 115,
+      "spa": 54,
+      "spd": 86,
+      "spe": 68
+    },
+    "abilities": [
+      {
+        "name": "tough-claws",
+        "nameKo": "단단한발톱",
+        "isHidden": false
+      },
+      {
+        "name": "sniper",
+        "nameKo": "스나이퍼",
+        "isHidden": false
+      },
+      {
+        "name": "pickpocket",
+        "nameKo": "나쁜손버릇",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "barbaracle-mega"
+    ]
+  },
+  {
+    "slug": "barbaracle-mega",
+    "nameKo": "거북손데스(메가진화)",
+    "nameEn": "Barbaracle (Mega Barbaracle)",
+    "types": [
+      "rock",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 72,
+      "atk": 140,
+      "def": 130,
+      "spa": 64,
+      "spd": 106,
+      "spe": 88
+    },
+    "abilities": [
+      {
+        "name": "tough-claws",
+        "nameKo": "단단한발톱",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "barbaracle"
+  },
+  {
+    "slug": "dragalge",
+    "nameKo": "드래캄",
+    "nameEn": "Dragalge",
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 75,
+      "def": 90,
+      "spa": 97,
+      "spd": 123,
+      "spe": 44
+    },
+    "abilities": [
+      {
+        "name": "poison-point",
+        "nameKo": "독가시",
+        "isHidden": false
+      },
+      {
+        "name": "poison-touch",
+        "nameKo": "독수",
+        "isHidden": false
+      },
+      {
+        "name": "adaptability",
+        "nameKo": "적응력",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "dragalge-mega"
+    ]
+  },
+  {
+    "slug": "dragalge-mega",
+    "nameKo": "드래캄(메가진화)",
+    "nameEn": "Dragalge (Mega Dragalge)",
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 85,
+      "def": 105,
+      "spa": 132,
+      "spd": 163,
+      "spe": 44
+    },
+    "abilities": [
+      {
+        "name": "regenerator",
+        "nameKo": "재생력",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "dragalge"
+  },
+  {
+    "slug": "clawitzer",
+    "nameKo": "블로스터",
+    "nameEn": "Clawitzer",
+    "types": [
+      "water"
+    ],
+    "baseStats": {
+      "hp": 71,
+      "atk": 73,
+      "def": 88,
+      "spa": 120,
+      "spd": 89,
+      "spe": 59
+    },
+    "abilities": [
+      {
+        "name": "mega-launcher",
+        "nameKo": "메가런처",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "heliolisk",
+    "nameKo": "일레도리자드",
+    "nameEn": "Heliolisk",
+    "types": [
+      "electric",
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 62,
+      "atk": 55,
+      "def": 52,
+      "spa": 109,
+      "spd": 94,
+      "spe": 109
+    },
+    "abilities": [
+      {
+        "name": "dry-skin",
+        "nameKo": "건조피부",
+        "isHidden": false
+      },
+      {
+        "name": "sand-veil",
+        "nameKo": "모래숨기",
+        "isHidden": false
+      },
+      {
+        "name": "solar-power",
+        "nameKo": "선파워",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "tyrantrum",
+    "nameKo": "견고라스",
+    "nameEn": "Tyrantrum",
+    "types": [
+      "rock",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 82,
+      "atk": 121,
+      "def": 119,
+      "spa": 69,
+      "spd": 59,
+      "spe": 71
+    },
+    "abilities": [
+      {
+        "name": "strong-jaw",
+        "nameKo": "옹골찬턱",
+        "isHidden": false
+      },
+      {
+        "name": "rock-head",
+        "nameKo": "돌머리",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "aurorus",
+    "nameKo": "아마루르가",
+    "nameEn": "Aurorus",
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "baseStats": {
+      "hp": 123,
+      "atk": 77,
+      "def": 72,
+      "spa": 99,
+      "spd": 92,
+      "spe": 58
+    },
+    "abilities": [
+      {
+        "name": "refrigerate",
+        "nameKo": "프리즈스킨",
+        "isHidden": false
+      },
+      {
+        "name": "snow-warning",
+        "nameKo": "눈퍼뜨리기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "sylveon",
+    "nameKo": "님피아",
+    "nameEn": "Sylveon",
+    "types": [
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 65,
+      "def": 65,
+      "spa": 110,
+      "spd": 130,
+      "spe": 60
+    },
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "nameKo": "헤롱헤롱바디",
+        "isHidden": false
+      },
+      {
+        "name": "pixilate",
+        "nameKo": "페어리스킨",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "hawlucha",
+    "nameKo": "루차불",
+    "nameEn": "Hawlucha",
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 92,
+      "def": 75,
+      "spa": 74,
+      "spd": 63,
+      "spe": 118
+    },
+    "abilities": [
+      {
+        "name": "limber",
+        "nameKo": "유연",
+        "isHidden": false
+      },
+      {
+        "name": "unburden",
+        "nameKo": "곡예",
+        "isHidden": false
+      },
+      {
+        "name": "mold-breaker",
+        "nameKo": "틀깨기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "hawlucha-mega"
+    ]
+  },
+  {
+    "slug": "hawlucha-mega",
+    "nameKo": "루차불(메가진화)",
+    "nameEn": "Hawlucha (Mega Hawlucha)",
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 137,
+      "def": 100,
+      "spa": 74,
+      "spd": 93,
+      "spe": 118
+    },
+    "abilities": [
+      {
+        "name": "no-guard",
+        "nameKo": "노가드",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "hawlucha"
+  },
+  {
+    "slug": "dedenne",
+    "nameKo": "데덴네",
+    "nameEn": "Dedenne",
+    "types": [
+      "electric",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 67,
+      "atk": 58,
+      "def": 57,
+      "spa": 81,
+      "spd": 67,
+      "spe": 101
+    },
+    "abilities": [
+      {
+        "name": "cheek-pouch",
+        "nameKo": "볼주머니",
+        "isHidden": false
+      },
+      {
+        "name": "pickup",
+        "nameKo": "픽업",
+        "isHidden": false
+      },
+      {
+        "name": "plus",
+        "nameKo": "플러스",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "goodra",
+    "nameKo": "미끄래곤",
+    "nameEn": "Goodra",
+    "types": [
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 100,
+      "def": 70,
+      "spa": 110,
+      "spd": 150,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "sap-sipper",
+        "nameKo": "초식",
+        "isHidden": false
+      },
+      {
+        "name": "hydration",
+        "nameKo": "촉촉바디",
+        "isHidden": false
+      },
+      {
+        "name": "gooey",
+        "nameKo": "미끈미끈",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "goodra-hisui",
+    "nameKo": "미끄래곤(히스이)",
+    "nameEn": "Goodra (Hisuian Form)",
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 100,
+      "spa": 110,
+      "spd": 150,
+      "spe": 60
+    },
+    "abilities": [
+      {
+        "name": "sap-sipper",
+        "nameKo": "초식",
+        "isHidden": false
+      },
+      {
+        "name": "shell-armor",
+        "nameKo": "조가비갑옷",
+        "isHidden": false
+      },
+      {
+        "name": "gooey",
+        "nameKo": "미끈미끈",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "klefki",
+    "nameKo": "클레피",
+    "nameEn": "Klefki",
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 57,
+      "atk": 80,
+      "def": 91,
+      "spa": 80,
+      "spd": 87,
+      "spe": 75
+    },
+    "abilities": [
+      {
+        "name": "prankster",
+        "nameKo": "짓궂은마음",
+        "isHidden": false
+      },
+      {
+        "name": "magician",
+        "nameKo": "매지션",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "trevenant",
+    "nameKo": "대로트",
+    "nameEn": "Trevenant",
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 110,
+      "def": 76,
+      "spa": 65,
+      "spd": 82,
+      "spe": 56
+    },
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "nameKo": "자연회복",
+        "isHidden": false
+      },
+      {
+        "name": "frisk",
+        "nameKo": "통찰",
+        "isHidden": false
+      },
+      {
+        "name": "harvest",
+        "nameKo": "수확",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "gourgeist",
+    "nameKo": "펌킨인",
+    "nameEn": "Gourgeist",
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 90,
+      "def": 122,
+      "spa": 58,
+      "spd": 75,
+      "spe": 84
+    },
+    "abilities": [
+      {
+        "name": "pickup",
+        "nameKo": "픽업",
+        "isHidden": false
+      },
+      {
+        "name": "frisk",
+        "nameKo": "통찰",
+        "isHidden": false
+      },
+      {
+        "name": "insomnia",
+        "nameKo": "불면",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "avalugg",
+    "nameKo": "크레베이스",
+    "nameEn": "Avalugg",
+    "types": [
+      "ice"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 117,
+      "def": 184,
+      "spa": 44,
+      "spd": 46,
+      "spe": 28
+    },
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "nameKo": "마이페이스",
+        "isHidden": false
+      },
+      {
+        "name": "ice-body",
+        "nameKo": "아이스바디",
+        "isHidden": false
+      },
+      {
+        "name": "sturdy",
+        "nameKo": "옹골참",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "avalugg-hisui",
+    "nameKo": "크레베이스(히스이)",
+    "nameEn": "Avalugg (Hisuian Form)",
+    "types": [
+      "ice",
+      "rock"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 127,
+      "def": 184,
+      "spa": 34,
+      "spd": 36,
+      "spe": 38
+    },
+    "abilities": [
+      {
+        "name": "strong-jaw",
+        "nameKo": "옹골찬턱",
+        "isHidden": false
+      },
+      {
+        "name": "ice-body",
+        "nameKo": "아이스바디",
+        "isHidden": false
+      },
+      {
+        "name": "sturdy",
+        "nameKo": "옹골참",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "noivern",
+    "nameKo": "음번",
+    "nameEn": "Noivern",
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 70,
+      "def": 80,
+      "spa": 97,
+      "spd": 80,
+      "spe": 123
+    },
+    "abilities": [
+      {
+        "name": "frisk",
+        "nameKo": "통찰",
+        "isHidden": false
+      },
+      {
+        "name": "infiltrator",
+        "nameKo": "틈새포착",
+        "isHidden": false
+      },
+      {
+        "name": "telepathy",
+        "nameKo": "텔레파시",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "decidueye",
+    "nameKo": "모크나이퍼",
+    "nameEn": "Decidueye",
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 107,
+      "def": 75,
+      "spa": 100,
+      "spd": 100,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "overgrow",
+        "nameKo": "심록",
+        "isHidden": false
+      },
+      {
+        "name": "long-reach",
+        "nameKo": "원격",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "decidueye-hisui",
+    "nameKo": "모크나이퍼(히스이)",
+    "nameEn": "Decidueye (Hisuian Form)",
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 88,
+      "atk": 112,
+      "def": 80,
+      "spa": 95,
+      "spd": 95,
+      "spe": 60
+    },
+    "abilities": [
+      {
+        "name": "overgrow",
+        "nameKo": "심록",
+        "isHidden": false
+      },
+      {
+        "name": "scrappy",
+        "nameKo": "배짱",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "incineroar",
+    "nameKo": "어흥염",
+    "nameEn": "Incineroar",
+    "types": [
+      "fire",
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 115,
+      "def": 90,
+      "spa": 80,
+      "spd": 90,
+      "spe": 60
+    },
+    "abilities": [
+      {
+        "name": "blaze",
+        "nameKo": "맹화",
+        "isHidden": false
+      },
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "primarina",
+    "nameKo": "누리레느",
+    "nameEn": "Primarina",
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 74,
+      "def": 74,
+      "spa": 126,
+      "spd": 116,
+      "spe": 60
+    },
+    "abilities": [
+      {
+        "name": "torrent",
+        "nameKo": "급류",
+        "isHidden": false
+      },
+      {
+        "name": "liquid-voice",
+        "nameKo": "촉촉보이스",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "toucannon",
+    "nameKo": "왕큰부리",
+    "nameEn": "Toucannon",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 75,
+      "spa": 75,
+      "spd": 75,
+      "spe": 60
+    },
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "nameKo": "날카로운눈",
+        "isHidden": false
+      },
+      {
+        "name": "skill-link",
+        "nameKo": "스킬링크",
+        "isHidden": false
+      },
+      {
+        "name": "sheer-force",
+        "nameKo": "우격다짐",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "crabominable",
+    "nameKo": "모단단게",
+    "nameEn": "Crabominable",
+    "types": [
+      "fighting",
+      "ice"
+    ],
+    "baseStats": {
+      "hp": 97,
+      "atk": 132,
+      "def": 77,
+      "spa": 62,
+      "spd": 67,
+      "spe": 43
+    },
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "nameKo": "괴력집게",
+        "isHidden": false
+      },
+      {
+        "name": "iron-fist",
+        "nameKo": "철주먹",
+        "isHidden": false
+      },
+      {
+        "name": "anger-point",
+        "nameKo": "분노의경혈",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "crabominable-mega"
+    ]
+  },
+  {
+    "slug": "crabominable-mega",
+    "nameKo": "모단단게(메가진화)",
+    "nameEn": "Crabominable (Mega Crabominable)",
+    "types": [
+      "fighting",
+      "ice"
+    ],
+    "baseStats": {
+      "hp": 97,
+      "atk": 157,
+      "def": 122,
+      "spa": 62,
+      "spd": 107,
+      "spe": 33
+    },
+    "abilities": [
+      {
+        "name": "iron-fist",
+        "nameKo": "철주먹",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "crabominable"
+  },
+  {
+    "slug": "lycanroc",
+    "nameKo": "루가루암",
+    "nameEn": "Lycanroc",
+    "types": [
+      "rock"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 115,
+      "def": 65,
+      "spa": 55,
+      "spd": 65,
+      "spe": 112
+    },
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "nameKo": "날카로운눈",
+        "isHidden": false
+      },
+      {
+        "name": "sand-rush",
+        "nameKo": "모래헤치기",
+        "isHidden": false
+      },
+      {
+        "name": "steadfast",
+        "nameKo": "불굴의마음",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "toxapex",
+    "nameKo": "더시마사리",
+    "nameEn": "Toxapex",
+    "types": [
+      "poison",
+      "water"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 63,
+      "def": 152,
+      "spa": 53,
+      "spd": 142,
+      "spe": 35
+    },
+    "abilities": [
+      {
+        "name": "merciless",
+        "nameKo": "무도한행동",
+        "isHidden": false
+      },
+      {
+        "name": "limber",
+        "nameKo": "유연",
+        "isHidden": false
+      },
+      {
+        "name": "regenerator",
+        "nameKo": "재생력",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "mudsdale",
+    "nameKo": "만마드",
+    "nameEn": "Mudsdale",
+    "types": [
+      "ground"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 125,
+      "def": 100,
+      "spa": 55,
+      "spd": 85,
+      "spe": 35
+    },
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "nameKo": "마이페이스",
+        "isHidden": false
+      },
+      {
+        "name": "stamina",
+        "nameKo": "지구력",
+        "isHidden": false
+      },
+      {
+        "name": "inner-focus",
+        "nameKo": "정신력",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "araquanid",
+    "nameKo": "깨비물거미",
+    "nameEn": "Araquanid",
+    "types": [
+      "water",
+      "bug"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 70,
+      "def": 92,
+      "spa": 50,
+      "spd": 132,
+      "spe": 42
+    },
+    "abilities": [
+      {
+        "name": "water-bubble",
+        "nameKo": "수포",
+        "isHidden": false
+      },
+      {
+        "name": "water-absorb",
+        "nameKo": "저수",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "salazzle",
+    "nameKo": "염뉴트",
+    "nameEn": "Salazzle",
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 64,
+      "def": 60,
+      "spa": 111,
+      "spd": 60,
+      "spe": 117
+    },
+    "abilities": [
+      {
+        "name": "corrosion",
+        "nameKo": "부식",
+        "isHidden": false
+      },
+      {
+        "name": "oblivious",
+        "nameKo": "둔감",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "tsareena",
+    "nameKo": "달코퀸",
+    "nameEn": "Tsareena",
+    "types": [
+      "grass"
+    ],
+    "baseStats": {
+      "hp": 72,
+      "atk": 120,
+      "def": 98,
+      "spa": 50,
+      "spd": 98,
+      "spe": 72
+    },
+    "abilities": [
+      {
+        "name": "leaf-guard",
+        "nameKo": "리프가드",
+        "isHidden": false
+      },
+      {
+        "name": "queenly-majesty",
+        "nameKo": "여왕의위엄",
+        "isHidden": false
+      },
+      {
+        "name": "sweet-veil",
+        "nameKo": "스위트베일",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "oranguru",
+    "nameKo": "하랑우탄",
+    "nameEn": "Oranguru",
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 60,
+      "def": 80,
+      "spa": 90,
+      "spd": 110,
+      "spe": 60
+    },
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "nameKo": "정신력",
+        "isHidden": false
+      },
+      {
+        "name": "telepathy",
+        "nameKo": "텔레파시",
+        "isHidden": false
+      },
+      {
+        "name": "symbiosis",
+        "nameKo": "공생",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "passimian",
+    "nameKo": "내던숭이",
+    "nameEn": "Passimian",
+    "types": [
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 120,
+      "def": 90,
+      "spa": 40,
+      "spd": 60,
+      "spe": 80
+    },
+    "abilities": [
+      {
+        "name": "receiver",
+        "nameKo": "리시버",
+        "isHidden": false
+      },
+      {
+        "name": "defiant",
+        "nameKo": "오기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "mimikyu",
+    "nameKo": "따라큐",
+    "nameEn": "Mimikyu",
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "atk": 90,
+      "def": 80,
+      "spa": 50,
+      "spd": 105,
+      "spe": 96
+    },
+    "abilities": [
+      {
+        "name": "disguise",
+        "nameKo": "탈",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "drampa",
+    "nameKo": "할비롱",
+    "nameEn": "Drampa",
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 60,
+      "def": 85,
+      "spa": 135,
+      "spd": 91,
+      "spe": 36
+    },
+    "abilities": [
+      {
+        "name": "berserk",
+        "nameKo": "발끈",
+        "isHidden": false
+      },
+      {
+        "name": "sap-sipper",
+        "nameKo": "초식",
+        "isHidden": false
+      },
+      {
+        "name": "cloud-nine",
+        "nameKo": "날씨부정",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "drampa-mega"
+    ]
+  },
+  {
+    "slug": "drampa-mega",
+    "nameKo": "할비롱(메가진화)",
+    "nameEn": "Drampa (Mega Drampa)",
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "atk": 85,
+      "def": 110,
+      "spa": 160,
+      "spd": 116,
+      "spe": 36
+    },
+    "abilities": [
+      {
+        "name": "berserk",
+        "nameKo": "발끈",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "drampa"
+  },
+  {
+    "slug": "kommo-o",
+    "nameKo": "짜랑고우거",
+    "nameEn": "Kommo-o",
+    "types": [
+      "dragon",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 110,
+      "def": 125,
+      "spa": 100,
+      "spd": 105,
+      "spe": 85
+    },
+    "abilities": [
+      {
+        "name": "bulletproof",
+        "nameKo": "방탄",
+        "isHidden": false
+      },
+      {
+        "name": "soundproof",
+        "nameKo": "방음",
+        "isHidden": false
+      },
+      {
+        "name": "overcoat",
+        "nameKo": "방진",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "corviknight",
+    "nameKo": "아머까오",
+    "nameEn": "Corviknight",
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 98,
+      "atk": 87,
+      "def": 105,
+      "spa": 53,
+      "spd": 85,
+      "spe": 67
+    },
+    "abilities": [
+      {
+        "name": "pressure",
+        "nameKo": "프레셔",
+        "isHidden": false
+      },
+      {
+        "name": "unnerve",
+        "nameKo": "긴장감",
+        "isHidden": false
+      },
+      {
+        "name": "mirror-armor",
+        "nameKo": "미러아머",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "flapple",
+    "nameKo": "애프룡",
+    "nameEn": "Flapple",
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 110,
+      "def": 80,
+      "spa": 95,
+      "spd": 60,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "ripen",
+        "nameKo": "숙성",
+        "isHidden": false
+      },
+      {
+        "name": "gluttony",
+        "nameKo": "먹보",
+        "isHidden": false
+      },
+      {
+        "name": "hustle",
+        "nameKo": "의욕",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "appletun",
+    "nameKo": "단지래플",
+    "nameEn": "Appletun",
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 85,
+      "def": 80,
+      "spa": 100,
+      "spd": 80,
+      "spe": 30
+    },
+    "abilities": [
+      {
+        "name": "ripen",
+        "nameKo": "숙성",
+        "isHidden": false
+      },
+      {
+        "name": "gluttony",
+        "nameKo": "먹보",
+        "isHidden": false
+      },
+      {
+        "name": "thick-fat",
+        "nameKo": "두꺼운지방",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "sandaconda",
+    "nameKo": "사다이사",
+    "nameEn": "Sandaconda",
+    "types": [
+      "ground"
+    ],
+    "baseStats": {
+      "hp": 72,
+      "atk": 107,
+      "def": 125,
+      "spa": 65,
+      "spd": 70,
+      "spe": 71
+    },
+    "abilities": [
+      {
+        "name": "sand-spit",
+        "nameKo": "모래뿜기",
+        "isHidden": false
+      },
+      {
+        "name": "shed-skin",
+        "nameKo": "탈피",
+        "isHidden": false
+      },
+      {
+        "name": "sand-veil",
+        "nameKo": "모래숨기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "polteageist",
+    "nameKo": "포트데스",
+    "nameEn": "Polteageist",
+    "types": [
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 65,
+      "def": 65,
+      "spa": 134,
+      "spd": 114,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "weak-armor",
+        "nameKo": "깨어진갑옷",
+        "isHidden": false
+      },
+      {
+        "name": "cursed-body",
+        "nameKo": "저주받은바디",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "hatterene",
+    "nameKo": "브리무음",
+    "nameEn": "Hatterene",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 57,
+      "atk": 90,
+      "def": 95,
+      "spa": 136,
+      "spd": 103,
+      "spe": 29
+    },
+    "abilities": [
+      {
+        "name": "healer",
+        "nameKo": "치유의마음",
+        "isHidden": false
+      },
+      {
+        "name": "anticipation",
+        "nameKo": "위험예지",
+        "isHidden": false
+      },
+      {
+        "name": "magic-bounce",
+        "nameKo": "매직미러",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "grimmsnarl",
+    "nameKo": "오롱털",
+    "nameEn": "Grimmsnarl",
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 120,
+      "def": 65,
+      "spa": 95,
+      "spd": 75,
+      "spe": 60
+    },
+    "abilities": [
+      {
+        "name": "prankster",
+        "nameKo": "짓궂은마음",
+        "isHidden": false
+      },
+      {
+        "name": "frisk",
+        "nameKo": "통찰",
+        "isHidden": false
+      },
+      {
+        "name": "pickpocket",
+        "nameKo": "나쁜손버릇",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "mr-rime",
+    "nameKo": "마임꽁꽁",
+    "nameEn": "Mr. Rime",
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 85,
+      "def": 75,
+      "spa": 110,
+      "spd": 100,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "tangled-feet",
+        "nameKo": "갈지자걸음",
+        "isHidden": false
+      },
+      {
+        "name": "screen-cleaner",
+        "nameKo": "배리어프리",
+        "isHidden": false
+      },
+      {
+        "name": "ice-body",
+        "nameKo": "아이스바디",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "runerigus",
+    "nameKo": "데스판",
+    "nameEn": "Runerigus",
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 58,
+      "atk": 95,
+      "def": 145,
+      "spa": 50,
+      "spd": 105,
+      "spe": 30
+    },
+    "abilities": [
+      {
+        "name": "wandering-spirit",
+        "nameKo": "떠도는영혼",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "alcremie",
+    "nameKo": "마휘핑",
+    "nameEn": "Alcremie",
+    "types": [
+      "fairy"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 60,
+      "def": 75,
+      "spa": 110,
+      "spd": 121,
+      "spe": 64
+    },
+    "abilities": [
+      {
+        "name": "sweet-veil",
+        "nameKo": "스위트베일",
+        "isHidden": false
+      },
+      {
+        "name": "aroma-veil",
+        "nameKo": "아로마베일",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "falinks",
+    "nameKo": "대여르",
+    "nameEn": "Falinks",
+    "types": [
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 100,
+      "def": 100,
+      "spa": 70,
+      "spd": 60,
+      "spe": 75
+    },
+    "abilities": [
+      {
+        "name": "battle-armor",
+        "nameKo": "전투무장",
+        "isHidden": false
+      },
+      {
+        "name": "defiant",
+        "nameKo": "오기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "falinks-mega"
+    ]
+  },
+  {
+    "slug": "falinks-mega",
+    "nameKo": "대여르(메가진화)",
+    "nameEn": "Falinks (Mega Falinks)",
+    "types": [
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 135,
+      "def": 135,
+      "spa": 70,
+      "spd": 65,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "defiant",
+        "nameKo": "오기",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "falinks"
+  },
+  {
+    "slug": "morpeko",
+    "nameKo": "모르페코",
+    "nameEn": "Morpeko",
+    "types": [
+      "electric",
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 58,
+      "atk": 95,
+      "def": 58,
+      "spa": 70,
+      "spd": 58,
+      "spe": 97
+    },
+    "abilities": [
+      {
+        "name": "hunger-switch",
+        "nameKo": "꼬르륵스위치",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "dragapult",
+    "nameKo": "드래펄트",
+    "nameEn": "Dragapult",
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 88,
+      "atk": 120,
+      "def": 75,
+      "spa": 100,
+      "spd": 75,
+      "spe": 142
+    },
+    "abilities": [
+      {
+        "name": "clear-body",
+        "nameKo": "클리어바디",
+        "isHidden": false
+      },
+      {
+        "name": "infiltrator",
+        "nameKo": "틈새포착",
+        "isHidden": false
+      },
+      {
+        "name": "cursed-body",
+        "nameKo": "저주받은바디",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "wyrdeer",
+    "nameKo": "신비록",
+    "nameEn": "Wyrdeer",
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 103,
+      "atk": 105,
+      "def": 72,
+      "spa": 105,
+      "spd": 75,
+      "spe": 65
+    },
+    "abilities": [
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": false
+      },
+      {
+        "name": "frisk",
+        "nameKo": "통찰",
+        "isHidden": false
+      },
+      {
+        "name": "sap-sipper",
+        "nameKo": "초식",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "kleavor",
+    "nameKo": "사마자르",
+    "nameEn": "Kleavor",
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 135,
+      "def": 95,
+      "spa": 45,
+      "spd": 70,
+      "spe": 85
+    },
+    "abilities": [
+      {
+        "name": "swarm",
+        "nameKo": "벌레의알림",
+        "isHidden": false
+      },
+      {
+        "name": "sheer-force",
+        "nameKo": "우격다짐",
+        "isHidden": false
+      },
+      {
+        "name": "sharpness",
+        "nameKo": "예리함",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "basculegion",
+    "nameKo": "대쓰여너",
+    "nameEn": "Basculegion",
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 120,
+      "atk": 112,
+      "def": 65,
+      "spa": 80,
+      "spd": 75,
+      "spe": 78
+    },
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "nameKo": "쓱쓱",
+        "isHidden": false
+      },
+      {
+        "name": "adaptability",
+        "nameKo": "적응력",
+        "isHidden": false
+      },
+      {
+        "name": "mold-breaker",
+        "nameKo": "틀깨기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "sneasler",
+    "nameKo": "포푸니크",
+    "nameEn": "Sneasler",
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 130,
+      "def": 60,
+      "spa": 40,
+      "spd": 80,
+      "spe": 120
+    },
+    "abilities": [
+      {
+        "name": "pressure",
+        "nameKo": "프레셔",
+        "isHidden": false
+      },
+      {
+        "name": "unburden",
+        "nameKo": "곡예",
+        "isHidden": false
+      },
+      {
+        "name": "poison-touch",
+        "nameKo": "독수",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "overqwil",
+    "nameKo": "장침바루",
+    "nameEn": "Overqwil",
+    "types": [
+      "dark",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 115,
+      "def": 95,
+      "spa": 65,
+      "spd": 65,
+      "spe": 85
+    },
+    "abilities": [
+      {
+        "name": "poison-point",
+        "nameKo": "독가시",
+        "isHidden": false
+      },
+      {
+        "name": "swift-swim",
+        "nameKo": "쓱쓱",
+        "isHidden": false
+      },
+      {
+        "name": "intimidate",
+        "nameKo": "위협",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "meowscarada",
+    "nameKo": "마스카나",
+    "nameEn": "Meowscarada",
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "baseStats": {
+      "hp": 76,
+      "atk": 110,
+      "def": 70,
+      "spa": 81,
+      "spd": 70,
+      "spe": 123
+    },
+    "abilities": [
+      {
+        "name": "overgrow",
+        "nameKo": "심록",
+        "isHidden": false
+      },
+      {
+        "name": "protean",
+        "nameKo": "변환자재",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "skeledirge",
+    "nameKo": "라우드본",
+    "nameEn": "Skeledirge",
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 104,
+      "atk": 75,
+      "def": 100,
+      "spa": 110,
+      "spd": 75,
+      "spe": 66
+    },
+    "abilities": [
+      {
+        "name": "blaze",
+        "nameKo": "맹화",
+        "isHidden": false
+      },
+      {
+        "name": "unaware",
+        "nameKo": "천진",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "quaquaval",
+    "nameKo": "웨이니발",
+    "nameEn": "Quaquaval",
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 120,
+      "def": 80,
+      "spa": 85,
+      "spd": 75,
+      "spe": 85
+    },
+    "abilities": [
+      {
+        "name": "torrent",
+        "nameKo": "급류",
+        "isHidden": false
+      },
+      {
+        "name": "moxie",
+        "nameKo": "자기과신",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "maushold",
+    "nameKo": "파밀리쥐",
+    "nameEn": "Maushold",
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 75,
+      "def": 70,
+      "spa": 65,
+      "spd": 75,
+      "spe": 111
+    },
+    "abilities": [
+      {
+        "name": "friend-guard",
+        "nameKo": "프렌드가드",
+        "isHidden": false
+      },
+      {
+        "name": "cheek-pouch",
+        "nameKo": "볼주머니",
+        "isHidden": false
+      },
+      {
+        "name": "technician",
+        "nameKo": "테크니션",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "garganacl",
+    "nameKo": "콜로솔트",
+    "nameEn": "Garganacl",
+    "types": [
+      "rock"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 100,
+      "def": 130,
+      "spa": 45,
+      "spd": 90,
+      "spe": 35
+    },
+    "abilities": [
+      {
+        "name": "purifying-salt",
+        "nameKo": "정화의소금",
+        "isHidden": false
+      },
+      {
+        "name": "sturdy",
+        "nameKo": "옹골참",
+        "isHidden": false
+      },
+      {
+        "name": "clear-body",
+        "nameKo": "클리어바디",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "armarouge",
+    "nameKo": "카디나르마",
+    "nameEn": "Armarouge",
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 60,
+      "def": 100,
+      "spa": 125,
+      "spd": 80,
+      "spe": 75
+    },
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "nameKo": "타오르는불꽃",
+        "isHidden": false
+      },
+      {
+        "name": "weak-armor",
+        "nameKo": "깨어진갑옷",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "ceruledge",
+    "nameKo": "파라블레이즈",
+    "nameEn": "Ceruledge",
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 125,
+      "def": 80,
+      "spa": 60,
+      "spd": 100,
+      "spe": 85
+    },
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "nameKo": "타오르는불꽃",
+        "isHidden": false
+      },
+      {
+        "name": "weak-armor",
+        "nameKo": "깨어진갑옷",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "bellibolt",
+    "nameKo": "찌리배리",
+    "nameEn": "Bellibolt",
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "hp": 109,
+      "atk": 64,
+      "def": 91,
+      "spa": 103,
+      "spd": 83,
+      "spe": 45
+    },
+    "abilities": [
+      {
+        "name": "electromorphosis",
+        "nameKo": "전기로바꾸기",
+        "isHidden": false
+      },
+      {
+        "name": "static",
+        "nameKo": "정전기",
+        "isHidden": false
+      },
+      {
+        "name": "damp",
+        "nameKo": "습기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "scovillain",
+    "nameKo": "스코빌런",
+    "nameEn": "Scovillain",
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 108,
+      "def": 65,
+      "spa": 108,
+      "spd": 65,
+      "spe": 75
+    },
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "nameKo": "엽록소",
+        "isHidden": false
+      },
+      {
+        "name": "insomnia",
+        "nameKo": "불면",
+        "isHidden": false
+      },
+      {
+        "name": "moody",
+        "nameKo": "변덕쟁이",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "scovillain-mega"
+    ]
+  },
+  {
+    "slug": "scovillain-mega",
+    "nameKo": "스코빌런(메가진화)",
+    "nameEn": "Scovillain (Mega Scovillain)",
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 138,
+      "def": 85,
+      "spa": 138,
+      "spd": 85,
+      "spe": 75
+    },
+    "abilities": [
+      {
+        "name": "spicy-spray",
+        "nameKo": "하바네로분출",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "scovillain"
+  },
+  {
+    "slug": "espathra",
+    "nameKo": "클레스퍼트라",
+    "nameEn": "Espathra",
+    "types": [
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 60,
+      "def": 60,
+      "spa": 101,
+      "spd": 60,
+      "spe": 105
+    },
+    "abilities": [
+      {
+        "name": "opportunist",
+        "nameKo": "편승",
+        "isHidden": false
+      },
+      {
+        "name": "frisk",
+        "nameKo": "통찰",
+        "isHidden": false
+      },
+      {
+        "name": "speed-boost",
+        "nameKo": "가속",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "tinkaton",
+    "nameKo": "두드리짱",
+    "nameEn": "Tinkaton",
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 75,
+      "def": 77,
+      "spa": 70,
+      "spd": 105,
+      "spe": 94
+    },
+    "abilities": [
+      {
+        "name": "mold-breaker",
+        "nameKo": "틀깨기",
+        "isHidden": false
+      },
+      {
+        "name": "own-tempo",
+        "nameKo": "마이페이스",
+        "isHidden": false
+      },
+      {
+        "name": "pickpocket",
+        "nameKo": "나쁜손버릇",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "palafin",
+    "nameKo": "돌핀맨",
+    "nameEn": "Palafin",
+    "types": [
+      "water"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 70,
+      "def": 72,
+      "spa": 53,
+      "spd": 62,
+      "spe": 100
+    },
+    "abilities": [
+      {
+        "name": "zero-to-hero",
+        "nameKo": "마이티체인지",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "orthworm",
+    "nameKo": "꿈트렁",
+    "nameEn": "Orthworm",
+    "types": [
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 145,
+      "spa": 60,
+      "spd": 55,
+      "spe": 65
+    },
+    "abilities": [
+      {
+        "name": "earth-eater",
+        "nameKo": "흙먹기",
+        "isHidden": false
+      },
+      {
+        "name": "sand-veil",
+        "nameKo": "모래숨기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "glimmora",
+    "nameKo": "킬라플로르",
+    "nameEn": "Glimmora",
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 83,
+      "atk": 55,
+      "def": 90,
+      "spa": 130,
+      "spd": 81,
+      "spe": 86
+    },
+    "abilities": [
+      {
+        "name": "toxic-debris",
+        "nameKo": "독치장",
+        "isHidden": false
+      },
+      {
+        "name": "corrosion",
+        "nameKo": "부식",
+        "isHidden": true
+      }
+    ],
+    "isMega": false,
+    "megaSlugs": [
+      "glimmora-mega"
+    ]
+  },
+  {
+    "slug": "glimmora-mega",
+    "nameKo": "킬라플로르(메가진화)",
+    "nameEn": "Glimmora (Mega Glimmora)",
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "baseStats": {
+      "hp": 83,
+      "atk": 90,
+      "def": 105,
+      "spa": 150,
+      "spd": 96,
+      "spe": 101
+    },
+    "abilities": [
+      {
+        "name": "adaptability",
+        "nameKo": "적응력",
+        "isHidden": false
+      }
+    ],
+    "isMega": true,
+    "baseSlug": "glimmora"
+  },
+  {
+    "slug": "houndstone",
+    "nameKo": "묘두기",
+    "nameEn": "Houndstone",
+    "types": [
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 72,
+      "atk": 101,
+      "def": 100,
+      "spa": 50,
+      "spd": 97,
+      "spe": 68
+    },
+    "abilities": [
+      {
+        "name": "sand-rush",
+        "nameKo": "모래헤치기",
+        "isHidden": false
+      },
+      {
+        "name": "fluffy",
+        "nameKo": "복슬복슬",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "annihilape",
+    "nameKo": "저승갓숭",
+    "nameEn": "Annihilape",
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 115,
+      "def": 80,
+      "spa": 50,
+      "spd": 90,
+      "spe": 90
+    },
+    "abilities": [
+      {
+        "name": "vital-spirit",
+        "nameKo": "의기양양",
+        "isHidden": false
+      },
+      {
+        "name": "inner-focus",
+        "nameKo": "정신력",
+        "isHidden": false
+      },
+      {
+        "name": "defiant",
+        "nameKo": "오기",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "farigiraf",
+    "nameKo": "키키링",
+    "nameEn": "Farigiraf",
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "baseStats": {
+      "hp": 120,
+      "atk": 90,
+      "def": 70,
+      "spa": 110,
+      "spd": 70,
+      "spe": 60
+    },
+    "abilities": [
+      {
+        "name": "cud-chew",
+        "nameKo": "되새김질",
+        "isHidden": false
+      },
+      {
+        "name": "armor-tail",
+        "nameKo": "테일아머",
+        "isHidden": false
+      },
+      {
+        "name": "sap-sipper",
+        "nameKo": "초식",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "kingambit",
+    "nameKo": "대도각참",
+    "nameEn": "Kingambit",
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 135,
+      "def": 120,
+      "spa": 60,
+      "spd": 85,
+      "spe": 50
+    },
+    "abilities": [
+      {
+        "name": "defiant",
+        "nameKo": "오기",
+        "isHidden": false
+      },
+      {
+        "name": "supreme-overlord",
+        "nameKo": "총대장",
+        "isHidden": false
+      },
+      {
+        "name": "pressure",
+        "nameKo": "프레셔",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "gholdengo",
+    "nameKo": "타부자고",
+    "nameEn": "Gholdengo",
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 87,
+      "atk": 60,
+      "def": 95,
+      "spa": 133,
+      "spd": 91,
+      "spe": 84
+    },
+    "abilities": [
+      {
+        "name": "good-as-gold",
+        "nameKo": "황금몸",
+        "isHidden": false
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "sinistcha",
+    "nameKo": "그우린차",
+    "nameEn": "Sinistcha",
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "baseStats": {
+      "hp": 71,
+      "atk": 60,
+      "def": 106,
+      "spa": 121,
+      "spd": 80,
+      "spe": 70
+    },
+    "abilities": [
+      {
+        "name": "hospitality",
+        "nameKo": "대접",
+        "isHidden": false
+      },
+      {
+        "name": "heatproof",
+        "nameKo": "내열",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "archaludon",
+    "nameKo": "브리두라스",
+    "nameEn": "Archaludon",
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "atk": 105,
+      "def": 130,
+      "spa": 125,
+      "spd": 65,
+      "spe": 85
+    },
+    "abilities": [
+      {
+        "name": "stamina",
+        "nameKo": "지구력",
+        "isHidden": false
+      },
+      {
+        "name": "sturdy",
+        "nameKo": "옹골참",
+        "isHidden": false
+      },
+      {
+        "name": "stalwart",
+        "nameKo": "굳건한신념",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  },
+  {
+    "slug": "hydrapple",
+    "nameKo": "과미드라",
+    "nameEn": "Hydrapple",
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "baseStats": {
+      "hp": 106,
+      "atk": 80,
+      "def": 110,
+      "spa": 120,
+      "spd": 80,
+      "spe": 44
+    },
+    "abilities": [
+      {
+        "name": "supersweet-syrup",
+        "nameKo": "감미로운꿀",
+        "isHidden": false
+      },
+      {
+        "name": "regenerator",
+        "nameKo": "재생력",
+        "isHidden": false
+      },
+      {
+        "name": "sticky-hold",
+        "nameKo": "점착",
+        "isHidden": true
+      }
+    ],
+    "isMega": false
+  }
+]
