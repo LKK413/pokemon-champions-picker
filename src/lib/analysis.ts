@@ -278,6 +278,12 @@ function buildReasons(
   return reasons;
 }
 
+/**
+ * Ranks `myParty` against `oppParty` and returns every valid entry sorted best-first (the caller
+ * slices the top 3/4 for the actual pick recommendation). Symmetric in its two arguments — pass
+ * (myParty, oppParty) for "which of my Pokémon should I bring", or (oppParty, myParty) via
+ * {@link predictOpponentPicks} for "which of their Pokémon are they likely to bring".
+ */
 export function recommendPicks(
   myParty: PartySlot[],
   oppParty: PartySlot[],
@@ -343,4 +349,17 @@ export function recommendPicks(
       reasons,
     };
   });
+}
+
+/**
+ * Predicts which of the opponent's Pokémon they're likely to bring: same matchup logic as
+ * {@link recommendPicks}, just with the two parties swapped so each opponent Pokémon is scored
+ * as if it were being picked against my party.
+ */
+export function predictOpponentPicks(
+  myParty: PartySlot[],
+  oppParty: PartySlot[],
+  format: BattleFormat,
+): PickRecommendation[] {
+  return recommendPicks(oppParty, myParty, format);
 }

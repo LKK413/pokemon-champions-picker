@@ -6,17 +6,38 @@ function displayName(rec: PickRecommendation): string {
   return getEntry(rec.usedSlug)?.nameKo ?? rec.slug;
 }
 
+const VARIANT_STYLE = {
+  mine: {
+    heading: "추천 선출",
+    empty: "내 파티와 상대 파티를 입력하면 추천 선출이 여기에 표시됩니다.",
+    restHeading: "나머지 내 파티 비교",
+    card: "border-emerald-500 bg-emerald-50 dark:bg-emerald-950/30",
+    rank: "text-emerald-700 dark:text-emerald-400",
+  },
+  opponent: {
+    heading: "예상 상대 선출",
+    empty: "내 파티와 상대 파티를 입력하면 상대가 낼 것으로 예상되는 선출이 여기에 표시됩니다.",
+    restHeading: "나머지 상대 파티 비교",
+    card: "border-rose-500 bg-rose-50 dark:bg-rose-950/30",
+    rank: "text-rose-700 dark:text-rose-400",
+  },
+} as const;
+
 export function RecommendationPanel({
   recommendations,
   format,
+  variant = "mine",
 }: {
   recommendations: PickRecommendation[];
   format: BattleFormat;
+  variant?: "mine" | "opponent";
 }) {
+  const style = VARIANT_STYLE[variant];
+
   if (recommendations.length === 0) {
     return (
       <p className="rounded-xl border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500 dark:border-zinc-700">
-        내 파티와 상대 파티를 입력하면 추천 선출이 여기에 표시됩니다.
+        {style.empty}
       </p>
     );
   }
@@ -29,7 +50,9 @@ export function RecommendationPanel({
   return (
     <div className="flex flex-col gap-4">
       <div>
-        <h2 className="mb-2 font-semibold">추천 선출 (상위 {pickCount}마리)</h2>
+        <h2 className="mb-2 font-semibold">
+          {style.heading} (상위 {pickCount}마리)
+        </h2>
         <div
           className={`grid grid-cols-1 gap-3 sm:grid-cols-2 ${
             pickCount === 4 ? "xl:grid-cols-4" : "xl:grid-cols-3"
@@ -40,12 +63,10 @@ export function RecommendationPanel({
             return (
               <div
                 key={rec.slug}
-                className="flex flex-col gap-2 rounded-xl border-2 border-emerald-500 bg-emerald-50 p-3 dark:bg-emerald-950/30"
+                className={`flex flex-col gap-2 rounded-xl border-2 p-3 ${style.card}`}
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-emerald-700 dark:text-emerald-400">
-                    #{i + 1}
-                  </span>
+                  <span className={`text-xs font-bold ${style.rank}`}>#{i + 1}</span>
                   <span className="text-xs text-zinc-500">
                     유리 {rec.favorableCount} / 불리 {rec.unfavorableCount}
                   </span>
@@ -74,7 +95,7 @@ export function RecommendationPanel({
 
       {rest.length > 0 && (
         <div>
-          <h3 className="mb-2 text-sm font-semibold text-zinc-500">나머지 파티 비교</h3>
+          <h3 className="mb-2 text-sm font-semibold text-zinc-500">{style.restHeading}</h3>
           <div className="overflow-x-auto">
             <table className="w-full min-w-[420px] text-left text-sm">
               <thead>
@@ -102,4 +123,3 @@ export function RecommendationPanel({
     </div>
   );
 }
-
