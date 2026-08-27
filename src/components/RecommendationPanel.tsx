@@ -1,12 +1,18 @@
 import { getEntry } from "@/lib/roster";
-import { PickRecommendation } from "@/types/pokemon";
+import { BattleFormat, PickRecommendation } from "@/types/pokemon";
 import { TypeBadge } from "./TypeBadge";
 
 function displayName(rec: PickRecommendation): string {
   return getEntry(rec.usedSlug)?.nameKo ?? rec.slug;
 }
 
-export function RecommendationPanel({ recommendations }: { recommendations: PickRecommendation[] }) {
+export function RecommendationPanel({
+  recommendations,
+  format,
+}: {
+  recommendations: PickRecommendation[];
+  format: BattleFormat;
+}) {
   if (recommendations.length === 0) {
     return (
       <p className="rounded-xl border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500 dark:border-zinc-700">
@@ -15,15 +21,21 @@ export function RecommendationPanel({ recommendations }: { recommendations: Pick
     );
   }
 
-  const top3 = recommendations.slice(0, 3);
-  const rest = recommendations.slice(3);
+  // 싱글은 3마리, 더블은 4마리를 선출한다.
+  const pickCount = format === "double" ? 4 : 3;
+  const top = recommendations.slice(0, pickCount);
+  const rest = recommendations.slice(pickCount);
 
   return (
     <div className="flex flex-col gap-4">
       <div>
-        <h2 className="mb-2 font-semibold">추천 선출 (상위 3마리)</h2>
-        <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
-          {top3.map((rec, i) => {
+        <h2 className="mb-2 font-semibold">추천 선출 (상위 {pickCount}마리)</h2>
+        <div
+          className={`grid grid-cols-1 gap-3 sm:grid-cols-2 ${
+            pickCount === 4 ? "xl:grid-cols-4" : "xl:grid-cols-3"
+          }`}
+        >
+          {top.map((rec, i) => {
             const entry = getEntry(rec.usedSlug);
             return (
               <div
