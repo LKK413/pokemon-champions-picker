@@ -151,6 +151,8 @@ function scorePair(
   me: RosterEntry,
   myAbilitySlugs: string[],
   opp: RosterEntry,
+  opponentBaseSlug: string,
+  opponentUsedMega: boolean,
   format: BattleFormat,
 ): PairResult {
   let myBest = { type: me.types[0], score: -Infinity };
@@ -176,7 +178,8 @@ function scorePair(
   }
 
   return {
-    opponentSlug: opp.slug,
+    opponentSlug: opponentBaseSlug,
+    opponentUsedMega,
     advantage,
     myBestAttackType: myBest.type,
     myBestAttackScore: myBest.score,
@@ -186,16 +189,38 @@ function scorePair(
   };
 }
 
-function resolveOpponents(oppParty: PartySlot[]): RosterEntry[] {
-  return oppParty
-    .map((slot) => {
-      const base = getEntry(slot.slug);
-      if (!base) return undefined;
-      if (!slot.megaActive) return base;
-      const megas = getMegaOptions(base);
-      return megas[0] ?? base;
-    })
-    .filter((e): e is RosterEntry => !!e);
+/** Which form(s) of this opponent slot to consider, per its manual override (default: both). */
+function opponentFormCandidates(slot: PartySlot): { entry: RosterEntry; usedMega: boolean }[] {
+  const base = getEntry(slot.slug);
+  if (!base) return [];
+  const megas = getMegaOptions(base);
+  const choice = slot.megaChoice ?? "auto";
+
+  if (choice === "base" || megas.length === 0) return [{ entry: base, usedMega: false }];
+  if (choice === "mega") return megas.map((m) => ({ entry: m, usedMega: true }));
+  return [{ entry: base, usedMega: false }, ...megas.map((m) => ({ entry: m, usedMega: true }))];
+}
+
+/**
+ * Scores my Pokémon against one opponent slot. When the opponent's Mega isn't manually pinned,
+ * this assumes worst case for me: whichever of their available forms (base or Mega) yields the
+ * least favorable matchup, since we can't know ahead of time whether they'll Mega evolve.
+ */
+function scoreAgainstOpponentSlot(
+  me: RosterEntry,
+  myAbilitySlugs: string[],
+  oppSlot: PartySlot,
+  format: BattleFormat,
+): PairResult | undefined {
+  const candidates = opponentFormCandidates(oppSlot);
+  if (candidates.length === 0) return undefined;
+
+  let worst: PairResult | undefined;
+  for (const candidate of candidates) {
+    const result = scorePair(me, myAbilitySlugs, candidate.entry, oppSlot.slug, candidate.usedMega, format);
+    if (!worst || result.advantage < worst.advantage) worst = result;
+  }
+  return worst;
 }
 
 function nameOf(slug: string): string {
@@ -229,6 +254,12 @@ function buildReasons(
     reasons.push(
       `${weak.map((m) => nameOf(m.opponentSlug)).join(", ")}에게는 약점을 찔릴 수 있어 교체 타이밍에 주의가 필요합니다.`,
     );
+    const assumedMega = weak.filter((m) => m.opponentUsedMega);
+    if (assumedMega.length > 0) {
+      reasons.push(
+        `${assumedMega.map((m) => nameOf(m.opponentSlug)).join(", ")}은(는) 메가진화했을 때를 가정해 계산한 결과입니다 (메가진화 안 하면 실제로는 덜 불리할 수 있음).`,
+      );
+    }
   }
   if (usedMega) {
     reasons.push(
@@ -252,7 +283,7 @@ export function recommendPicks(
   oppParty: PartySlot[],
   format: BattleFormat,
 ): PickRecommendation[] {
-  const opponents = resolveOpponents(oppParty);
+  const validOpponents = oppParty.filter((slot) => !!getEntry(slot.slug));
 
   interface Scored {
     slot: PartySlot;
@@ -277,7 +308,9 @@ export function recommendPicks(
     let best: Omit<Scored, "slot" | "base"> | null = null;
     for (const candidate of candidates) {
       const abilitySlugs = candidate.entry.abilities.map((a) => a.name);
-      const matchups = opponents.map((opp) => scorePair(candidate.entry, abilitySlugs, opp, format));
+      const matchups = validOpponents
+        .map((oppSlot) => scoreAgainstOpponentSlot(candidate.entry, abilitySlugs, oppSlot, format))
+        .filter((m): m is PairResult => !!m);
       const total = matchups.reduce((sum, m) => sum + m.advantage, 0);
       if (!best || total > best.total) {
         best = { entry: candidate.entry, usedMega: candidate.usedMega, matchups, total };

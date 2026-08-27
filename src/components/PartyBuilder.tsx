@@ -1,7 +1,7 @@
 "use client";
 
 import { getEntry, getMegaOptions } from "@/lib/roster";
-import { PartySlot } from "@/types/pokemon";
+import { MegaChoice, PartySlot } from "@/types/pokemon";
 import { SpeciesPicker } from "./SpeciesPicker";
 import { TypeBadge } from "./TypeBadge";
 
@@ -41,7 +41,7 @@ export function PartyBuilder({
             >
               <SpeciesPicker
                 slug={slot.slug}
-                onSelect={(slug) => updateSlot(i, { slug, megaActive: false })}
+                onSelect={(slug) => updateSlot(i, { slug, megaChoice: "auto" })}
               />
               {entry && (
                 <div className="flex flex-wrap items-center gap-1.5">
@@ -49,14 +49,17 @@ export function PartyBuilder({
                     <TypeBadge key={t} type={t} />
                   ))}
                   {megaMode === "predict" && megaOptions.length > 0 && (
-                    <label className="ml-auto flex items-center gap-1 text-xs text-zinc-500">
-                      <input
-                        type="checkbox"
-                        checked={!!slot.megaActive}
-                        onChange={(e) => updateSlot(i, { ...slot, megaActive: e.target.checked })}
-                      />
-                      메가진화 예상
-                    </label>
+                    <select
+                      className="ml-auto rounded border border-zinc-300 bg-transparent px-1 py-0.5 text-xs text-zinc-500 dark:border-zinc-700"
+                      value={slot.megaChoice ?? "auto"}
+                      onChange={(e) =>
+                        updateSlot(i, { ...slot, megaChoice: e.target.value as MegaChoice })
+                      }
+                    >
+                      <option value="auto">메가진화 자동 예측 (최악의 경우 가정)</option>
+                      <option value="base">기본형으로 확정</option>
+                      <option value="mega">메가진화로 확정</option>
+                    </select>
                   )}
                   {megaMode === "none" && megaOptions.length > 0 && (
                     <span className="ml-auto text-xs text-zinc-400">메가진화 가능 (자동 판단)</span>

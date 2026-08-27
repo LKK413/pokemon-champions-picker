@@ -49,16 +49,27 @@ export interface RosterEntry {
 
 export type BattleFormat = "single" | "double";
 
+/**
+ * How to treat a party slot's Mega Evolution when scoring matchups.
+ * "auto": not manually specified — for the opponent this means "assume whichever form (base
+ * or Mega) is most threatening"; for my own party the engine always auto-picks whichever form
+ * is most advantageous, so this mode is irrelevant there.
+ */
+export type MegaChoice = "auto" | "base" | "mega";
+
 export interface PartySlot {
   slug: string;
-  /** User has toggled this slot to battle in its Mega form (only meaningful if a mega variant exists). */
-  megaActive?: boolean;
+  /** Opponent slots only — ignored for my own party, which is always auto-optimized. */
+  megaChoice?: MegaChoice;
   knownItem?: string;
   knownAbility?: string;
 }
 
 export interface OpponentMatchup {
+  /** Always the base species slug, regardless of which form was assumed for scoring. */
   opponentSlug: string;
+  /** True if the worst-case assumption used this opponent's Mega form for this particular matchup. */
+  opponentUsedMega: boolean;
   advantage: number;
   myBestAttackType: PokeType;
   myBestAttackScore: number;

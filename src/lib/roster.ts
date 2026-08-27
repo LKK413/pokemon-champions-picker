@@ -18,12 +18,3 @@ export function getMegaOptions(entry: RosterEntry): RosterEntry[] {
   if (!entry.megaSlugs) return [];
   return entry.megaSlugs.map((s) => BY_SLUG.get(s)).filter((e): e is RosterEntry => !!e);
 }
-
-/** The entry to actually use for battle math: mega form if toggled on and available, otherwise base. */
-export function resolveActiveForm(slug: string, megaActive?: boolean): RosterEntry | undefined {
-  const base = getEntry(slug);
-  if (!base) return undefined;
-  if (!megaActive) return base;
-  const options = getMegaOptions(base);
-  return options[0] ?? base;
-}
